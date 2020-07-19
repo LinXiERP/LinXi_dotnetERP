@@ -21,3 +21,15 @@ D:\学习\erp项目\LinXi_dotnetERP\LinXi_IRepository\obj\Debug\netcoreapp3.1\Li
 D:\学习\erp项目\LinXi_dotnetERP\LinXi_IRepository\obj\Debug\netcoreapp3.1\LinXi_IRepository.csproj.CopyComplete
 D:\学习\erp项目\LinXi_dotnetERP\LinXi_IRepository\obj\Debug\netcoreapp3.1\LinXi_IRepository.dll
 D:\学习\erp项目\LinXi_dotnetERP\LinXi_IRepository\obj\Debug\netcoreapp3.1\LinXi_IRepository.pdb
+G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXi_IRepository\bin\Debug\netcoreapp3.1\LinXi_IRepository.deps.json
+G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXi_IRepository\bin\Debug\netcoreapp3.1\LinXi_IRepository.dll
+G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXi_IRepository\bin\Debug\netcoreapp3.1\LinXi_IRepository.pdb
+G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXi_IRepository\bin\Debug\netcoreapp3.1\LinXi_Model.dll
+G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXi_IRepository\bin\Debug\netcoreapp3.1\LinXi_Model.pdb
+G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXi_IRepository\obj\Debug\netcoreapp3.1\LinXi_IRepository.csprojAssemblyReference.cache
+G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXi_IRepository\obj\Debug\netcoreapp3.1\LinXi_IRepository.AssemblyInfoInputs.cache
+G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXi_IRepository\obj\Debug\netcoreapp3.1\LinXi_IRepository.AssemblyInfo.cs
+G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXi_IRepository\obj\Debug\netcoreapp3.1\LinXi_IRepository.csproj.CoreCompileInputs.cache
+G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXi_IRepository\obj\Debug\netcoreapp3.1\LinXi_IRepository.csproj.CopyComplete
+G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXi_IRepository\obj\Debug\netcoreapp3.1\LinXi_IRepository.dll
+G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXi_IRepository\obj\Debug\netcoreapp3.1\LinXi_IRepository.pdb
