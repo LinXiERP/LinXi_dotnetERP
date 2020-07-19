@@ -7811,23 +7811,39 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\CrazyTao\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+=======
+    "C:\\Users\\敢敢\\.nuget\\packages\\": {}
+>>>>>>> 22893d36478950b9d4cf3c1078d5e8f70b97cde8
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "E:\\ERP\\LinXi_dotnetERP\\LinXi_Service\\LinXi_Service.csproj",
       "projectName": "LinXi_Service",
       "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXi_Service\\LinXi_Service.csproj",
       "packagesPath": "C:\\Users\\CrazyTao\\.nuget\\packages\\",
       "outputPath": "E:\\ERP\\LinXi_dotnetERP\\LinXi_Service\\obj\\",
+=======
+      "projectUniqueName": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_Service\\LinXi_Service.csproj",
+      "projectName": "LinXi_Service",
+      "projectPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_Service\\LinXi_Service.csproj",
+      "packagesPath": "C:\\Users\\敢敢\\.nuget\\packages\\",
+      "outputPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_Service\\obj\\",
+>>>>>>> 22893d36478950b9d4cf3c1078d5e8f70b97cde8
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\CrazyTao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\敢敢\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 22893d36478950b9d4cf3c1078d5e8f70b97cde8
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7840,6 +7856,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+<<<<<<< HEAD
             "E:\\ERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj": {
               "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj"
             },
@@ -7848,6 +7865,16 @@
             },
             "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
               "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
+=======
+            "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj": {
+              "projectPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj"
+            },
+            "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj": {
+              "projectPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj"
+            },
+            "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
+              "projectPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
+>>>>>>> 22893d36478950b9d4cf3c1078d5e8f70b97cde8
             }
           }
         }
