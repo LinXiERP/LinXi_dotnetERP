@@ -206,3 +206,4 @@ E:\Net Core\LinXi_ERP\LinXi_IdentityServer\obj\Debug\netcoreapp3.1\staticwebasse
 E:\Net Core\LinXi_ERP\LinXi_IdentityServer\obj\Debug\netcoreapp3.1\LinXi_IdentityServer.dll
 E:\Net Core\LinXi_ERP\LinXi_IdentityServer\obj\Debug\netcoreapp3.1\LinXi_IdentityServer.pdb
 E:\Net Core\LinXi_ERP\LinXi_IdentityServer\obj\Debug\netcoreapp3.1\LinXi_IdentityServer.genruntimeconfig.cache
+E:\Net Core\LinXi_ERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\AutoMapper.dll

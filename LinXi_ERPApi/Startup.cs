@@ -100,7 +100,7 @@ namespace LinXi_ERPApi
 
             services.AddControllersWithViews(option =>
             {
-                //option.Filters.Add(typeof(MyAuthorAttribute));
+                option.Filters.Add(typeof(MyAuthorAttribute));
                 option.RespectBrowserAcceptHeader = true; // false by default
             })
                 .AddNewtonsoftJson(setup =>

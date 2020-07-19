@@ -18,6 +18,12 @@
             <param name="de">xx类</param>
             <returns></returns>
         </member>
+        <member name="M:LinXi_ERPApi.Controllers.LoginController.LoginCheck(LinXi_Model.DTO.LoginDTO)">
+            <summary>
+            登录判断
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:LinXi_ERPApi.Startup.ConfigureContainer(Autofac.ContainerBuilder)">
             <summary>
             Autofac组件注册

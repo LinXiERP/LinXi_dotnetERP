@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "v8Mk5aBhoJYJb769GxTAeRyjubRNAFxUU3zOuEQrsqFy0ZmYV2CPYbdHDxqBQS+itlLGs4zBCqscDrdYHTbHzA==",
+  "dgSpecHash": "d4kc35RvfiCWo0znUbqJOUio8JByoja329PjnXe2LV2CeQilTRTPg/SBv3Pkk1PehqMAf9hTBIr9Pawww/44Tw==",
   "success": true,
   "projectFilePath": "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\cheny\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\cheny\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\cheny\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",
     "C:\\Users\\cheny\\.nuget\\packages\\k4os.compression.lz4\\1.1.11\\k4os.compression.lz4.1.1.11.nupkg.sha512",
@@ -103,7 +104,7 @@
     "C:\\Users\\cheny\\.nuget\\packages\\system.objectmodel\\4.3.0\\system.objectmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\cheny\\.nuget\\packages\\system.private.datacontractserialization\\4.3.0\\system.private.datacontractserialization.4.3.0.nupkg.sha512",
     "C:\\Users\\cheny\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\cheny\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\cheny\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\cheny\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "C:\\Users\\cheny\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "C:\\Users\\cheny\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",

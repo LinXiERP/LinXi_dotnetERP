@@ -20,6 +20,7 @@ namespace LinXi_Common
         public void OnAuthorization(AuthorizationFilterContext context)
         {
             //context.Filters.Any(it => it is IAllowAnonymousFilter)
+            Console.WriteLine("11");
             var cad = (ControllerActionDescriptor)context.ActionDescriptor;
             bool allowanyone = cad.ControllerTypeInfo.GetCustomAttributes(typeof(IAllowAnonymous), true).Any()
            || cad.MethodInfo.GetCustomAttributes(typeof(IAllowAnonymous), true).Any();
@@ -28,14 +29,22 @@ namespace LinXi_Common
             if (!allowanyone)
             {
                 string Authorization = context.HttpContext.Request.Headers["Authorization"].ToString();
-
-                string key = $"token_{context.HttpContext.User.Claims.Where(u => u.Type == "UserId").FirstOrDefault().Value}";
-
-                if (RedisHelper.Get<string>(key) != Authorization.Split(" ")[1])
+                if (Authorization.Split("Bearer ")[1].ToString() == "null")
                 {
                     context.HttpContext.Response.StatusCode = 401;
-                    //context.Result= new
                 }
+
+                #region Redis单点登录
+
+                //string key = $"token_{context.HttpContext.User.Claims.Where(u => u.Type == "UserId").FirstOrDefault().Value}";
+
+                //if (RedisHelper.Get<string>(key) != Authorization.Split(" ")[1])
+                //{
+                //    context.HttpContext.Response.StatusCode = 401;
+                //    //context.Result= new
+                //}
+
+                #endregion Redis单点登录
             }
         }
     }
