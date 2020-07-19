@@ -28,6 +28,6 @@ namespace LinXi_ERPApi.Controllers
             _IMapper = IMapper;
         }
 
-        public ActionResult<InfoResult<string>>
+        //public ActionResult<InfoResult<string>>
     }
 }
