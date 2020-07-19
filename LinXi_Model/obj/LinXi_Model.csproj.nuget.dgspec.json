@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {}
+    "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {}
   },
   "projects": {
-    "G:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
+    "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj",
+        "projectUniqueName": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj",
         "projectName": "LinXi_Model",
-        "projectPath": "G:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj",
-        "packagesPath": "C:\\Users\\Yjinjian\\.nuget\\packages\\",
-        "outputPath": "G:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\obj\\",
+        "projectPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj",
+        "packagesPath": "C:\\Users\\敢敢\\.nuget\\packages\\",
+        "outputPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Yjinjian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\敢敢\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
