@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Net Core\\LinXi_ERP\\LinXI_Common\\LinXi_Common.csproj": {}
+    "E:\\ERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj": {}
   },
   "projects": {
-    "E:\\Net Core\\LinXi_ERP\\LinXI_Common\\LinXi_Common.csproj": {
+    "E:\\ERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Net Core\\LinXi_ERP\\LinXI_Common\\LinXi_Common.csproj",
+        "projectUniqueName": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj",
         "projectName": "LinXi_Common",
-        "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXI_Common\\LinXi_Common.csproj",
-        "packagesPath": "C:\\Users\\cheny\\.nuget\\packages\\",
-        "outputPath": "E:\\Net Core\\LinXi_ERP\\LinXI_Common\\obj\\",
+        "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj",
+        "packagesPath": "C:\\Users\\CrazyTao\\.nuget\\packages\\",
+        "outputPath": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\cheny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CrazyTao\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj": {
-                "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj"
+              "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
+                "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
               }
             }
           }
@@ -94,17 +97,20 @@
         }
       }
     },
-    "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj": {
+    "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj",
+        "projectUniqueName": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj",
         "projectName": "LinXi_Model",
-        "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj",
-        "packagesPath": "C:\\Users\\cheny\\.nuget\\packages\\",
-        "outputPath": "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\obj\\",
+        "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj",
+        "packagesPath": "C:\\Users\\CrazyTao\\.nuget\\packages\\",
+        "outputPath": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\cheny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CrazyTao\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
