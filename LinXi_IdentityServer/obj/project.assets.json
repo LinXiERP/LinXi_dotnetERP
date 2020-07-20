@@ -10729,23 +10729,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CrazyTao\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Yjinjian\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ERP\\LinXi_dotnetERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj",
+      "projectUniqueName": "G:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj",
       "projectName": "LinXi_IdentityServer",
-      "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj",
-      "packagesPath": "C:\\Users\\CrazyTao\\.nuget\\packages\\",
-      "outputPath": "E:\\ERP\\LinXi_dotnetERP\\LinXi_IdentityServer\\obj\\",
+      "projectPath": "G:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj",
+      "packagesPath": "C:\\Users\\Yjinjian\\.nuget\\packages\\",
+      "outputPath": "G:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IdentityServer\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\CrazyTao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Yjinjian\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10758,14 +10754,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\ERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj": {
-              "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj"
+            "G:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj": {
+              "projectPath": "G:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj"
             },
-            "E:\\ERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj": {
-              "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj"
+            "G:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj": {
+              "projectPath": "G:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj"
             },
-            "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
-              "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
+            "G:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
+              "projectPath": "G:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
             }
           }
         }
