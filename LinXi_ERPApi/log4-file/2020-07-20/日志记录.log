@@ -1330,3 +1330,33 @@ System.IO.IOException: Failed to bind to address http://127.0.0.1:56567: address
    at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
    at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
    at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+
+
+【日志时间】：2020-07-20 23:37:37,743  【线程ID】：9    
+【日志级别】：WARN   
+【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
+【日志内容】：Failed to determine the https port for redirect. 
+
+
+【日志时间】：2020-07-20 23:39:30,380  【线程ID】：12    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：Start processing HTTP request POST http://localhost:56568/connect/token 
+
+
+【日志时间】：2020-07-20 23:39:30,382  【线程ID】：12    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Sending HTTP request POST http://localhost:56568/connect/token 
+
+
+【日志时间】：2020-07-20 23:39:31,934  【线程ID】：11    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Received HTTP response after 1549.6063ms - BadRequest 
+
+
+【日志时间】：2020-07-20 23:39:31,936  【线程ID】：11    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：End processing HTTP request after 1561.2943ms - BadRequest 

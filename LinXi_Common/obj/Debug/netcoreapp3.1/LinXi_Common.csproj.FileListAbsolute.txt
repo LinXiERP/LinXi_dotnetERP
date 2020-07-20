@@ -22,3 +22,15 @@ G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Co
 G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csproj.CopyComplete
 G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.dll
 G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.pdb
+D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.deps.json
+D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.dll
+D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.pdb
+D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Model.dll
+D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Model.pdb
+D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csprojAssemblyReference.cache
+D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.AssemblyInfoInputs.cache
+D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.AssemblyInfo.cs
+D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csproj.CoreCompileInputs.cache
+D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csproj.CopyComplete
+D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.dll
+D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.pdb
