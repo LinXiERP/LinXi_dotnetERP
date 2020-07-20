@@ -9,3 +9,15 @@ E:\Net Core\LinXi_ERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.dll
 E:\Net Core\LinXi_ERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.pdb
 E:\Net Core\LinXi_ERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.genruntimeconfig.cache
 E:\Net Core\LinXi_ERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.csproj.CoreCompileInputs.cache
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.deps.json
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.runtimeconfig.json
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.runtimeconfig.dev.json
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.dll
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.pdb
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.csprojAssemblyReference.cache
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.AssemblyInfoInputs.cache
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.AssemblyInfo.cs
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.csproj.CoreCompileInputs.cache
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.dll
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.pdb
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.genruntimeconfig.cache
