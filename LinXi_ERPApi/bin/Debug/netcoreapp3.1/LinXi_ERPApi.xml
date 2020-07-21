@@ -24,6 +24,24 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="T:LinXi_ERPApi.Controllers.ProductionManagementController">
+            <summary>
+            生产管理
+            </summary>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetPPT(System.Int32)">
+            <summary>
+            获取单个生产计划的详细信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetPPTs">
+            <summary>
+            获取全部生产计划信息
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:LinXi_ERPApi.Startup.ConfigureContainer(Autofac.ContainerBuilder)">
             <summary>
             Autofac组件注册
