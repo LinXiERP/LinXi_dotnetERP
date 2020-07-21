@@ -53,6 +53,7 @@ namespace LinXi_Repository
         {
             return await dbContext.Set<TEntity>().FindAsync(id);
         }
+       
 
         public async Task<TEntity> FindAsyncByName(string name)
         {

@@ -1,30 +1,83 @@
 
 
+<<<<<<< HEAD
+【日志时间】：2020-07-21 17:15:01,386  【线程ID】：10    
+=======
 【日志时间】：2020-07-21 14:43:33,075  【线程ID】：10    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
 【日志级别】：WARN   
 【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
 【日志内容】：Failed to determine the https port for redirect. 
 
 
+<<<<<<< HEAD
+【日志时间】：2020-07-21 17:23:15,772  【线程ID】：4    
+=======
 【日志时间】：2020-07-21 15:57:49,203  【线程ID】：10    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
 【日志级别】：WARN   
 【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
 【日志内容】：Failed to determine the https port for redirect. 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 17:39:33,983  【线程ID】：4    
+=======
+<<<<<<< HEAD
+【日志时间】：2020-07-21 17:23:27,028  【线程ID】：4    
+【日志级别】：INFO   
+【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
+【日志内容】：AuthenticationScheme: Bearer was challenged. 
+
+
+【日志时间】：2020-07-21 17:24:35,895  【线程ID】：8    
+【日志级别】：INFO   
+【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
+【日志内容】：AuthenticationScheme: Bearer was challenged. 
+
+
+【日志时间】：2020-07-21 17:59:28,510  【线程ID】：5    
 【日志级别】：WARN   
 【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
 【日志内容】：Failed to determine the https port for redirect. 
 
 
+【日志时间】：2020-07-21 18:02:12,618  【线程ID】：10    
+【日志级别】：WARN   
+【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
+【日志内容】：Failed to determine the https port for redirect. 
+
+
+【日志时间】：2020-07-21 18:13:58,294  【线程ID】：9    
+【日志级别】：WARN   
+【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
+【日志内容】：Failed to determine the https port for redirect. 
+
+
+【日志时间】：2020-07-21 18:24:25,457  【线程ID】：10    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
+【日志级别】：WARN   
+【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
+【日志内容】：Failed to determine the https port for redirect. 
+
+
+<<<<<<< HEAD
 【日志时间】：2020-07-21 18:00:51,047  【线程ID】：13    
+=======
+【日志时间】：2020-07-21 18:24:46,526  【线程ID】：11    
+=======
+【日志时间】：2020-07-21 18:49:47,215  【线程ID】：10    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：WARN   
 【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
 【日志内容】：Failed to determine the https port for redirect. 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 18:01:04,190  【线程ID】：9    
+=======
+【日志时间】：2020-07-21 18:54:56,307  【线程ID】：12    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：ERROR  
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
 【日志内容】：You must either set Authority or IntrospectionEndpoint 
@@ -45,24 +98,37 @@ System.InvalidOperationException: You must either set Authority or Introspection
    at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 18:01:04,211  【线程ID】：9    
+=======
+【日志时间】：2020-07-21 18:54:56,322  【线程ID】：12    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
 【日志内容】：Bearer was not authenticated. Failure message: You must either set Authority or IntrospectionEndpoint 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 18:01:04,746  【线程ID】：9    
+=======
+【日志时间】：2020-07-21 18:54:57,740  【线程ID】：12    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
 【日志内容】：Start processing HTTP request POST http://localhost:56568/connect/token 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 18:01:04,752  【线程ID】：9    
+=======
+【日志时间】：2020-07-21 18:54:57,743  【线程ID】：12    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
 【日志内容】：Sending HTTP request POST http://localhost:56568/connect/token 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 18:01:08,602  【线程ID】：5    
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
@@ -158,17 +224,52 @@ System.IndexOutOfRangeException: Index was outside the bounds of the array.
 
 
 【日志时间】：2020-07-21 20:36:55,680  【线程ID】：8    
+=======
+【日志时间】：2020-07-21 18:54:58,213  【线程ID】：20    
+【日志级别】：ERROR  
+【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
+【日志内容】：You must either set Authority or IntrospectionEndpoint 
+System.InvalidOperationException: You must either set Authority or IntrospectionEndpoint
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionOptions.Validate()
+   at IdentityModel.AspNetCore.OAuth2Introspection.PostConfigureOAuth2IntrospectionOptions.PostConfigure(String name, OAuth2IntrospectionOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
+
+
+【日志时间】：2020-07-21 18:54:58,216  【线程ID】：20    
+【日志级别】：INFO   
+【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
+【日志内容】：Bearer was not authenticated. Failure message: You must either set Authority or IntrospectionEndpoint 
+
+
+【日志时间】：2020-07-21 18:54:58,222  【线程ID】：20    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
 【日志内容】：Start processing HTTP request POST http://localhost:56568/connect/token 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 20:36:55,694  【线程ID】：8    
+=======
+【日志时间】：2020-07-21 18:54:58,224  【线程ID】：20    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
 【日志内容】：Sending HTTP request POST http://localhost:56568/connect/token 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 20:36:55,776  【线程ID】：12    
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
@@ -182,17 +283,69 @@ System.IndexOutOfRangeException: Index was outside the bounds of the array.
 
 
 【日志时间】：2020-07-21 20:37:05,894  【线程ID】：7    
+=======
+【日志时间】：2020-07-21 18:54:58,638  【线程ID】：4    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+【日志级别】：ERROR  
+【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
+【日志内容】：You must either set Authority or IntrospectionEndpoint 
+System.InvalidOperationException: You must either set Authority or IntrospectionEndpoint
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionOptions.Validate()
+   at IdentityModel.AspNetCore.OAuth2Introspection.PostConfigureOAuth2IntrospectionOptions.PostConfigure(String name, OAuth2IntrospectionOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+<<<<<<< HEAD
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+=======
+--- End of stack trace from previous location where exception was thrown ---
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
+
+
+<<<<<<< HEAD
+【日志时间】：2020-07-21 18:24:46,546  【线程ID】：11    
+=======
+【日志时间】：2020-07-21 18:54:58,641  【线程ID】：4    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+【日志级别】：INFO   
+【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
+【日志内容】：Bearer was not authenticated. Failure message: You must either set Authority or IntrospectionEndpoint 
+
+
+<<<<<<< HEAD
+【日志时间】：2020-07-21 18:24:51,542  【线程ID】：11    
+=======
+【日志时间】：2020-07-21 18:54:58,644  【线程ID】：4    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
 【日志内容】：Start processing HTTP request POST http://localhost:56568/connect/token 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 20:37:05,909  【线程ID】：7    
+=======
+<<<<<<< HEAD
+【日志时间】：2020-07-21 18:24:51,558  【线程ID】：11    
+=======
+【日志时间】：2020-07-21 18:54:58,646  【线程ID】：4    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
 【日志内容】：Sending HTTP request POST http://localhost:56568/connect/token 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 20:37:05,973  【线程ID】：12    
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
@@ -230,81 +383,29 @@ System.IndexOutOfRangeException: Index was outside the bounds of the array.
 
 
 【日志时间】：2020-07-21 20:37:11,156  【线程ID】：16    
-【日志级别】：INFO   
-【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
-【日志内容】：Start processing HTTP request POST http://localhost:56568/connect/token 
-
-
-【日志时间】：2020-07-21 20:37:11,166  【线程ID】：16    
+=======
+<<<<<<< HEAD
+【日志时间】：2020-07-21 18:24:57,111  【线程ID】：6    
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
-【日志内容】：Sending HTTP request POST http://localhost:56568/connect/token 
+【日志内容】：Received HTTP response after 5547.9044ms - OK 
 
 
-【日志时间】：2020-07-21 20:37:11,211  【线程ID】：17    
-【日志级别】：INFO   
-【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
-【日志内容】：Received HTTP response after 40.909ms - BadRequest 
-
-
-【日志时间】：2020-07-21 20:37:11,223  【线程ID】：17    
+【日志时间】：2020-07-21 18:24:57,122  【线程ID】：6    
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
-【日志内容】：End processing HTTP request after 60.3101ms - BadRequest 
+【日志内容】：End processing HTTP request after 5592.2679ms - OK 
 
 
-【日志时间】：2020-07-21 20:44:13,805  【线程ID】：7    
-【日志级别】：ERROR  
-【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
-【日志内容】：You must either set Authority or IntrospectionEndpoint 
-System.InvalidOperationException: You must either set Authority or IntrospectionEndpoint
-   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionOptions.Validate()
-   at IdentityModel.AspNetCore.OAuth2Introspection.PostConfigureOAuth2IntrospectionOptions.PostConfigure(String name, OAuth2IntrospectionOptions options)
-   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
-   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
-   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
-   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
-   at System.Lazy`1.CreateValue()
-   at System.Lazy`1.get_Value()
-   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
-   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
-   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
-   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
-   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
-   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
+【日志时间】：2020-07-21 18:27:45,735  【线程ID】：5    
+【日志级别】：WARN   
+【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
+【日志内容】：Failed to determine the https port for redirect. 
 
 
-【日志时间】：2020-07-21 20:44:13,824  【线程ID】：7    
-【日志级别】：INFO   
-【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
-【日志内容】：Bearer was not authenticated. Failure message: You must either set Authority or IntrospectionEndpoint 
-
-
-【日志时间】：2020-07-21 20:44:13,837  【线程ID】：7    
-【日志级别】：INFO   
-【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
-【日志内容】：Start processing HTTP request POST http://localhost:56568/connect/token 
-
-
-【日志时间】：2020-07-21 20:44:13,840  【线程ID】：7    
-【日志级别】：INFO   
-【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
-【日志内容】：Sending HTTP request POST http://localhost:56568/connect/token 
-
-
-【日志时间】：2020-07-21 20:44:14,211  【线程ID】：17    
-【日志级别】：INFO   
-【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
-【日志内容】：Received HTTP response after 370.9503ms - OK 
-
-
-【日志时间】：2020-07-21 20:44:14,215  【线程ID】：17    
-【日志级别】：INFO   
-【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
-【日志内容】：End processing HTTP request after 378.766ms - OK 
-
-
-【日志时间】：2020-07-21 21:00:01,575  【线程ID】：41    
+【日志时间】：2020-07-21 18:30:29,372  【线程ID】：10    
+=======
+【日志时间】：2020-07-21 18:54:58,821  【线程ID】：4    
 【日志级别】：ERROR  
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
 【日志内容】：You must either set Authority or IntrospectionEndpoint 
@@ -325,24 +426,189 @@ System.InvalidOperationException: You must either set Authority or Introspection
    at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
 
 
-【日志时间】：2020-07-21 21:00:01,590  【线程ID】：41    
+【日志时间】：2020-07-21 18:54:58,825  【线程ID】：4    
 【日志级别】：INFO   
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
 【日志内容】：Bearer was not authenticated. Failure message: You must either set Authority or IntrospectionEndpoint 
 
 
-【日志时间】：2020-07-21 21:00:01,610  【线程ID】：41    
+【日志时间】：2020-07-21 18:54:58,828  【线程ID】：4    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
 【日志内容】：Start processing HTTP request POST http://localhost:56568/connect/token 
 
 
-【日志时间】：2020-07-21 21:00:01,614  【线程ID】：41    
+<<<<<<< HEAD
+【日志时间】：2020-07-21 20:37:11,166  【线程ID】：16    
+=======
+【日志时间】：2020-07-21 18:54:58,831  【线程ID】：4    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
 【日志内容】：Sending HTTP request POST http://localhost:56568/connect/token 
 
 
+<<<<<<< HEAD
+【日志时间】：2020-07-21 20:37:11,211  【线程ID】：17    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Received HTTP response after 40.909ms - BadRequest 
+
+
+【日志时间】：2020-07-21 20:37:11,223  【线程ID】：17    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：End processing HTTP request after 60.3101ms - BadRequest 
+
+
+【日志时间】：2020-07-21 20:44:13,805  【线程ID】：7    
+=======
+【日志时间】：2020-07-21 18:54:58,995  【线程ID】：4    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
+【日志级别】：ERROR  
+【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
+【日志内容】：You must either set Authority or IntrospectionEndpoint 
+System.InvalidOperationException: You must either set Authority or IntrospectionEndpoint
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionOptions.Validate()
+   at IdentityModel.AspNetCore.OAuth2Introspection.PostConfigureOAuth2IntrospectionOptions.PostConfigure(String name, OAuth2IntrospectionOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+<<<<<<< HEAD
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+=======
+--- End of stack trace from previous location where exception was thrown ---
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
+
+
+<<<<<<< HEAD
+【日志时间】：2020-07-21 20:44:13,824  【线程ID】：7    
+=======
+【日志时间】：2020-07-21 18:54:58,998  【线程ID】：4    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
+【日志级别】：INFO   
+【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
+【日志内容】：Bearer was not authenticated. Failure message: You must either set Authority or IntrospectionEndpoint 
+
+
+<<<<<<< HEAD
+【日志时间】：2020-07-21 20:44:13,837  【线程ID】：7    
+=======
+【日志时间】：2020-07-21 18:54:59,002  【线程ID】：4    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：Start processing HTTP request POST http://localhost:56568/connect/token 
+
+
+<<<<<<< HEAD
+【日志时间】：2020-07-21 20:44:13,840  【线程ID】：7    
+=======
+【日志时间】：2020-07-21 18:54:59,003  【线程ID】：4    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Sending HTTP request POST http://localhost:56568/connect/token 
+
+
+<<<<<<< HEAD
+【日志时间】：2020-07-21 20:44:14,211  【线程ID】：17    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Received HTTP response after 370.9503ms - OK 
+
+
+【日志时间】：2020-07-21 20:44:14,215  【线程ID】：17    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：End processing HTTP request after 378.766ms - OK 
+
+
+【日志时间】：2020-07-21 21:00:01,575  【线程ID】：41    
+=======
+【日志时间】：2020-07-21 18:54:59,211  【线程ID】：20    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
+【日志级别】：ERROR  
+【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
+【日志内容】：You must either set Authority or IntrospectionEndpoint 
+System.InvalidOperationException: You must either set Authority or IntrospectionEndpoint
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionOptions.Validate()
+   at IdentityModel.AspNetCore.OAuth2Introspection.PostConfigureOAuth2IntrospectionOptions.PostConfigure(String name, OAuth2IntrospectionOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+<<<<<<< HEAD
+--- End of stack trace from previous location where exception was thrown ---
+=======
+<<<<<<< HEAD
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+=======
+--- End of stack trace from previous location where exception was thrown ---
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
+
+
+<<<<<<< HEAD
+【日志时间】：2020-07-21 21:00:01,590  【线程ID】：41    
+=======
+<<<<<<< HEAD
+【日志时间】：2020-07-21 18:30:29,389  【线程ID】：10    
+=======
+【日志时间】：2020-07-21 18:54:59,216  【线程ID】：20    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
+【日志级别】：INFO   
+【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
+【日志内容】：Bearer was not authenticated. Failure message: You must either set Authority or IntrospectionEndpoint 
+
+
+<<<<<<< HEAD
+【日志时间】：2020-07-21 21:00:01,610  【线程ID】：41    
+=======
+<<<<<<< HEAD
+【日志时间】：2020-07-21 18:30:31,608  【线程ID】：10    
+=======
+【日志时间】：2020-07-21 18:54:59,220  【线程ID】：20    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：Start processing HTTP request POST http://localhost:56568/connect/token 
+
+
+<<<<<<< HEAD
+【日志时间】：2020-07-21 21:00:01,614  【线程ID】：41    
+=======
+<<<<<<< HEAD
+【日志时间】：2020-07-21 18:30:31,611  【线程ID】：10    
+=======
+【日志时间】：2020-07-21 18:54:59,222  【线程ID】：20    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Sending HTTP request POST http://localhost:56568/connect/token 
+
+
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:00:01,695  【线程ID】：32    
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
@@ -473,6 +739,97 @@ System.NotSupportedException: Ambiguous HTTP method for action - LinXi_ERPApi.Co
 
 
 【日志时间】：2020-07-21 21:57:12,510  【线程ID】：9    
+=======
+<<<<<<< HEAD
+【日志时间】：2020-07-21 18:30:34,125  【线程ID】：12    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Received HTTP response after 2504.4673ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:30:34,137  【线程ID】：12    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：End processing HTTP request after 2530.4077ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:30:38,816  【线程ID】：15    
+=======
+【日志时间】：2020-07-21 18:55:02,295  【线程ID】：26    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Received HTTP response after 3283.9178ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:55:02,295  【线程ID】：24    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Received HTTP response after 3064.9263ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:55:02,295  【线程ID】：11    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Received HTTP response after 4063.3058ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:55:02,295  【线程ID】：13    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Received HTTP response after 4544.6912ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:55:02,295  【线程ID】：25    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Received HTTP response after 3641.2568ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:55:02,303  【线程ID】：26    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：End processing HTTP request after 3301.007ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:55:02,304  【线程ID】：11    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：End processing HTTP request after 4082.3556ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:55:02,306  【线程ID】：13    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：End processing HTTP request after 4568.2158ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:55:02,305  【线程ID】：24    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：End processing HTTP request after 3082.7146ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:55:02,295  【线程ID】：27    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Received HTTP response after 3457.135ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:55:02,307  【线程ID】：25    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：End processing HTTP request after 3661.9149ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:55:02,310  【线程ID】：27    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：End processing HTTP request after 3482.2229ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:55:17,427  【线程ID】：7    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：ERROR  
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
 【日志内容】：You must either set Authority or IntrospectionEndpoint 
@@ -482,7 +839,11 @@ System.InvalidOperationException: You must either set Authority or Introspection
    at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
    at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
    at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+<<<<<<< HEAD
    at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+=======
+--- End of stack trace from previous location where exception was thrown ---
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
    at System.Lazy`1.CreateValue()
    at System.Lazy`1.get_Value()
    at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
@@ -493,24 +854,49 @@ System.InvalidOperationException: You must either set Authority or Introspection
    at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:57:12,557  【线程ID】：9    
+=======
+<<<<<<< HEAD
+【日志时间】：2020-07-21 18:30:38,840  【线程ID】：15    
+=======
+【日志时间】：2020-07-21 18:55:17,430  【线程ID】：7    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
 【日志内容】：Bearer was not authenticated. Failure message: You must either set Authority or IntrospectionEndpoint 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:57:13,128  【线程ID】：9    
+=======
+<<<<<<< HEAD
+【日志时间】：2020-07-21 18:30:40,585  【线程ID】：15    
+=======
+【日志时间】：2020-07-21 18:55:17,435  【线程ID】：7    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
 【日志内容】：Start processing HTTP request POST http://localhost:56568/connect/token 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:57:13,131  【线程ID】：9    
+=======
+<<<<<<< HEAD
+【日志时间】：2020-07-21 18:30:40,589  【线程ID】：15    
+=======
+【日志时间】：2020-07-21 18:55:17,438  【线程ID】：7    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
 【日志内容】：Sending HTTP request POST http://localhost:56568/connect/token 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:57:14,243  【线程ID】：4    
 【日志级别】：ERROR  
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
@@ -590,6 +976,72 @@ System.InvalidOperationException: You must either set Authority or Introspection
 
 
 【日志时间】：2020-07-21 21:57:14,590  【线程ID】：10    
+=======
+<<<<<<< HEAD
+【日志时间】：2020-07-21 18:30:40,958  【线程ID】：25    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Received HTTP response after 368.5948ms - OK 
+
+
+【日志时间】：2020-07-21 18:30:40,963  【线程ID】：25    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：End processing HTTP request after 377.938ms - OK 
+
+
+【日志时间】：2020-07-21 18:42:28,992  【线程ID】：18    
+【日志级别】：WARN   
+【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
+【日志内容】：Failed to determine the https port for redirect. 
+
+
+【日志时间】：2020-07-21 18:47:41,577  【线程ID】：4    
+【日志级别】：WARN   
+【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
+【日志内容】：Failed to determine the https port for redirect. 
+
+
+【日志时间】：2020-07-21 18:49:06,776  【线程ID】：5    
+【日志级别】：WARN   
+【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
+【日志内容】：Failed to determine the https port for redirect. 
+
+
+【日志时间】：2020-07-21 18:53:26,648  【线程ID】：5    
+【日志级别】：WARN   
+【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
+【日志内容】：Failed to determine the https port for redirect. 
+
+
+【日志时间】：2020-07-21 18:57:21,581  【线程ID】：15    
+【日志级别】：INFO   
+【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
+【日志内容】：AuthenticationScheme: Bearer was challenged. 
+
+
+【日志时间】：2020-07-21 19:01:21,068  【线程ID】：9    
+【日志级别】：WARN   
+【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
+【日志内容】：Failed to determine the https port for redirect. 
+
+
+【日志时间】：2020-07-21 19:02:55,761  【线程ID】：13    
+=======
+【日志时间】：2020-07-21 18:55:17,491  【线程ID】：25    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Received HTTP response after 52.5453ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:55:17,493  【线程ID】：25    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：End processing HTTP request after 58.6547ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:55:38,397  【线程ID】：7    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：ERROR  
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
 【日志内容】：You must either set Authority or IntrospectionEndpoint 
@@ -601,8 +1053,11 @@ System.InvalidOperationException: You must either set Authority or Introspection
    at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
 --- End of stack trace from previous location where exception was thrown ---
    at System.Lazy`1.CreateValue()
+<<<<<<< HEAD
    at System.Lazy`1.get_Value()
    at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+=======
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
    at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
    at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
    at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
@@ -610,24 +1065,37 @@ System.InvalidOperationException: You must either set Authority or Introspection
    at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:57:14,596  【线程ID】：10    
+=======
+【日志时间】：2020-07-21 18:55:38,402  【线程ID】：7    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
 【日志内容】：Bearer was not authenticated. Failure message: You must either set Authority or IntrospectionEndpoint 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:57:14,601  【线程ID】：10    
+=======
+【日志时间】：2020-07-21 18:55:38,405  【线程ID】：7    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
 【日志内容】：Start processing HTTP request POST http://localhost:56568/connect/token 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:57:14,608  【线程ID】：10    
+=======
+【日志时间】：2020-07-21 18:55:38,408  【线程ID】：7    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
 【日志内容】：Sending HTTP request POST http://localhost:56568/connect/token 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:57:14,832  【线程ID】：12    
 【日志级别】：ERROR  
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
@@ -656,6 +1124,22 @@ System.InvalidOperationException: You must either set Authority or Introspection
 
 
 【日志时间】：2020-07-21 21:57:15,009  【线程ID】：10    
+=======
+【日志时间】：2020-07-21 18:55:38,421  【线程ID】：25    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Received HTTP response after 13.366ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:55:38,423  【线程ID】：25    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：End processing HTTP request after 17.9773ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:55:53,277  【线程ID】：4    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：ERROR  
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
 【日志内容】：You must either set Authority or IntrospectionEndpoint 
@@ -665,10 +1149,22 @@ System.InvalidOperationException: You must either set Authority or Introspection
    at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
    at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
    at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+<<<<<<< HEAD
 --- End of stack trace from previous location where exception was thrown ---
    at System.Lazy`1.CreateValue()
    at System.Lazy`1.get_Value()
    at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+=======
+<<<<<<< HEAD
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+=======
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.CreateValue()
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
    at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
    at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
    at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
@@ -676,6 +1172,7 @@ System.InvalidOperationException: You must either set Authority or Introspection
    at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:57:15,046  【线程ID】：12    
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
@@ -683,11 +1180,19 @@ System.InvalidOperationException: You must either set Authority or Introspection
 
 
 【日志时间】：2020-07-21 21:57:15,054  【线程ID】：10    
+=======
+<<<<<<< HEAD
+【日志时间】：2020-07-21 19:02:55,771  【线程ID】：13    
+=======
+【日志时间】：2020-07-21 18:55:53,282  【线程ID】：4    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
 【日志内容】：Bearer was not authenticated. Failure message: You must either set Authority or IntrospectionEndpoint 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:57:15,067  【线程ID】：12    
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
@@ -695,17 +1200,33 @@ System.InvalidOperationException: You must either set Authority or Introspection
 
 
 【日志时间】：2020-07-21 21:57:15,100  【线程ID】：10    
+=======
+<<<<<<< HEAD
+【日志时间】：2020-07-21 19:02:58,296  【线程ID】：13    
+=======
+【日志时间】：2020-07-21 18:55:53,288  【线程ID】：4    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
 【日志内容】：Start processing HTTP request POST http://localhost:56568/connect/token 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:57:15,111  【线程ID】：10    
+=======
+<<<<<<< HEAD
+【日志时间】：2020-07-21 19:02:58,299  【线程ID】：13    
+=======
+【日志时间】：2020-07-21 18:55:53,290  【线程ID】：4    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
 【日志内容】：Sending HTTP request POST http://localhost:56568/connect/token 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:57:15,884  【线程ID】：11    
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
@@ -779,6 +1300,48 @@ System.InvalidOperationException: You must either set Authority or Introspection
 
 
 【日志时间】：2020-07-21 21:57:16,018  【线程ID】：7    
+=======
+<<<<<<< HEAD
+【日志时间】：2020-07-21 19:03:00,848  【线程ID】：11    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Received HTTP response after 2539.2711ms - OK 
+
+
+【日志时间】：2020-07-21 19:03:00,857  【线程ID】：11    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：End processing HTTP request after 2562.1402ms - OK 
+
+
+【日志时间】：2020-07-21 20:21:50,922  【线程ID】：10    
+【日志级别】：WARN   
+【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
+【日志内容】：Failed to determine the https port for redirect. 
+
+
+【日志时间】：2020-07-21 20:47:00,705  【线程ID】：12    
+【日志级别】：WARN   
+【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
+【日志内容】：Failed to determine the https port for redirect. 
+
+
+【日志时间】：2020-07-21 20:47:23,572  【线程ID】：12    
+=======
+【日志时间】：2020-07-21 18:55:53,315  【线程ID】：25    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Received HTTP response after 24.2895ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:55:53,318  【线程ID】：25    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：End processing HTTP request after 30.4328ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:56:29,278  【线程ID】：33    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：ERROR  
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
 【日志内容】：You must either set Authority or IntrospectionEndpoint 
@@ -790,8 +1353,11 @@ System.InvalidOperationException: You must either set Authority or Introspection
    at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
 --- End of stack trace from previous location where exception was thrown ---
    at System.Lazy`1.CreateValue()
+<<<<<<< HEAD
    at System.Lazy`1.get_Value()
    at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+=======
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
    at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
    at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
    at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
@@ -799,24 +1365,37 @@ System.InvalidOperationException: You must either set Authority or Introspection
    at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:57:16,027  【线程ID】：7    
+=======
+【日志时间】：2020-07-21 18:56:29,281  【线程ID】：33    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
 【日志内容】：Bearer was not authenticated. Failure message: You must either set Authority or IntrospectionEndpoint 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:57:16,032  【线程ID】：7    
+=======
+【日志时间】：2020-07-21 18:56:29,286  【线程ID】：33    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
 【日志内容】：Start processing HTTP request POST http://localhost:56568/connect/token 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:57:16,035  【线程ID】：7    
+=======
+【日志时间】：2020-07-21 18:56:29,288  【线程ID】：33    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
 【日志内容】：Sending HTTP request POST http://localhost:56568/connect/token 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:57:16,058  【线程ID】：16    
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
@@ -830,6 +1409,22 @@ System.InvalidOperationException: You must either set Authority or Introspection
 
 
 【日志时间】：2020-07-21 21:57:21,668  【线程ID】：9    
+=======
+【日志时间】：2020-07-21 18:56:29,303  【线程ID】：25    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Received HTTP response after 14.1522ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:56:29,306  【线程ID】：25    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：End processing HTTP request after 20.2211ms - BadRequest 
+
+
+【日志时间】：2020-07-21 18:59:36,286  【线程ID】：48    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：ERROR  
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
 【日志内容】：You must either set Authority or IntrospectionEndpoint 
@@ -839,10 +1434,22 @@ System.InvalidOperationException: You must either set Authority or Introspection
    at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
    at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
    at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+<<<<<<< HEAD
 --- End of stack trace from previous location where exception was thrown ---
    at System.Lazy`1.CreateValue()
    at System.Lazy`1.get_Value()
    at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+=======
+<<<<<<< HEAD
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+=======
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.CreateValue()
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
    at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
    at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
    at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
@@ -850,24 +1457,49 @@ System.InvalidOperationException: You must either set Authority or Introspection
    at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:57:21,709  【线程ID】：9    
+=======
+<<<<<<< HEAD
+【日志时间】：2020-07-21 20:47:23,594  【线程ID】：12    
+=======
+【日志时间】：2020-07-21 18:59:36,289  【线程ID】：48    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
 【日志内容】：Bearer was not authenticated. Failure message: You must either set Authority or IntrospectionEndpoint 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:57:21,762  【线程ID】：9    
+=======
+<<<<<<< HEAD
+【日志时间】：2020-07-21 20:47:25,438  【线程ID】：12    
+=======
+【日志时间】：2020-07-21 18:59:36,309  【线程ID】：48    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
 【日志内容】：Start processing HTTP request POST http://localhost:56568/connect/token 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:57:21,770  【线程ID】：9    
+=======
+<<<<<<< HEAD
+【日志时间】：2020-07-21 20:47:25,444  【线程ID】：12    
+=======
+【日志时间】：2020-07-21 18:59:36,311  【线程ID】：48    
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
 【日志内容】：Sending HTTP request POST http://localhost:56568/connect/token 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:57:22,547  【线程ID】：16    
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
@@ -905,16 +1537,51 @@ System.NotSupportedException: Ambiguous HTTP method for action - LinXi_ERPApi.Co
 
 
 【日志时间】：2020-07-21 21:59:17,755  【线程ID】：10    
+=======
+<<<<<<< HEAD
+【日志时间】：2020-07-21 20:47:27,478  【线程ID】：5    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Received HTTP response after 2030.0227ms - OK 
+
+
+【日志时间】：2020-07-21 20:47:27,482  【线程ID】：5    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：End processing HTTP request after 2047.2069ms - OK 
+=======
+【日志时间】：2020-07-21 18:59:36,554  【线程ID】：19    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Received HTTP response after 242.2646ms - OK 
+
+
+【日志时间】：2020-07-21 18:59:36,556  【线程ID】：19    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：End processing HTTP request after 261.4334ms - OK 
+
+
+【日志时间】：2020-07-21 19:03:12,677  【线程ID】：14    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：WARN   
 【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
 【日志内容】：Failed to determine the https port for redirect. 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 21:59:18,340  【线程ID】：10    
 【日志级别】：ERROR  
 【日志对象】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware  
 【日志内容】：An unhandled exception has occurred while executing the request. 
 System.NotSupportedException: Ambiguous HTTP method for action - LinXi_ERPApi.Controllers.CommodityInventoryController.GetPrProductInfo (LinXi_ERPApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+=======
+【日志时间】：2020-07-21 19:03:13,034  【线程ID】：4    
+【日志级别】：ERROR  
+【日志对象】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware  
+【日志内容】：An unhandled exception has occurred while executing the request. 
+System.NotSupportedException: Ambiguous HTTP method for action - LinXi_ERPApi.Controllers.ProductionManagementController.GetAC (LinXi_ERPApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
    at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
    at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
    at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
@@ -922,12 +1589,17 @@ System.NotSupportedException: Ambiguous HTTP method for action - LinXi_ERPApi.Co
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 22:00:13,125  【线程ID】：10    
+=======
+【日志时间】：2020-07-21 19:03:37,229  【线程ID】：4    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：WARN   
 【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
 【日志内容】：Failed to determine the https port for redirect. 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 22:00:13,732  【线程ID】：10    
 【日志级别】：ERROR  
 【日志对象】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware  
@@ -941,16 +1613,27 @@ System.NotSupportedException: Ambiguous HTTP method for action - LinXi_ERPApi.Co
 
 
 【日志时间】：2020-07-21 22:01:51,432  【线程ID】：7    
+=======
+【日志时间】：2020-07-21 19:04:18,744  【线程ID】：4    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：WARN   
 【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
 【日志内容】：Failed to determine the https port for redirect. 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 22:01:52,099  【线程ID】：7    
 【日志级别】：ERROR  
 【日志对象】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware  
 【日志内容】：An unhandled exception has occurred while executing the request. 
 System.NotSupportedException: Conflicting method/path combination "GET api/CommodityInventory/GetPrProductInfo/api/CommodityInventory/GetPrProductInfo" for actions - LinXi_ERPApi.Controllers.CommodityInventoryController.GetPrProductInfo (LinXi_ERPApi),LinXi_ERPApi.Controllers.CommodityInventoryController.GetPrProductInfo (LinXi_ERPApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+=======
+【日志时间】：2020-07-21 19:04:19,089  【线程ID】：15    
+【日志级别】：ERROR  
+【日志对象】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware  
+【日志内容】：An unhandled exception has occurred while executing the request. 
+System.NotSupportedException: Ambiguous HTTP method for action - LinXi_ERPApi.Controllers.ProductionManagementController.GetAC (LinXi_ERPApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
    at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
    at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
    at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
@@ -958,17 +1641,29 @@ System.NotSupportedException: Conflicting method/path combination "GET api/Commo
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 22:03:15,917  【线程ID】：11    
+=======
+【日志时间】：2020-07-21 19:05:41,376  【线程ID】：15    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：WARN   
 【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
 【日志内容】：Failed to determine the https port for redirect. 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 22:03:16,487  【线程ID】：11    
 【日志级别】：ERROR  
 【日志对象】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware  
 【日志内容】：An unhandled exception has occurred while executing the request. 
 System.NotSupportedException: Conflicting method/path combination "GET api/CommodityInventory/GetPrProductInfo" for actions - LinXi_ERPApi.Controllers.CommodityInventoryController.GetPrProductInfo (LinXi_ERPApi),LinXi_ERPApi.Controllers.CommodityInventoryController.GetPrProductInfo (LinXi_ERPApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+=======
+【日志时间】：2020-07-21 19:05:41,735  【线程ID】：15    
+【日志级别】：ERROR  
+【日志对象】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware  
+【日志内容】：An unhandled exception has occurred while executing the request. 
+System.NotSupportedException: Ambiguous HTTP method for action - LinXi_ERPApi.Controllers.ProductionManagementController.GetPPT (LinXi_ERPApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
    at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
    at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
    at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
@@ -976,12 +1671,17 @@ System.NotSupportedException: Conflicting method/path combination "GET api/Commo
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 22:04:48,758  【线程ID】：12    
+=======
+【日志时间】：2020-07-21 19:06:55,446  【线程ID】：5    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：WARN   
 【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
 【日志内容】：Failed to determine the https port for redirect. 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 22:05:36,713  【线程ID】：7    
 【日志级别】：WARN   
 【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
@@ -993,6 +1693,13 @@ System.NotSupportedException: Conflicting method/path combination "GET api/Commo
 【日志对象】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware  
 【日志内容】：An unhandled exception has occurred while executing the request. 
 System.NotSupportedException: Conflicting method/path combination "GET api/CommodityInventory/GetPrProductInfo" for actions - LinXi_ERPApi.Controllers.CommodityInventoryController.GetPrProductInfo (LinXi_ERPApi),LinXi_ERPApi.Controllers.CommodityInventoryController.GetPrProductInfo (LinXi_ERPApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+=======
+【日志时间】：2020-07-21 19:06:55,815  【线程ID】：4    
+【日志级别】：ERROR  
+【日志对象】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware  
+【日志内容】：An unhandled exception has occurred while executing the request. 
+System.NotSupportedException: Ambiguous HTTP method for action - LinXi_ERPApi.Controllers.ProductionManagementController.GetPPT (LinXi_ERPApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
    at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
    at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
    at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
@@ -1000,6 +1707,7 @@ System.NotSupportedException: Conflicting method/path combination "GET api/Commo
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 22:06:08,706  【线程ID】：4    
 【日志级别】：WARN   
 【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
@@ -1007,11 +1715,15 @@ System.NotSupportedException: Conflicting method/path combination "GET api/Commo
 
 
 【日志时间】：2020-07-21 22:19:22,746  【线程ID】：13    
+=======
+【日志时间】：2020-07-21 19:08:07,679  【线程ID】：15    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：WARN   
 【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
 【日志内容】：Failed to determine the https port for redirect. 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 22:19:31,315  【线程ID】：6    
 【日志级别】：INFO   
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
@@ -1019,11 +1731,21 @@ System.NotSupportedException: Conflicting method/path combination "GET api/Commo
 
 
 【日志时间】：2020-07-21 22:28:21,812  【线程ID】：7    
+=======
+【日志时间】：2020-07-21 19:08:32,524  【线程ID】：10    
+【日志级别】：INFO   
+【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
+【日志内容】：AuthenticationScheme: Bearer was challenged. 
+
+
+【日志时间】：2020-07-21 19:14:48,027  【线程ID】：8    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：WARN   
 【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
 【日志内容】：Failed to determine the https port for redirect. 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 22:28:22,626  【线程ID】：4    
 【日志级别】：ERROR  
 【日志对象】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware  
@@ -1037,11 +1759,15 @@ System.NotSupportedException: Conflicting method/path combination "GET api/Commo
 
 
 【日志时间】：2020-07-21 22:30:55,190  【线程ID】：12    
+=======
+【日志时间】：2020-07-21 19:18:48,314  【线程ID】：12    
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
 【日志级别】：WARN   
 【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
 【日志内容】：Failed to determine the https port for redirect. 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-07-21 22:30:55,822  【线程ID】：4    
 【日志级别】：ERROR  
 【日志对象】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware  
@@ -1058,3 +1784,48 @@ System.NotSupportedException: Conflicting method/path combination "GET api/Commo
 【日志级别】：WARN   
 【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
 【日志内容】：Failed to determine the https port for redirect. 
+=======
+【日志时间】：2020-07-21 19:21:30,884  【线程ID】：17    
+【日志级别】：ERROR  
+【日志对象】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware  
+【日志内容】：An unhandled exception has occurred while executing the request. 
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating LinXi_ERPApi.Controllers.ProductionManagementController.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'LinXi_ERPApi.Controllers.ProductionManagementController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'LinXi_IService.IPrProductTaskService IPrProductTaskService' of constructor 'Void .ctor(Microsoft.Extensions.Logging.ILogger`1[LinXi_ERPApi.Controllers.ProductionManagementController], LinXi_IService.IPrProductTaskService, System.IServiceProvider, AutoMapper.IMapper, Microsoft.AspNetCore.Http.IHttpContextAccessor)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(ConstructorInfo[] availableConstructors, IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.CreateInstance(IEnumerable`1 parameters)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.CreateInstance(IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ResolveComponent(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ServiceBasedControllerActivator.Create(ControllerContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+>>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d

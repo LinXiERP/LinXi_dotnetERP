@@ -20,6 +20,7 @@ namespace LinXi_IRepository
         Task<TEntity> FindAsyncByName(string name);
 
         Task<TEntity> FindAsyncById(int id);
+        
 
         IQueryable<TEntity> SearchByPage<TOrder>(int pageSize, int pageCount, out int count, Expression<Func<TEntity, bool>> wherelamda, Expression<Func<TEntity, TOrder>> orderlamda, bool isAsc);
 
