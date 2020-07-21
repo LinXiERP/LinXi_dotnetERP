@@ -1262,3 +1262,9 @@ Cannot resolve parameter 'Microsoft.Extensions.Caching.Distributed.IDistributedC
 【日志级别】：WARN   
 【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
 【日志内容】：Failed to determine the https port for redirect. 
+
+
+【日志时间】：2020-07-20 20:28:08,181  【线程ID】：8    
+【日志级别】：WARN   
+【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
+【日志内容】：Failed to determine the https port for redirect. 
