@@ -76,7 +76,7 @@ namespace LinXI_ERPApi.Extensions
                             TokenUrl = new Uri("http://localhost:56568/connect/token"),
                             Scopes = new Dictionary<string, string>
                              {
-                                { "LinXi_scope3", "灵犀ERP Api3" }
+                                { "LinXi_scope2", "灵犀ERP Api2" }
                              },
                         }
                     }

@@ -24,6 +24,60 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="T:LinXi_ERPApi.Controllers.SaleManagementController">
+            <summary>
+            销售管理
+            </summary>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.SaleManagementController.GetSSO">
+            <summary>
+            获取所有销售信息
+            </summary>
+            <param name=""></param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.SaleManagementController.GetSSOID(System.Int32)">
+            <summary>
+            获取单条销售信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.SaleManagementController.EditSSO(LinXi_Model.SlSaleOrder)">
+            <summary>
+            修改销售表的资料
+            </summary>
+            <param name="table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.SaleManagementController.Add(LinXi_Model.SlSaleOrder)">
+            <summary>
+            添加单条销售信息
+            </summary>
+            <param name="table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.SaleManagementController.Delete(LinXi_Model.SlSaleOrder)">
+            <summary>
+            删除单条销售信息
+            </summary>
+            <param name="table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.SaleManagementController.GetSSOState(System.Int32)">
+            <summary>
+            以销售状态查询销售信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.SaleManagementController.GetSSOProType(System.Int32)">
+            <summary>
+            以产品类型查询销售信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
         <member name="M:LinXi_ERPApi.Startup.ConfigureContainer(Autofac.ContainerBuilder)">
             <summary>
             Autofac组件注册
