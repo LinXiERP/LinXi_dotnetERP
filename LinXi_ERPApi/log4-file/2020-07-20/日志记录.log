@@ -1264,12 +1264,19 @@ Cannot resolve parameter 'Microsoft.Extensions.Caching.Distributed.IDistributedC
 【日志内容】：Failed to determine the https port for redirect. 
 
 
+<<<<<<< HEAD
+【日志时间】：2020-07-20 21:34:00,927  【线程ID】：4    
+=======
 【日志时间】：2020-07-20 22:09:04,421  【线程ID】：8    
+>>>>>>> 0770a63f1e752e08f4fae67ccd77c6bcfdbfa913
 【日志级别】：WARN   
 【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
 【日志内容】：Failed to determine the https port for redirect. 
 
 
+<<<<<<< HEAD
+【日志时间】：2020-07-20 21:35:46,072  【线程ID】：13    
+=======
 【日志时间】：2020-07-20 22:09:23,131  【线程ID】：11    
 【日志级别】：INFO   
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
@@ -1333,23 +1340,62 @@ System.IO.IOException: Failed to bind to address http://127.0.0.1:56567: address
 
 
 【日志时间】：2020-07-20 23:37:37,743  【线程ID】：9    
+>>>>>>> 0770a63f1e752e08f4fae67ccd77c6bcfdbfa913
 【日志级别】：WARN   
 【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
 【日志内容】：Failed to determine the https port for redirect. 
 
 
+<<<<<<< HEAD
+【日志时间】：2020-07-20 21:36:56,980  【线程ID】：4    
+=======
 【日志时间】：2020-07-20 23:39:30,380  【线程ID】：12    
+>>>>>>> 0770a63f1e752e08f4fae67ccd77c6bcfdbfa913
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
 【日志内容】：Start processing HTTP request POST http://localhost:56568/connect/token 
 
 
+<<<<<<< HEAD
+【日志时间】：2020-07-20 21:36:56,984  【线程ID】：4    
+=======
 【日志时间】：2020-07-20 23:39:30,382  【线程ID】：12    
+>>>>>>> 0770a63f1e752e08f4fae67ccd77c6bcfdbfa913
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
 【日志内容】：Sending HTTP request POST http://localhost:56568/connect/token 
 
 
+<<<<<<< HEAD
+【日志时间】：2020-07-20 21:36:59,355  【线程ID】：6    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
+【日志内容】：Received HTTP response after 2367.2012ms - BadRequest 
+
+
+【日志时间】：2020-07-20 21:36:59,358  【线程ID】：6    
+【日志级别】：INFO   
+【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
+【日志内容】：End processing HTTP request after 2385.511ms - BadRequest 
+
+
+【日志时间】：2020-07-20 22:22:34,688  【线程ID】：9    
+【日志级别】：WARN   
+【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
+【日志内容】：Failed to determine the https port for redirect. 
+
+
+【日志时间】：2020-07-20 22:44:11,133  【线程ID】：4    
+【日志级别】：WARN   
+【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
+【日志内容】：Failed to determine the https port for redirect. 
+
+
+【日志时间】：2020-07-20 23:51:24,577  【线程ID】：4    
+【日志级别】：WARN   
+【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
+【日志内容】：Failed to determine the https port for redirect. 
+=======
 【日志时间】：2020-07-20 23:39:31,934  【线程ID】：11    
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.ClientHandler  
@@ -1360,3 +1406,4 @@ System.IO.IOException: Failed to bind to address http://127.0.0.1:56567: address
 【日志级别】：INFO   
 【日志对象】：System.Net.Http.HttpClient.Default.LogicalHandler  
 【日志内容】：End processing HTTP request after 1561.2943ms - BadRequest 
+>>>>>>> 0770a63f1e752e08f4fae67ccd77c6bcfdbfa913
