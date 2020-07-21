@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj": {}
   },
   "projects": {
@@ -13,44 +12,9 @@
         "projectPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj",
         "packagesPath": "C:\\Users\\敢敢\\.nuget\\packages\\",
         "outputPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Common\\obj\\",
-=======
-<<<<<<< HEAD
-    "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj": {}
-  },
-  "projects": {
-    "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj",
-        "projectName": "LinXi_Common",
-        "projectPath": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Common\\obj\\",
-=======
-    "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj": {}
-  },
-  "projects": {
-    "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj",
-        "projectName": "LinXi_Common",
-        "projectPath": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj",
-        "packagesPath": "C:\\Users\\liaobin\\.nuget\\packages\\",
-        "outputPath": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Common\\obj\\",
->>>>>>> 0770a63f1e752e08f4fae67ccd77c6bcfdbfa913
->>>>>>> 84b96621e1dcbef075f59588225baa386b346cc2
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\敢敢\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-<<<<<<< HEAD
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\liaobin\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 0770a63f1e752e08f4fae67ccd77c6bcfdbfa913
->>>>>>> 84b96621e1dcbef075f59588225baa386b346cc2
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,24 +22,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://packagesource": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-<<<<<<< HEAD
               "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
                 "projectPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
-=======
-<<<<<<< HEAD
-              "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
-                "projectPath": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
-=======
-              "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
-                "projectPath": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
->>>>>>> 0770a63f1e752e08f4fae67ccd77c6bcfdbfa913
->>>>>>> 84b96621e1dcbef075f59588225baa386b346cc2
               }
             }
           }
@@ -141,7 +94,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -150,38 +102,9 @@
         "projectPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj",
         "packagesPath": "C:\\Users\\敢敢\\.nuget\\packages\\",
         "outputPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IdentityServer\\obj\\",
-=======
-<<<<<<< HEAD
-    "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj",
-        "projectName": "LinXi_IdentityServer",
-        "projectPath": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IdentityServer\\obj\\",
-=======
-    "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj",
-        "projectName": "LinXi_IdentityServer",
-        "projectPath": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj",
-        "packagesPath": "C:\\Users\\liaobin\\.nuget\\packages\\",
-        "outputPath": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IdentityServer\\obj\\",
->>>>>>> 0770a63f1e752e08f4fae67ccd77c6bcfdbfa913
->>>>>>> 84b96621e1dcbef075f59588225baa386b346cc2
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\敢敢\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-<<<<<<< HEAD
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\liaobin\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 0770a63f1e752e08f4fae67ccd77c6bcfdbfa913
->>>>>>> 84b96621e1dcbef075f59588225baa386b346cc2
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -189,13 +112,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://packagesource": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-<<<<<<< HEAD
               "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj": {
                 "projectPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj"
               },
@@ -204,27 +125,6 @@
               },
               "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
                 "projectPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
-=======
-<<<<<<< HEAD
-              "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj": {
-                "projectPath": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj"
-              },
-              "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj": {
-                "projectPath": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj"
-              },
-              "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
-                "projectPath": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
-=======
-              "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj": {
-                "projectPath": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj"
-              },
-              "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj": {
-                "projectPath": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj"
-              },
-              "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
-                "projectPath": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
->>>>>>> 0770a63f1e752e08f4fae67ccd77c6bcfdbfa913
->>>>>>> 84b96621e1dcbef075f59588225baa386b346cc2
               }
             }
           }
@@ -281,7 +181,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -290,38 +189,9 @@
         "projectPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj",
         "packagesPath": "C:\\Users\\敢敢\\.nuget\\packages\\",
         "outputPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\obj\\",
-=======
-<<<<<<< HEAD
-    "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj",
-        "projectName": "LinXi_IRepository",
-        "projectPath": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\obj\\",
-=======
-    "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj",
-        "projectName": "LinXi_IRepository",
-        "projectPath": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj",
-        "packagesPath": "C:\\Users\\liaobin\\.nuget\\packages\\",
-        "outputPath": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\obj\\",
->>>>>>> 0770a63f1e752e08f4fae67ccd77c6bcfdbfa913
->>>>>>> 84b96621e1dcbef075f59588225baa386b346cc2
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\敢敢\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-<<<<<<< HEAD
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\liaobin\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 0770a63f1e752e08f4fae67ccd77c6bcfdbfa913
->>>>>>> 84b96621e1dcbef075f59588225baa386b346cc2
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -329,24 +199,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://packagesource": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-<<<<<<< HEAD
               "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
                 "projectPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
-=======
-<<<<<<< HEAD
-              "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
-                "projectPath": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
-=======
-              "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
-                "projectPath": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
->>>>>>> 0770a63f1e752e08f4fae67ccd77c6bcfdbfa913
->>>>>>> 84b96621e1dcbef075f59588225baa386b346cc2
               }
             }
           }
@@ -378,7 +237,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -387,38 +245,9 @@
         "projectPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj",
         "packagesPath": "C:\\Users\\敢敢\\.nuget\\packages\\",
         "outputPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IService\\obj\\",
-=======
-<<<<<<< HEAD
-    "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj",
-        "projectName": "LinXi_IService",
-        "projectPath": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IService\\obj\\",
-=======
-    "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj",
-        "projectName": "LinXi_IService",
-        "projectPath": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj",
-        "packagesPath": "C:\\Users\\liaobin\\.nuget\\packages\\",
-        "outputPath": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IService\\obj\\",
->>>>>>> 0770a63f1e752e08f4fae67ccd77c6bcfdbfa913
->>>>>>> 84b96621e1dcbef075f59588225baa386b346cc2
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\敢敢\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-<<<<<<< HEAD
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\liaobin\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 0770a63f1e752e08f4fae67ccd77c6bcfdbfa913
->>>>>>> 84b96621e1dcbef075f59588225baa386b346cc2
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -426,33 +255,16 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://packagesource": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-<<<<<<< HEAD
               "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj": {
                 "projectPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj"
               },
               "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
                 "projectPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
-=======
-<<<<<<< HEAD
-              "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj": {
-                "projectPath": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj"
-              },
-              "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
-                "projectPath": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
-=======
-              "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj": {
-                "projectPath": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj"
-              },
-              "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
-                "projectPath": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
->>>>>>> 0770a63f1e752e08f4fae67ccd77c6bcfdbfa913
->>>>>>> 84b96621e1dcbef075f59588225baa386b346cc2
               }
             }
           }
@@ -484,7 +296,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -493,38 +304,9 @@
         "projectPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj",
         "packagesPath": "C:\\Users\\敢敢\\.nuget\\packages\\",
         "outputPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\obj\\",
-=======
-<<<<<<< HEAD
-    "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj",
-        "projectName": "LinXi_Model",
-        "projectPath": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\erp项目\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\obj\\",
-=======
-    "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj",
-        "projectName": "LinXi_Model",
-        "projectPath": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj",
-        "packagesPath": "C:\\Users\\liaobin\\.nuget\\packages\\",
-        "outputPath": "D:\\桌面文件及其他\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\obj\\",
->>>>>>> 0770a63f1e752e08f4fae67ccd77c6bcfdbfa913
->>>>>>> 84b96621e1dcbef075f59588225baa386b346cc2
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\敢敢\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-<<<<<<< HEAD
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\liaobin\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 0770a63f1e752e08f4fae67ccd77c6bcfdbfa913
->>>>>>> 84b96621e1dcbef075f59588225baa386b346cc2
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -532,8 +314,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://packagesource": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
