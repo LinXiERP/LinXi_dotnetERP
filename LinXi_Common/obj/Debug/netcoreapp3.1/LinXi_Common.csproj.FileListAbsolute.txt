@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.deps.json
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.dll
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.pdb
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Model.dll
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Model.pdb
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csprojAssemblyReference.cache
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.AssemblyInfoInputs.cache
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.AssemblyInfo.cs
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csproj.CoreCompileInputs.cache
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csproj.CopyComplete
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.dll
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.pdb
+=======
 F:\erp项目\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.deps.json
 F:\erp项目\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.dll
 F:\erp项目\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.pdb
@@ -22,6 +36,7 @@ E:\ERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csproj.
 E:\ERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csproj.CopyComplete
 E:\ERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.dll
 E:\ERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.pdb
+<<<<<<< HEAD
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.deps.json
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.dll
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.pdb
@@ -34,3 +49,6 @@ D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_C
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csproj.CopyComplete
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.dll
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.pdb
+=======
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
+>>>>>>> 50b1bfa989969dfa309459abe03db67274b84c8a

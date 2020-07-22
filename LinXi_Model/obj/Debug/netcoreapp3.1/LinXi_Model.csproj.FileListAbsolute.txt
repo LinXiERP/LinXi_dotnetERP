@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.deps.json
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.runtimeconfig.json
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.runtimeconfig.dev.json
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.dll
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.pdb
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.AssemblyInfoInputs.cache
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.AssemblyInfo.cs
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.csproj.CoreCompileInputs.cache
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.dll
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.pdb
+D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.genruntimeconfig.cache
+=======
 F:\erp项目\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.deps.json
 F:\erp项目\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.runtimeconfig.json
 F:\erp项目\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.runtimeconfig.dev.json
@@ -22,6 +35,7 @@ E:\ERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.csproj.Co
 E:\ERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.dll
 E:\ERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.pdb
 E:\ERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.genruntimeconfig.cache
+<<<<<<< HEAD
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.deps.json
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.runtimeconfig.json
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.runtimeconfig.dev.json
@@ -34,3 +48,6 @@ D:\学习\erp项目\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Mo
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.dll
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.pdb
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.genruntimeconfig.cache
+=======
+>>>>>>> 97dee526c15b3fc47dfcc6e48f90a211428d034d
+>>>>>>> 50b1bfa989969dfa309459abe03db67274b84c8a
