@@ -46,6 +46,7 @@
             <summary>
             删除客户
             </summary>
+<<<<<<< HEAD
         </member>
         <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.UpdateCustomerInfo(LinXi_Model.DTO.CustomerManageManage.Dtos.SlCustomerDtos)">
             <summary>
@@ -61,6 +62,8 @@
             <summary>
             过滤搜索客户信息
             </summary>
+=======
+>>>>>>> 1761ebd4e8dabea3ede0597dbc123806c6959125
         </member>
         <member name="M:LinXi_ERPApi.Controllers.LoginController.LoginCheck(LinXi_Model.DTO.LoginDTO)">
             <summary>
@@ -143,6 +146,44 @@
             以产品类型查询销售信息
             </summary>
             <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LinXi_ERPApi.Controllers.StaffManagementController">
+            <summary>
+            员工管理
+            </summary>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.StaffManagementController.GetAllStaffInfo">
+            <summary>
+            获取所有的员工信息
+            </summary>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.StaffManagementController.GetStaffInfo(System.Int32)">
+            <summary>
+            获取指定员工的详细信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.StaffManagementController.AddStaff(LinXi_Model.AcStaff)">
+            <summary>
+            添加员工信息
+            </summary>
+            <param name="staff"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.StaffManagementController.EditStaff(LinXi_Model.AcStaff)">
+            <summary>
+            修改员工信息
+            </summary>
+            <param name="staff"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.StaffManagementController.DeleteStaff(LinXi_Model.AcStaff)">
+            <summary>
+            删除员工信息
+            </summary>
+            <param name="staff"></param>
             <returns></returns>
         </member>
         <member name="M:LinXi_ERPApi.Startup.ConfigureContainer(Autofac.ContainerBuilder)">
