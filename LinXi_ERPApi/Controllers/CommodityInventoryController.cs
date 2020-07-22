@@ -11,6 +11,9 @@ using Microsoft.Extensions.Logging;
 
 namespace LinXi_ERPApi.Controllers
 {
+    /// <summary>
+    /// 商品库存管理
+    /// </summary>
     [Route("api/[controller]/[action]")]
     [ApiController]
     public class CommodityInventoryController : ControllerBase
@@ -18,6 +21,10 @@ namespace LinXi_ERPApi.Controllers
         private ILogger<CommodityInventoryController> _logger;
 
         private IPuCommodityServicce _IPuCommodityServicce;
+        private IPuCommodityCategoryService _IPuCommodityCategoryService;
+        private IPuSupplierService _IPuSupplierService;
+        private IPuOrderService _IPuOrderService;
+
         private IServiceProvider _service;
 
         private IMapper _IMapper;

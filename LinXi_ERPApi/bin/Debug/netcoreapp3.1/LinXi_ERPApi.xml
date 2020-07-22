@@ -18,6 +18,11 @@
             <param name="de">xx类</param>
             <returns></returns>
         </member>
+        <member name="T:LinXi_ERPApi.Controllers.CommodityInventoryController">
+            <summary>
+            商品库存管理
+            </summary>
+        </member>
         <member name="M:LinXi_ERPApi.Controllers.CommodityInventoryController.GetPrProductInfo">
             <summary>
             全部商品信息
@@ -38,7 +43,24 @@
             </summary>
             <returns></returns>
         </member>
-<<<<<<< HEAD
+        <member name="T:LinXi_ERPApi.Controllers.ProductionManagementController">
+            <summary>
+            生产管理
+            </summary>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetPPT(System.Int32)">
+            <summary>
+            获取单个生产计划的详细信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetPPTs">
+            <summary>
+            获取全部生产计划信息
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:LinXi_ERPApi.Controllers.SaleManagementController">
             <summary>
             销售管理
@@ -82,32 +104,15 @@
         <member name="M:LinXi_ERPApi.Controllers.SaleManagementController.GetSSOState(System.Int32)">
             <summary>
             以销售状态查询销售信息
-=======
-        <member name="T:LinXi_ERPApi.Controllers.ProductionManagementController">
-            <summary>
-            生产管理
-            </summary>
-        </member>
-        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetPPT(System.Int32)">
-            <summary>
-            获取单个生产计划的详细信息
->>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-<<<<<<< HEAD
         <member name="M:LinXi_ERPApi.Controllers.SaleManagementController.GetSSOProType(System.Int32)">
             <summary>
             以产品类型查询销售信息
             </summary>
             <param name="id"></param>
-=======
-        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetPPTs">
-            <summary>
-            获取全部生产计划信息
-            </summary>
->>>>>>> ec31f43258278415f32a6d969dd4c07a52416885
             <returns></returns>
         </member>
         <member name="M:LinXi_ERPApi.Startup.ConfigureContainer(Autofac.ContainerBuilder)">
