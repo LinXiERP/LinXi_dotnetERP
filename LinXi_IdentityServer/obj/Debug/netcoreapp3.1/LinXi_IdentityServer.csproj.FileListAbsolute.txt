@@ -419,3 +419,5 @@ D:\学习\erp项目\LinXi_dotnetERP\LinXi_IdentityServer\obj\Debug\netcoreapp3.1
 D:\学习\erp项目\LinXi_dotnetERP\LinXi_IdentityServer\obj\Debug\netcoreapp3.1\LinXi_IdentityServer.pdb
 D:\学习\erp项目\LinXi_dotnetERP\LinXi_IdentityServer\obj\Debug\netcoreapp3.1\LinXi_IdentityServer.genruntimeconfig.cache
 >>>>>>> abed4671f2eb7497129dd5d315359252f412e37d
+D:\学习\erp项目\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\学习\erp项目\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll

@@ -14,7 +14,6 @@ D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXi_IService\obj\Debug\netcoreapp3.1\LinXi_
 D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXi_IService\obj\Debug\netcoreapp3.1\LinXi_IService.dll
 D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXi_IService\obj\Debug\netcoreapp3.1\LinXi_IService.pdb
 =======
-<<<<<<< HEAD
 D:\学习\erp项目\LinXi_dotnetERP\LinXi_IService\bin\Debug\netcoreapp3.1\LinXi_IService.deps.json
 D:\学习\erp项目\LinXi_dotnetERP\LinXi_IService\bin\Debug\netcoreapp3.1\LinXi_IService.dll
 D:\学习\erp项目\LinXi_dotnetERP\LinXi_IService\bin\Debug\netcoreapp3.1\LinXi_IService.pdb
@@ -29,7 +28,6 @@ D:\学习\erp项目\LinXi_dotnetERP\LinXi_IService\obj\Debug\netcoreapp3.1\LinXi
 D:\学习\erp项目\LinXi_dotnetERP\LinXi_IService\obj\Debug\netcoreapp3.1\LinXi_IService.csproj.CopyComplete
 D:\学习\erp项目\LinXi_dotnetERP\LinXi_IService\obj\Debug\netcoreapp3.1\LinXi_IService.dll
 D:\学习\erp项目\LinXi_dotnetERP\LinXi_IService\obj\Debug\netcoreapp3.1\LinXi_IService.pdb
-=======
 G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXi_IService\bin\Debug\netcoreapp3.1\LinXi_IService.deps.json
 G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXi_IService\bin\Debug\netcoreapp3.1\LinXi_IService.dll
 G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXi_IService\bin\Debug\netcoreapp3.1\LinXi_IService.pdb

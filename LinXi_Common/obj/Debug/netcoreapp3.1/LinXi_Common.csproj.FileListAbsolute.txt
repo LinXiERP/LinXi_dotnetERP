@@ -12,7 +12,6 @@ D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Co
 D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.dll
 D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.pdb
 =======
-<<<<<<< HEAD
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.deps.json
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.dll
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.pdb
@@ -25,7 +24,6 @@ D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_C
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csproj.CopyComplete
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.dll
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.pdb
-=======
 G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.deps.json
 G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.dll
 G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.pdb

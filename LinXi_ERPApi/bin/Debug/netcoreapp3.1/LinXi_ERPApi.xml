@@ -51,7 +51,6 @@
             <summary>
             删除客户
             </summary>
-<<<<<<< HEAD
         </member>
         <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.UpdateCustomerInfo(LinXi_Model.DTO.CustomerManageManage.Dtos.SlCustomerDtos)">
             <summary>
@@ -67,8 +66,31 @@
             <summary>
             过滤搜索客户信息
             </summary>
-=======
->>>>>>> 1761ebd4e8dabea3ede0597dbc123806c6959125
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.GetAllCustomerOrder">
+            <summary>
+            获取所有订单信息
+            </summary>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.DeleteCustomerOrder(System.Int32)">
+            <summary>
+            删除订单
+            </summary>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.UpdateCustomerOrder(LinXi_Model.DTO.CustomerManageManage.Dtos.SlCustomerDtos)">
+            <summary>
+            修改订单信息
+            </summary>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.AddCustomerOrder(LinXi_Model.DTO.CustomerManageManage.Dtos.SlCustomerDtos)">
+            <summary>
+            添加订单信息
+            </summary>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.SelectCustomerOrder(LinXi_Model.DTO.CustomerManageManage.DtoParameters.CustomerDtosParameters)">
+            <summary>
+            过滤搜索订单信息
+            </summary>
         </member>
         <member name="M:LinXi_ERPApi.Controllers.LoginController.LoginCheck(LinXi_Model.DTO.LoginDTO)">
             <summary>
@@ -94,14 +116,11 @@
             </summary>
             <returns></returns>
         </member>
-<<<<<<< HEAD
-=======
         <member name="T:LinXi_ERPApi.Controllers.PurchasingManagementController">
             <summary>
             采购管理
             </summary>
         </member>
->>>>>>> abed4671f2eb7497129dd5d315359252f412e37d
         <member name="T:LinXi_ERPApi.Controllers.SaleManagementController">
             <summary>
             销售管理
@@ -145,8 +164,6 @@
         <member name="M:LinXi_ERPApi.Controllers.SaleManagementController.GetSSOState(System.Int32)">
             <summary>
             以销售状态查询销售信息
-<<<<<<< HEAD
-=======
             </summary>
             <param name="id"></param>
             <returns></returns>
@@ -154,16 +171,11 @@
         <member name="M:LinXi_ERPApi.Controllers.SaleManagementController.GetSSOProType(System.Int32)">
             <summary>
             以产品类型查询销售信息
->>>>>>> abed4671f2eb7497129dd5d315359252f412e37d
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-<<<<<<< HEAD
-        <member name="M:LinXi_ERPApi.Controllers.SaleManagementController.GetSSOProType(System.Int32)">
-=======
         <member name="T:LinXi_ERPApi.Controllers.StaffManagementController">
->>>>>>> abed4671f2eb7497129dd5d315359252f412e37d
             <summary>
             员工管理
             </summary>
@@ -178,8 +190,6 @@
             获取指定员工的详细信息
             </summary>
             <param name="id"></param>
-<<<<<<< HEAD
-=======
             <returns></returns>
         </member>
         <member name="M:LinXi_ERPApi.Controllers.StaffManagementController.AddStaff(LinXi_Model.AcStaff)">
@@ -201,7 +211,6 @@
             删除员工信息
             </summary>
             <param name="staff"></param>
->>>>>>> abed4671f2eb7497129dd5d315359252f412e37d
             <returns></returns>
         </member>
         <member name="M:LinXi_ERPApi.Startup.ConfigureContainer(Autofac.ContainerBuilder)">

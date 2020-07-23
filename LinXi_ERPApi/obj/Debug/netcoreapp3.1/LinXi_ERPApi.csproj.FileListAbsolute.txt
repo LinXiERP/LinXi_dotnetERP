@@ -200,7 +200,6 @@ D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_ERPApi\obj\Debug\netcoreapp3.1\LinXi_ER
 D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_ERPApi\obj\Debug\netcoreapp3.1\LinXi_ERPApi.pdb
 D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_ERPApi\obj\Debug\netcoreapp3.1\LinXi_ERPApi.genruntimeconfig.cache
 =======
-<<<<<<< HEAD
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_ERPApi\bin\Debug\netcoreapp3.1\Autofac.dll
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_ERPApi\bin\Debug\netcoreapp3.1\Autofac.Configuration.dll
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_ERPApi\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
@@ -401,7 +400,6 @@ D:\学习\erp项目\LinXi_dotnetERP\LinXI_ERPApi\obj\Debug\netcoreapp3.1\LinXi_E
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_ERPApi\obj\Debug\netcoreapp3.1\staticwebassets\LinXi_ERPApi.StaticWebAssets.Manifest.cache
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_ERPApi\obj\Debug\netcoreapp3.1\staticwebassets\LinXi_ERPApi.StaticWebAssets.xml
 D:\学习\erp项目\LinXi_dotnetERP\LinXI_ERPApi\obj\Debug\netcoreapp3.1\LinXi_ERPApi.genruntimeconfig.cache
-=======
 G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_ERPApi\bin\Debug\netcoreapp3.1\Log4net.config
 G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_ERPApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
 G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_ERPApi\bin\Debug\netcoreapp3.1\appsettings.json
@@ -604,3 +602,4 @@ G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_ERPApi\obj\Debug\netcoreapp3.1\LinXi_ER
 G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_ERPApi\obj\Debug\netcoreapp3.1\LinXi_ERPApi.genruntimeconfig.cache
 >>>>>>> 1761ebd4e8dabea3ede0597dbc123806c6959125
 >>>>>>> abed4671f2eb7497129dd5d315359252f412e37d
+D:\学习\erp项目\LinXi_dotnetERP\LinXI_ERPApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
