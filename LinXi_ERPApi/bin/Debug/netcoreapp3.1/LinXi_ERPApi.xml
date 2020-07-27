@@ -87,7 +87,7 @@
             添加订单信息
             </summary>
         </member>
-        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.SelectCustomerOrder(LinXi_Model.DTO.CustomerManageManage.DtoParameters.CustomerDtosParameters)">
+        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.SelectCustomerOrder(LinXi_Model.DTO.CustomerManageManage.DtoParameters.CustomerOrderDtosParameters)">
             <summary>
             过滤搜索订单信息
             </summary>

@@ -262,32 +262,24 @@ namespace LinXi_ERPApi.Controllers
         /// 过滤搜索订单信息
         /// </summary>
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<SlCustomerDtos>>> SelectCustomerOrder([FromQuery] CustomerDtosParameters customerDtosParameters)
+        public async Task<ActionResult<IEnumerable<SlCustomerDtos>>> SelectCustomerOrder([FromQuery] CustomerOrderDtosParameters customerOrderDtosParameters)
         {
-            IEnumerable<SlCustomer> list = _mapper.Map<IEnumerable<SlCustomer>>(await _slCustomerService.Search(t => true));
-            if (!string.IsNullOrWhiteSpace(customerDtosParameters.name))
-            {
-                switch (customerDtosParameters.select)
-                {
-                    case 1:
-                        {
-                            var data = list.Where(t => t.Name.Contains(customerDtosParameters.name)).ToList();
-                            return Ok(data);
-                        }
+            var data = (await _slOrderService.Search(t => true)).ToList();
+            var data2 = _mapper.Map<List<SlOrderDots>>(data);
 
-                    case 2:
-                        {
-                            var data = list.Where(t => t.Custtel.Contains(customerDtosParameters.name)).ToList();
-                            return Ok(data);
-                        }
-                    case 3:
-                        {
-                            var data = list.Where(t => t.Linkman.Contains(customerDtosParameters.name)).ToList();
-                            return Ok(data);
-                        }
-                }
+            if (!string.IsNullOrWhiteSpace(customerOrderDtosParameters.product)&& customerOrderDtosParameters.product!="所有")
+            {
+                data2 = data2.Where(t => t.ProductName.Contains(customerOrderDtosParameters.product.ToString())).ToList();
             }
-            return Ok(list);
+            if (customerOrderDtosParameters.id != 0&&customerOrderDtosParameters.id!=-1)
+            {
+                data2 = data2.Where(t => t.No.Contains(customerOrderDtosParameters.id.ToString())).ToList();
+            }
+            if (!string.IsNullOrWhiteSpace(customerOrderDtosParameters.status)&&customerOrderDtosParameters.status!="-100")
+            {
+                data2 = data2.Where(t => t.Status == int.Parse(customerOrderDtosParameters.status)).ToList();
+            }
+            return Ok(data2);
 
         }
         #endregion
