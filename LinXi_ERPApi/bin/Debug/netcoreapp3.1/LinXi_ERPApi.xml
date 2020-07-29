@@ -82,7 +82,7 @@
             修改订单信息
             </summary>
         </member>
-        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.AddCustomerOrder(LinXi_Model.DTO.CustomerManageManage.Dtos.SlCustomerDtos)">
+        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.AddCustomerOrder(LinXi_Model.DTO.CustomerManageManage.Dtos.SlOrderAddDtos)">
             <summary>
             添加订单信息
             </summary>
@@ -91,6 +91,12 @@
             <summary>
             过滤搜索订单信息
             </summary>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.SelectAllProductandCustomer">
+            <summary>
+            查询所有产品和所有的客户
+            </summary>
+            <returns>集合对象</returns>
         </member>
         <member name="M:LinXi_ERPApi.Controllers.LoginController.LoginCheck(LinXi_Model.DTO.LoginDTO)">
             <summary>

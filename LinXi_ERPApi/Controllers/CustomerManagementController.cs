@@ -25,14 +25,18 @@ namespace LinXi_ERPApi.Controllers
         #region 依赖注入
         private readonly ISlCustomerService _slCustomerService;
         private readonly ISlOrderService _slOrderService;
+        private readonly IPrProductService _prProductService;
+        private readonly IAcUserinfoService _acUserinfoService;
         private readonly IMapper _mapper;
 
 
 
-        public CustomerManagementController(ISlCustomerService slCustomerService, ISlOrderService slOrderService, IMapper mapper)
+        public CustomerManagementController(ISlCustomerService slCustomerService, ISlOrderService slOrderService,IPrProductService prProductService,IAcUserinfoService acUserinfoService, IMapper mapper)
         {
             this._slCustomerService = slCustomerService;
             this._slOrderService = slOrderService;
+            this._prProductService = prProductService;
+            this._acUserinfoService = acUserinfoService;
             this._mapper = mapper;
         }
 
@@ -74,7 +78,7 @@ namespace LinXi_ERPApi.Controllers
             }
             if (data > 0)
             {
-                messageModel.Code = 400;
+                messageModel.Code = 200;
                 messageModel.Success = true;
                 messageModel.Msg = "删除成功";
             }
@@ -95,10 +99,10 @@ namespace LinXi_ERPApi.Controllers
         {
             var data = await _slCustomerService.Edit(_mapper.Map<SlCustomer>(slCustomerDtos));
             InfoResult<SlCustomerDtos> messageModel = new InfoResult<SlCustomerDtos>();
-            if (data > 0) { messageModel.Msg = "更新成功"; messageModel.Code = 400; messageModel.Success = true; }
+            if (data > 0) { messageModel.Msg = "更新成功"; messageModel.Code = 200; messageModel.Success = true; }
             else
             {
-                messageModel.Msg = "更新失败"; messageModel.Code = 201; messageModel.Success = false;
+                messageModel.Msg = "更新失败"; messageModel.Code = 400; messageModel.Success = false;
             }
             return Ok(messageModel);
         }
@@ -122,10 +126,10 @@ namespace LinXi_ERPApi.Controllers
             slCustomerDtos.Id = max + 1;
             var data = await _slCustomerService.Add(_mapper.Map<SlCustomer>(slCustomerDtos));
             InfoResult<SlCustomerDtos> messageModel = new InfoResult<SlCustomerDtos>();
-            if (data > 0) { messageModel.Msg = "添加成功！"; messageModel.Code = 400; messageModel.Success = true; }
+            if (data > 0) { messageModel.Msg = "添加成功！"; messageModel.Code = 200; messageModel.Success = true; }
             else
             {
-                messageModel.Msg = "添加失败！"; messageModel.Code = 201; messageModel.Success = false;
+                messageModel.Msg = "添加失败！"; messageModel.Code = 400; messageModel.Success = false;
             }
             return Ok(messageModel);
         }
@@ -201,7 +205,7 @@ namespace LinXi_ERPApi.Controllers
             }
             if (data > 0)
             {
-                messageModel.Code = 400;
+                messageModel.Code = 200;
                 messageModel.Success = true;
                 messageModel.Msg = "删除成功";
             }
@@ -235,24 +239,46 @@ namespace LinXi_ERPApi.Controllers
         /// 添加订单信息
         /// </summary>
         [HttpPost]
-        public async Task<ActionResult<InfoResult<SlCustomerDtos>>> AddCustomerOrder(SlCustomerDtos slCustomerDtos)
+        public async Task<ActionResult<InfoResult<SlOrderDots>>> AddCustomerOrder(SlOrderAddDtos slOrderDots)
         {
-            var cusList = await _slCustomerService.Search(t => true);
+            var cusList = (await _slOrderService.Search(t => true)).ToList();
             int max = 0;
+            int max2 = 0;
             foreach (var item in cusList)
             {
-                if (item.Id > max)
+                if (int.Parse(item.No) > max)
                 {
-                    max = item.Id;
+                    max = int.Parse(item.No);
+                }
+                if(item.Id>max2)
+                {
+                    max2 = item.Id;
+                }
+                if(item.Product.Id== slOrderDots.ProductId)
+                {
+                    slOrderDots.Price = item.Product.Price;//Pirce
                 }
             }
-            slCustomerDtos.Id = max + 1;
-            var data = await _slCustomerService.Add(_mapper.Map<SlCustomer>(slCustomerDtos));
-            InfoResult<SlCustomerDtos> messageModel = new InfoResult<SlCustomerDtos>();
-            if (data > 0) { messageModel.Msg = "添加成功！"; messageModel.Code = 400; messageModel.Success = true; }
+            slOrderDots.No = (max + 1).ToString();//No
+            slOrderDots.Id = max2 + 1;//Id
+            slOrderDots.OrderAmount = slOrderDots.Nums * slOrderDots.Price;//OrderAmount
+            slOrderDots.OperatorTime = DateTime.Now;//OperatorTime
+            slOrderDots.OrderDate = DateTime.Now;//OrderDate
+            slOrderDots.Status = 0;//Status
+            //int userid = (await _acUserinfoService.FindAsyncByName(slOrderDots.UserName)).Id;
+            slOrderDots.HandleId = 1;
+            slOrderDots.OperatorId = 1;
+
+
+            var data = await _slOrderService.Add(_mapper.Map<SlOrder>(slOrderDots));
+            InfoResult<SlOrderDots> messageModel = new InfoResult<SlOrderDots>();
+            if (data > 0) 
+            {
+                messageModel.Msg = "添加成功！"; messageModel.Code = 200; messageModel.Success = true; 
+            }
             else
             {
-                messageModel.Msg = "添加失败！"; messageModel.Code = 201; messageModel.Success = false;
+                messageModel.Msg = "添加失败！"; messageModel.Code = 400; messageModel.Success = false;
             }
             return Ok(messageModel);
         }
@@ -282,6 +308,26 @@ namespace LinXi_ERPApi.Controllers
             return Ok(data2);
 
         }
+
+
+        /// <summary>
+        /// 查询所有产品和所有的客户
+        /// </summary>
+        /// <returns>集合对象</returns>
+        [HttpGet]
+        public async Task<ActionResult<ProductAndCustomerDtos>> SelectAllProductandCustomer()
+        {
+            var prolist =_mapper.Map<IEnumerable<PrProductDtos>> ((await _prProductService.Search(t => true)).ToList());
+            var cuslist = _mapper.Map<IEnumerable<SlCustomerDtos>>((await _slCustomerService.Search(t => true)).ToList());
+            ProductAndCustomerDtos productAndCustomerDtos = new ProductAndCustomerDtos() { Product = prolist, Customer = cuslist };
+            return Ok(productAndCustomerDtos);
+        }
+
+
+
+
+
+
         #endregion
     }
 }
