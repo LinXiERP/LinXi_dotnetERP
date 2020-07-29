@@ -50,6 +50,7 @@ namespace LinXi_Service
         {
             return await iBaseDAL.FindAsyncById(id);
         }
+        
 
         public IQueryable<TEntity> SearchByPage<D>(int pageIndex, int pageSize, out int count, Expression<Func<TEntity, bool>> wherelamda, Expression<Func<TEntity, D>> orderlamda, bool isAsc)
         {

@@ -31,6 +31,7 @@ namespace LinXi_IService
         /// <param name="name"></param>
         /// <returns></returns>
         Task<TEntity> FindAsyncById(int id);
+        
 
         Task<IQueryable<TEntity>> Search(Expression<Func<TEntity, bool>> wherelamda);
 

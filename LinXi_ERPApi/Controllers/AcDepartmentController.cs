@@ -29,19 +29,14 @@ namespace LinXi_ERPApi.Controllers
         private IMapper _IMapper;
         private IHttpContextAccessor _httpContext;
 
-        //private int UserId
-        //{
-        //    get
-        //    {
-        //        return int.Parse(_httpContext.HttpContext.User.Claims.Where(u => u.Type == "UserId").FirstOrDefault().Value);
-        //    }
-        //}
+      
 
         private readonly static object obj = new object();
 
         #endregion 字段
 
         #region 构造函数注入
+        
 
         public AcDepartmentController(
             ILogger<AcDepartmentController> logger,
@@ -65,6 +60,7 @@ namespace LinXi_ERPApi.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
+  
         [HttpGet]
         public async Task<AcDepartment> GetAC(int id)
         {
@@ -77,6 +73,7 @@ namespace LinXi_ERPApi.Controllers
         /// <param name="de">xx类</param>
         /// <returns></returns>
         [HttpPut]
+        [Route("api/[controller]/[action]")]
         public async Task<int> EditAC(AcDepartment de)
         {
             return await _IAcDepartmentService.Edit(de); ;

@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace LinXi_Repository
 {
@@ -11,6 +12,7 @@ namespace LinXi_Repository
     {
         public SlSaleOrderRepository(DbContext db) : base(db)
         {
+
         }
     }
 }
