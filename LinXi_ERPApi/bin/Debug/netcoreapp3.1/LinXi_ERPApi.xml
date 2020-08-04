@@ -109,17 +109,40 @@
             生产管理
             </summary>
         </member>
-        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetPPT(System.Int32)">
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetPPT(System.String,System.String,System.Nullable{System.Int32})">
             <summary>
-            获取单个生产计划的详细信息
+            通过年份月份计划编号筛选计划
             </summary>
-            <param name="id"></param>
+            <param name="year">生产年份</param>
+            <param name="month">生产月份</param>
+            <param name="id">计划编号</param>
             <returns></returns>
         </member>
         <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetPPTs">
             <summary>
             获取全部生产计划信息
             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.EditPPT(LinXi_Model.PrProductTask)">
+            <summary>
+            修改生产计划
+            </summary>
+            <param name="table">一行生产计划的实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.Add(LinXi_Model.PrProductTask)">
+            <summary>
+            添加一行生产计划
+            </summary>
+            <param name="table">一行生产计划的实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.Delete(LinXi_Model.PrProductTask)">
+            <summary>
+            删除一行生产计划
+            </summary>
+            <param name="table">一行生产计划的实体</param>
             <returns></returns>
         </member>
         <member name="T:LinXi_ERPApi.Controllers.PurchasingManagementController">
