@@ -8,6 +8,7 @@ using LinXi_Model;
 using LinXi_Model.DTO.CustomerManageManage.DtoParameters;
 using LinXi_Model.DTO.CustomerManageManage.Dtos;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -27,16 +28,25 @@ namespace LinXi_ERPApi.Controllers
         private readonly ISlOrderService _slOrderService;
         private readonly IPrProductService _prProductService;
         private readonly IAcUserinfoService _acUserinfoService;
+        private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly IMapper _mapper;
+        private int UserId
+        {
+            get
+            {
+                return int.Parse(_httpContextAccessor.HttpContext.User.Claims.Where(u => u.Type == "UserId").FirstOrDefault().Value);
+            }
+        }
 
 
 
-        public CustomerManagementController(ISlCustomerService slCustomerService, ISlOrderService slOrderService,IPrProductService prProductService,IAcUserinfoService acUserinfoService, IMapper mapper)
+        public CustomerManagementController(ISlCustomerService slCustomerService, ISlOrderService slOrderService,IPrProductService prProductService,IAcUserinfoService acUserinfoService, IHttpContextAccessor httpContextAccessor,IMapper mapper)
         {
             this._slCustomerService = slCustomerService;
             this._slOrderService = slOrderService;
             this._prProductService = prProductService;
             this._acUserinfoService = acUserinfoService;
+            this._httpContextAccessor = httpContextAccessor;
             this._mapper = mapper;
         }
 
@@ -199,7 +209,7 @@ namespace LinXi_ERPApi.Controllers
             catch
             {
                 messageModel.Success = false;
-                messageModel.Code = 201;
+                messageModel.Code = 400;
                 messageModel.Msg = "删除失败!";
                 return Ok(messageModel);
             }
@@ -222,14 +232,14 @@ namespace LinXi_ERPApi.Controllers
         /// 修改订单信息
         /// </summary>
         [HttpPut]
-        public async Task<ActionResult<InfoResult<SlCustomerDtos>>> UpdateCustomerOrder(SlCustomerDtos slCustomerDtos)
+        public async Task<ActionResult<InfoResult<SlCustomerDtos>>> UpdateCustomerOrder(SlOrderDots slOrderDots)
         {
-            var data = await _slCustomerService.Edit(_mapper.Map<SlCustomer>(slCustomerDtos));
+            var data = await _slOrderService.Edit(_mapper.Map<SlOrder>(slOrderDots));
             InfoResult<SlCustomerDtos> messageModel = new InfoResult<SlCustomerDtos>();
-            if (data > 0) { messageModel.Msg = "更新成功"; messageModel.Code = 400; messageModel.Success = true; }
+            if (data > 0) { messageModel.Msg = "更新成功"; messageModel.Code = 200; messageModel.Success = true; }
             else
             {
-                messageModel.Msg = "更新失败"; messageModel.Code = 201; messageModel.Success = false;
+                messageModel.Msg = "更新失败"; messageModel.Code = 400; messageModel.Success = false;
             }
             return Ok(messageModel);
         }
@@ -266,8 +276,8 @@ namespace LinXi_ERPApi.Controllers
             slOrderDots.OrderDate = DateTime.Now;//OrderDate
             slOrderDots.Status = 0;//Status
             //int userid = (await _acUserinfoService.FindAsyncByName(slOrderDots.UserName)).Id;
-            slOrderDots.HandleId = 1;
-            slOrderDots.OperatorId = 1;
+            slOrderDots.HandleId = UserId;
+            slOrderDots.OperatorId = UserId;
 
 
             var data = await _slOrderService.Add(_mapper.Map<SlOrder>(slOrderDots));
@@ -329,5 +339,8 @@ namespace LinXi_ERPApi.Controllers
 
 
         #endregion
+
+
+     
     }
 }
