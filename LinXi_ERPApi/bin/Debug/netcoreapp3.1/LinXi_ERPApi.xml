@@ -131,18 +131,84 @@
             <param name="table">一行生产计划的实体</param>
             <returns></returns>
         </member>
-        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.Add(LinXi_Model.PrProductTask)">
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.AddPPT(LinXi_Model.PrProductTask)">
             <summary>
             添加一行生产计划
             </summary>
             <param name="table">一行生产计划的实体</param>
             <returns></returns>
         </member>
-        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.Delete(LinXi_Model.PrProductTask)">
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.DeletePPT(LinXi_Model.PrProductTask)">
             <summary>
             删除一行生产计划
             </summary>
             <param name="table">一行生产计划的实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetSOS">
+            <summary>
+            查询订单表未制定生产计划的订单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetPPS">
+            <summary>
+            查询产品名称
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetPPM(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            通过部门编号计划编号筛选领料单
+            </summary>
+            <param name="departmentid">部门编号</param>
+            <param name="id">领料单编号</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetPPMs">
+            <summary>
+            查询所有领料单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.EditPPM(LinXi_Model.PrProductMaterial)">
+            <summary>
+            修改领料单
+            </summary>
+            <param name="table">一条领料单记录</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.AddPPM(LinXi_Model.PrProductMaterial)">
+            <summary>
+            添加领料单
+            </summary>
+            <param name="table">一条领料单记录</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.DeletePPM(LinXi_Model.PrProductMaterial)">
+            <summary>
+            删除一行领料单
+            </summary>
+            <param name="table">一行领料单的实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetPCs">
+            <summary>
+            查询原材料名称
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetADs">
+            <summary>
+            查询部门
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetASs(System.Int32)">
+            <summary>
+            根据部门编号查询员工
+            </summary>
+            <param name="id">部门ID</param>
             <returns></returns>
         </member>
         <member name="T:LinXi_ERPApi.Controllers.PurchasingManagementController">
