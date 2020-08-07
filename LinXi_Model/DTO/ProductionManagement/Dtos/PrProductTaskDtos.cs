@@ -19,7 +19,7 @@ namespace LinXi_Model.DTO.ProductionManagement.Dtos
         public string Remark { get; set; }
         public int? QmId { get; set; }
         public string ProductName { get; set; }
-        public int? DepartmentName { get; set; }
-        public int? OperatorName { get; set; }
+        public string DepartmentName { get; set; }
+        public string OperatorName { get; set; }
     }
 }

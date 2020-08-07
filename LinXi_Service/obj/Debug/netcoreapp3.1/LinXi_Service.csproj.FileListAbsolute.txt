@@ -1,0 +1,10 @@
+E:\ERP\LinXi_dotnetERP\LinXi_ERPApi\bin\Debug\netcoreapp3.1\LinXi_Service.deps.json
+E:\ERP\LinXi_dotnetERP\LinXi_ERPApi\bin\Debug\netcoreapp3.1\LinXi_Service.dll
+E:\ERP\LinXi_dotnetERP\LinXi_ERPApi\bin\Debug\netcoreapp3.1\LinXi_Service.pdb
+E:\ERP\LinXi_dotnetERP\LinXi_Service\obj\Debug\netcoreapp3.1\LinXi_Service.csprojAssemblyReference.cache
+E:\ERP\LinXi_dotnetERP\LinXi_Service\obj\Debug\netcoreapp3.1\LinXi_Service.AssemblyInfoInputs.cache
+E:\ERP\LinXi_dotnetERP\LinXi_Service\obj\Debug\netcoreapp3.1\LinXi_Service.AssemblyInfo.cs
+E:\ERP\LinXi_dotnetERP\LinXi_Service\obj\Debug\netcoreapp3.1\LinXi_Service.csproj.CoreCompileInputs.cache
+E:\ERP\LinXi_dotnetERP\LinXi_Service\obj\Debug\netcoreapp3.1\LinXi_Service.csproj.CopyComplete
+E:\ERP\LinXi_dotnetERP\LinXi_Service\obj\Debug\netcoreapp3.1\LinXi_Service.dll
+E:\ERP\LinXi_dotnetERP\LinXi_Service\obj\Debug\netcoreapp3.1\LinXi_Service.pdb
