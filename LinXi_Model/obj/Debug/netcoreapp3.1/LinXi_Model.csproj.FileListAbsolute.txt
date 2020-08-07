@@ -1,74 +1,12 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+E:\Net Core\LinXi_ERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.deps.json
+E:\Net Core\LinXi_ERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.runtimeconfig.json
+E:\Net Core\LinXi_ERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.runtimeconfig.dev.json
+E:\Net Core\LinXi_ERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.dll
+E:\Net Core\LinXi_ERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.pdb
+E:\Net Core\LinXi_ERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.AssemblyInfoInputs.cache
+E:\Net Core\LinXi_ERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.AssemblyInfo.cs
+E:\Net Core\LinXi_ERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.csproj.CoreCompileInputs.cache
+E:\Net Core\LinXi_ERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.dll
+E:\Net Core\LinXi_ERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.pdb
+E:\Net Core\LinXi_ERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.genruntimeconfig.cache
 E:\Net Core\LinXi_ERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.csprojAssemblyReference.cache
-=======
-<<<<<<< HEAD
-F:\erp项目\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.deps.json
-F:\erp项目\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.runtimeconfig.json
-F:\erp项目\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.runtimeconfig.dev.json
-F:\erp项目\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.dll
-F:\erp项目\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.pdb
-F:\erp项目\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.csprojAssemblyReference.cache
-F:\erp项目\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.AssemblyInfoInputs.cache
-F:\erp项目\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.AssemblyInfo.cs
-F:\erp项目\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.csproj.CoreCompileInputs.cache
-F:\erp项目\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.dll
-F:\erp项目\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.pdb
-F:\erp项目\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.genruntimeconfig.cache
-=======
-D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.deps.json
-D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.runtimeconfig.json
-D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.runtimeconfig.dev.json
-D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.dll
-D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.pdb
-D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.csprojAssemblyReference.cache
-D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.AssemblyInfoInputs.cache
-D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.AssemblyInfo.cs
-D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.csproj.CoreCompileInputs.cache
-D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.dll
-D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.pdb
-D:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.genruntimeconfig.cache
->>>>>>> bd0b8187592eefb7d754504331236d174997267b
-=======
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.deps.json
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.runtimeconfig.json
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.runtimeconfig.dev.json
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.dll
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.pdb
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.AssemblyInfoInputs.cache
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.AssemblyInfo.cs
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.csproj.CoreCompileInputs.cache
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.dll
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.pdb
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.genruntimeconfig.cache
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.csprojAssemblyReference.cache
-G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.deps.json
-G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.runtimeconfig.json
-G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.runtimeconfig.dev.json
-G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.dll
-G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.pdb
-G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.AssemblyInfoInputs.cache
-G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.AssemblyInfo.cs
-G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.csproj.CoreCompileInputs.cache
-G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.dll
-G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.pdb
-G:\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.genruntimeconfig.cache
-<<<<<<< HEAD
-D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.deps.json
-D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.runtimeconfig.json
-D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.runtimeconfig.dev.json
-D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.dll
-D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\bin\Debug\netcoreapp3.1\LinXi_Model.pdb
-D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.csprojAssemblyReference.cache
-D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.AssemblyInfoInputs.cache
-D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.AssemblyInfo.cs
-D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.csproj.CoreCompileInputs.cache
-D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.dll
-D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.pdb
-D:\桌面文件及其他\LinXi_dotnetERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.genruntimeconfig.cache
->>>>>>> 0770a63f1e752e08f4fae67ccd77c6bcfdbfa913
->>>>>>> 84b96621e1dcbef075f59588225baa386b346cc2
-=======
->>>>>>> 1761ebd4e8dabea3ede0597dbc123806c6959125
->>>>>>> abed4671f2eb7497129dd5d315359252f412e37d
->>>>>>> bd0b8187592eefb7d754504331236d174997267b

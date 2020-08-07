@@ -4562,6 +4562,7 @@
       "path": "system.dynamic.runtime/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7983,19 +7984,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\敢敢\\.nuget\\packages\\": {}
+    "C:\\Users\\cheny\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj",
+      "projectUniqueName": "E:\\Net Core\\LinXi_ERP\\LinXi_IRepository\\LinXi_IRepository.csproj",
       "projectName": "LinXi_IRepository",
-      "projectPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj",
-      "packagesPath": "C:\\Users\\敢敢\\.nuget\\packages\\",
-      "outputPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXi_IRepository\\obj\\",
+      "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXi_IRepository\\LinXi_IRepository.csproj",
+      "packagesPath": "C:\\Users\\cheny\\.nuget\\packages\\",
+      "outputPath": "E:\\Net Core\\LinXi_ERP\\LinXi_IRepository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\敢敢\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cheny\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8008,8 +8009,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
-              "projectPath": "D:\\LinXi_dotnetERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
+            "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj": {
+              "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj"
             }
           }
         }
