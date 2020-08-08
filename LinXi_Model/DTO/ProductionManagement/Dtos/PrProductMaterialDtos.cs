@@ -21,6 +21,6 @@ namespace LinXi_Model.DTO.ProductionManagement.Dtos
         public string DepartmentName { get; set; }
         public string StaffName { get; set; }
         public string CommodityName { get; set; }
-        public string OperatorName { get; set; }
+        public string CommoditySpec { get; set; }
     }
 }
