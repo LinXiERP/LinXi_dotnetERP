@@ -1,11 +1,16 @@
 
 
+<<<<<<< HEAD
 【日志时间】：2020-08-08 10:12:03,657  【线程ID】：7    
+=======
+【日志时间】：2020-08-08 18:41:43,696  【线程ID】：11    
+>>>>>>> f2e9737c10a8529af8901a1b49da959f38f0bc49
 【日志级别】：WARN   
 【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
 【日志内容】：Failed to determine the https port for redirect. 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-08-08 10:12:14,744  【线程ID】：11    
 【日志级别】：ERROR  
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
@@ -2104,6 +2109,22 @@ System.InvalidOperationException: The LINQ expression 'DbSet<PuOrder>
    at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
    at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
    at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+=======
+【日志时间】：2020-08-08 18:44:25,221  【线程ID】：13    
+【日志级别】：ERROR  
+【日志对象】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware  
+【日志内容】：An unhandled exception has occurred while executing the request. 
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+LinXi_ERPApi.Controllers.ProductionManagementController.GetPPS (LinXi_ERPApi)
+LinXi_ERPApi.Controllers.ProductionManagementController.GetPPs (LinXi_ERPApi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+>>>>>>> f2e9737c10a8529af8901a1b49da959f38f0bc49
    at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
    at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
    at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
@@ -2111,6 +2132,7 @@ System.InvalidOperationException: The LINQ expression 'DbSet<PuOrder>
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
 
 
+<<<<<<< HEAD
 【日志时间】：2020-08-08 21:02:43,609  【线程ID】：15    
 【日志级别】：ERROR  
 【日志对象】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware  
@@ -2172,6 +2194,22 @@ System.InvalidOperationException: The LINQ expression 'DbSet<PuOrder>
    at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
    at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
    at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+=======
+【日志时间】：2020-08-08 18:46:36,697  【线程ID】：18    
+【日志级别】：ERROR  
+【日志对象】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware  
+【日志内容】：An unhandled exception has occurred while executing the request. 
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+LinXi_ERPApi.Controllers.ProductionManagementController.GetPPS (LinXi_ERPApi)
+LinXi_ERPApi.Controllers.ProductionManagementController.GetPPs (LinXi_ERPApi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+>>>>>>> f2e9737c10a8529af8901a1b49da959f38f0bc49
    at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
    at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
    at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
@@ -2179,6 +2217,7 @@ System.InvalidOperationException: The LINQ expression 'DbSet<PuOrder>
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
 
 
+<<<<<<< HEAD
 【日志时间】：2020-08-08 21:12:09,161  【线程ID】：4    
 【日志级别】：WARN   
 【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
@@ -2421,11 +2460,15 @@ System.InvalidOperationException: You must either set Authority or Introspection
 
 
 【日志时间】：2020-08-08 22:07:47,493  【线程ID】：65    
+=======
+【日志时间】：2020-08-08 18:47:46,098  【线程ID】：10    
+>>>>>>> f2e9737c10a8529af8901a1b49da959f38f0bc49
 【日志级别】：INFO   
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
 【日志内容】：AuthenticationScheme: Bearer was challenged. 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-08-08 22:09:10,531  【线程ID】：67    
 【日志级别】：ERROR  
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
@@ -2481,11 +2524,15 @@ System.InvalidOperationException: You must either set Authority or Introspection
 
 
 【日志时间】：2020-08-08 22:25:24,024  【线程ID】：143    
+=======
+【日志时间】：2020-08-08 18:47:48,896  【线程ID】：10    
+>>>>>>> f2e9737c10a8529af8901a1b49da959f38f0bc49
 【日志级别】：INFO   
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
 【日志内容】：AuthenticationScheme: Bearer was challenged. 
 
 
+<<<<<<< HEAD
 【日志时间】：2020-08-08 22:25:26,003  【线程ID】：141    
 【日志级别】：ERROR  
 【日志对象】：IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler  
@@ -2535,6 +2582,9 @@ System.InvalidOperationException: You must either set Authority or Introspection
 
 
 【日志时间】：2020-08-08 22:28:16,836  【线程ID】：9    
+=======
+【日志时间】：2020-08-08 18:53:12,598  【线程ID】：8    
+>>>>>>> f2e9737c10a8529af8901a1b49da959f38f0bc49
 【日志级别】：WARN   
 【日志对象】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware  
 【日志内容】：Failed to determine the https port for redirect. 

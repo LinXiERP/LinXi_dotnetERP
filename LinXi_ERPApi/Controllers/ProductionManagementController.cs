@@ -31,6 +31,7 @@ namespace LinXi_ERPApi.Controllers
         private IPrProductService _IPrProductService;
         private IAcDepartmentService _IAcDepartmentService;
         private IPuCommodityServicce _IPuCommodityServicce;
+        private IIcProductRecordService _IIcProductRecordService;
         private IPrProductMaterialService _IPrProductMaterialService;
         private IAcStaffService _IAcStaffService;
         private ISlOrderService _ISlOrderService;
@@ -52,6 +53,7 @@ namespace LinXi_ERPApi.Controllers
             IPrProductService IPrProductService,
             IAcDepartmentService IAcDepartmentService,
             IPuCommodityServicce IPuCommodityServicce,
+            IIcProductRecordService IIcProductRecordService,
             IPrProductMaterialService IPrProductMaterialService,
             IAcStaffService IAcStaffService,
             IServiceProvider service,
@@ -63,6 +65,7 @@ namespace LinXi_ERPApi.Controllers
             _logger = logger;
             _IPrProductTaskService = IPrProductTaskService;
             _IPrProductService = IPrProductService;
+            _IIcProductRecordService = IIcProductRecordService;
             _IAcDepartmentService = IAcDepartmentService;
             _ISlOrderService = ISlOrderService;
             _IPuCommodityServicce = IPuCommodityServicce;
@@ -90,6 +93,7 @@ namespace LinXi_ERPApi.Controllers
             foreach (var item in data)
             {
                 item.ProductName = (await _IPrProductService.FindAsyncById((int)item.ProductId)).Name;
+                item.ProductUnit = (await _IPrProductService.FindAsyncById((int)item.ProductId)).Unit;
                 item.DepartmentName = (await _IAcDepartmentService.FindAsyncById((int)item.DepartmentId)).Name;
                 item.OperatorName = (await _IAcStaffService.FindAsyncById((int)item.OperatorId)).Name;
             }
@@ -118,6 +122,7 @@ namespace LinXi_ERPApi.Controllers
             foreach (var item in data)
             {
                 item.ProductName = (await _IPrProductService.FindAsyncById((int)item.ProductId)).Name;
+                item.ProductUnit = (await _IPrProductService.FindAsyncById((int)item.ProductId)).Unit;
                 item.DepartmentName = (await _IAcDepartmentService.FindAsyncById((int)item.DepartmentId)).Name;
                 item.OperatorName = (await _IAcStaffService.FindAsyncById((int)item.OperatorId)).Name;
             }
@@ -167,7 +172,7 @@ namespace LinXi_ERPApi.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<PrProduct>>> GetPPS()
+        public async Task<ActionResult<IEnumerable<PrProduct>>> GetPPs()
         {
             return (await _IPrProductService.Search(t=>true)).ToList();
         }
@@ -188,8 +193,8 @@ namespace LinXi_ERPApi.Controllers
             {
                 item.StaffName = (await _IAcStaffService.FindAsyncById((int)item.StaffId)).Name;
                 item.DepartmentName = (await _IAcDepartmentService.FindAsyncById((int)item.DepartmentId)).Name;
-                item.OperatorName = (await _IAcStaffService.FindAsyncById((int)item.OperatorId)).Name;
                 item.CommodityName = (await _IPuCommodityServicce.FindAsyncById((int)item.CommodityId)).Name;
+                item.CommoditySpec= (await _IPuCommodityServicce.FindAsyncById((int)item.CommodityId)).Spec;
             }
             if (departmentid != null)
             {
@@ -213,8 +218,8 @@ namespace LinXi_ERPApi.Controllers
             {
                 item.StaffName = (await _IAcStaffService.FindAsyncById((int)item.StaffId)).Name;
                 item.DepartmentName = (await _IAcDepartmentService.FindAsyncById((int)item.DepartmentId)).Name;
-                item.OperatorName = (await _IAcStaffService.FindAsyncById((int)item.OperatorId)).Name;
                 item.CommodityName = (await _IPuCommodityServicce.FindAsyncById((int)item.CommodityId)).Name;
+                item.CommoditySpec = (await _IPuCommodityServicce.FindAsyncById((int)item.CommodityId)).Spec;
             }
             return data;
         }
@@ -277,5 +282,85 @@ namespace LinXi_ERPApi.Controllers
             return (await _IAcStaffService.Search(t => t.DepartmentId==id)).ToList();
         }
         #endregion 领料管理模块
+
+        #region 产品生产模块
+
+        /// <summary>
+        /// 通过产品编号生产状态状态生产单编号筛选生产单
+        /// </summary>
+        /// <param name="productid">产品编号</param>
+        /// <param name="status">生产状态</param>
+        /// <param name="id">生产单编号</param>
+        /// <returns></returns>
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<IcProductRecordDtos>>> GetIPR(int? productid,int? status, int? id)
+        {
+            var data = _IMapper.Map<IEnumerable<IcProductRecordDtos>>(await _IIcProductRecordService.Search(t => true)).ToList();
+            foreach (var item in data)
+            {
+                item.ProductName = (await _IPrProductService.FindAsyncById((int)item.ProductId)).Name;
+                item.ProductUnit = (await _IPrProductService.FindAsyncById((int)item.ProductId)).Unit;
+            }
+            if (productid != null)
+            {
+                data = data.Where(d => d.ProductId == productid).ToList();
+            }
+            if (status != null)
+            {
+                data = data.Where(d => d.Status == status).ToList();
+            }
+            if (id != null)
+            {
+                data = data.Where(d => d.Id == id).ToList();
+            }
+            return data;
+        }
+        /// <summary>
+        /// 查询所有生产单
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<IcProductRecordDtos>>> GetIPRs()
+        {
+            var data = _IMapper.Map<IEnumerable<IcProductRecordDtos>>(await _IIcProductRecordService.Search(t => true)).ToList();
+            foreach (var item in data)
+            {
+                item.ProductName = (await _IPrProductService.FindAsyncById((int)item.ProductId)).Name;
+                item.ProductUnit = (await _IPrProductService.FindAsyncById((int)item.ProductId)).Unit;
+            }
+            return data;
+        }
+        /// <summary>
+        /// 修改一条生产表的数据
+        /// </summary>
+        /// <param name="table">一行生产单的实体</param>
+        /// <returns></returns>
+        [HttpPut]
+        public async Task<int> EditIPRs(IcProductRecord table)
+        {
+            return await _IIcProductRecordService.Edit(table);
+        }
+        /// <summary>
+        /// 添加一条生产表的数据
+        /// </summary>
+        /// <param name="table">一行生产单的实体</param>
+        /// <returns></returns>
+        [HttpPost]
+        public async Task<int> AddIPR(IcProductRecord table)
+        {
+            return await _IIcProductRecordService.Add(table);
+        }
+        /// <summary>
+        /// 删除一条生产表的数据
+        /// </summary>
+        /// <param name="table">一行生产单的实体</param>
+        /// <returns></returns>
+        [HttpDelete]
+        public async Task<int> DeleteIPR(IcProductRecord table)
+        {
+            return await _IIcProductRecordService.Delete(table);
+        }
+        
+        #endregion 产品生产模块
     }
 }
