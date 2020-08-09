@@ -31,12 +31,11 @@ namespace LinXi_IService
         /// <param name="name"></param>
         /// <returns></returns>
         Task<TEntity> FindAsyncById(int id);
-        
 
         Task<IQueryable<TEntity>> Search(Expression<Func<TEntity, bool>> wherelamda);
 
-        IQueryable<TEntity> SearchByPage<TOrder>(int pageIndex, int pageSize, out int count, Expression<Func<TEntity, bool>> wherelamda, Expression<Func<TEntity, TOrder>> orderlamda, bool isAsc);
+        IQueryable<TEntity> SearchByPage<TOrder>(int pageSize, int pageIndex, out int count, Expression<Func<TEntity, bool>> wherelamda, Expression<Func<TEntity, TOrder>> orderlamda, bool isAsc);
 
-        Task<IQueryable<TEntity>> SearchByPageAsync<TOrder>(int pageIndex, int pageSize, Expression<Func<TEntity, bool>> wherelamda, Func<TEntity, TOrder> orderlamda, bool isAsc);
+        Task<IQueryable<TEntity>> SearchByPageAsync<TOrder>(int pageSize, int pageIndex, Expression<Func<TEntity, bool>> wherelamda, Func<TEntity, TOrder> orderlamda, bool isAsc);
     }
 }

@@ -380,6 +380,29 @@
             采购管理
             </summary>
         </member>
+        <member name="P:LinXi_ERPApi.Controllers.PurchasingManagementController.Operator_id">
+            <summary>
+            操作人ID
+            </summary>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.PurchasingManagementController.PurchaseInfo(System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            采购单信息（pu_order）
+            </summary>
+            <returns>采购单集合</returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.PurchasingManagementController.PurchaseInfoEdit(LinXi_Model.DTO.CommodityInventory.Dtos.PuOrderDtos)">
+            <summary>
+            修改采购数量/采购方式
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.PurchasingManagementController.AllCategoryName">
+            <summary>
+            获取所有商品类别
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:LinXi_ERPApi.Controllers.SaleManagementController">
             <summary>
             销售管理
