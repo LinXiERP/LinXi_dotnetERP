@@ -20,6 +20,7 @@ namespace LinXi_ERPApi.Controllers
     [Route("api/[controller]/[action]")]
     [ApiController]
     [AllowAnonymous]
+    [Authorize]
 
     public class CustomerManagementController : ControllerBase
     {
