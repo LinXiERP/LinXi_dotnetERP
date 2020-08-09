@@ -20,7 +20,6 @@ namespace LinXi_Common
         public void OnAuthorization(AuthorizationFilterContext context)
         {
             //context.Filters.Any(it => it is IAllowAnonymousFilter)
-            Console.WriteLine("11");
             var cad = (ControllerActionDescriptor)context.ActionDescriptor;
             bool allowanyone = cad.ControllerTypeInfo.GetCustomAttributes(typeof(IAllowAnonymous), true).Any()
            || cad.MethodInfo.GetCustomAttributes(typeof(IAllowAnonymous), true).Any();

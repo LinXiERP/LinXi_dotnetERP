@@ -53,26 +53,25 @@ namespace LinXi_Repository
         {
             return await dbContext.Set<TEntity>().FindAsync(id);
         }
-       
 
         public async Task<TEntity> FindAsyncByName(string name)
         {
             return await dbContext.Set<TEntity>().FindAsync(name);
         }
 
-        public IQueryable<TEntity> SearchByPage<TOrder>(int pageSize, int pageCount, out int count, Expression<Func<TEntity, bool>> wherelamda, Expression<Func<TEntity, TOrder>> orderlamda, bool isAsc)
+        public IQueryable<TEntity> SearchByPage<TOrder>(int pageSize, int pageIndex, out int count, Expression<Func<TEntity, bool>> wherelamda, Expression<Func<TEntity, TOrder>> orderlamda, bool isAsc)
         {
             var TSouce = dbContext.Set<TEntity>().Where(wherelamda);
             count = TSouce.Count();
-            return isAsc ? TSouce.OrderBy(orderlamda).Skip((pageCount - 1) * pageSize).Take(pageCount) :
-                                  TSouce.OrderByDescending(orderlamda).Skip((pageCount - 1) * pageSize).Take(pageCount);
+            return isAsc ? TSouce.OrderBy(orderlamda).Skip((pageIndex - 1) * pageSize).Take(pageSize) :
+                                  TSouce.OrderByDescending(orderlamda).Skip((pageIndex - 1) * pageSize).Take(pageSize);
         }
 
         public async Task<IQueryable<TEntity>> SearchByPageAsync<TOrder>(int pageSize, int pageCount, Expression<Func<TEntity, bool>> wherelamda, Func<TEntity, TOrder> orderlamda, bool isAsc)
         {
             var TSouce = await Search(wherelamda);
-            return isAsc ? TSouce.OrderBy(orderlamda).Skip((pageCount - 1) * pageSize).Take(pageCount).AsQueryable() :
-                                  TSouce.OrderByDescending(orderlamda).Skip((pageCount - 1) * pageSize).Take(pageCount).AsQueryable();
+            return isAsc ? TSouce.OrderBy(orderlamda).Skip((pageCount - 1) * pageSize).Take(pageSize).AsQueryable() :
+                                  TSouce.OrderByDescending(orderlamda).Skip((pageCount - 1) * pageSize).Take(pageSize).AsQueryable();
         }
 
         public async Task<int> SaveChanges()
