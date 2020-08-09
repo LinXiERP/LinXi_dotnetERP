@@ -89,7 +89,7 @@ namespace LinXi_ERPApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<PrProductTaskDtos>>> GetPPT(string year,string month,int? id)
         {
-            var data = _IMapper.Map<IEnumerable<PrProductTaskDtos>>(await _IPrProductTaskService.Search(t => true)).ToList();
+            var data = _IMapper.Map<IEnumerable<PrProductTaskDtos>>((await _IPrProductTaskService.Search(t => true)).ToList());
             foreach (var item in data)
             {
                 item.ProductName = (await _IPrProductService.FindAsyncById((int)item.ProductId)).Name;
@@ -97,11 +97,11 @@ namespace LinXi_ERPApi.Controllers
                 item.DepartmentName = (await _IAcDepartmentService.FindAsyncById((int)item.DepartmentId)).Name;
                 item.OperatorName = (await _IAcStaffService.FindAsyncById((int)item.OperatorId)).Name;
             }
-            if (year!="")
+            if (year!=""&& year !=null)
             {
                 data = data.Where(d => ((DateTime)d.ProductDate).ToString("yyyy") == year).ToList();
             }
-            if (month != "")
+            if (month != ""&&month!=null)
             {
                 data = data.Where(d => ((DateTime)d.ProductDate).ToString("MM") == month).ToList();
             }
@@ -109,7 +109,7 @@ namespace LinXi_ERPApi.Controllers
             {
                 data = data.Where(d =>d.Id==id).ToList();
             }
-            return data;
+            return data.ToList();
         }
         /// <summary>
         /// 获取全部生产计划信息
@@ -118,7 +118,7 @@ namespace LinXi_ERPApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<PrProductTaskDtos>>> GetPPTs()
         {
-            var data = _IMapper.Map<IEnumerable<PrProductTaskDtos>>(await _IPrProductTaskService.Search(t => true)).ToList();
+            var data = _IMapper.Map<IEnumerable<PrProductTaskDtos>>((await _IPrProductTaskService.Search(t => true)).ToList());
             foreach (var item in data)
             {
                 item.ProductName = (await _IPrProductService.FindAsyncById((int)item.ProductId)).Name;
@@ -126,7 +126,7 @@ namespace LinXi_ERPApi.Controllers
                 item.DepartmentName = (await _IAcDepartmentService.FindAsyncById((int)item.DepartmentId)).Name;
                 item.OperatorName = (await _IAcStaffService.FindAsyncById((int)item.OperatorId)).Name;
             }
-            return data;
+            return data.ToList();
         }
         /// <summary>
         /// 修改生产计划
@@ -188,7 +188,7 @@ namespace LinXi_ERPApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<PrProductMaterialDtos>>> GetPPM(int? departmentid, int? id)
         {
-            var data = _IMapper.Map<IEnumerable<PrProductMaterialDtos>>(await _IPrProductTaskService.Search(t => true)).ToList();
+            var data = _IMapper.Map<IEnumerable<PrProductMaterialDtos>>((await _IPrProductTaskService.Search(t => true)).ToList());
             foreach (var item in data)
             {
                 item.StaffName = (await _IAcStaffService.FindAsyncById((int)item.StaffId)).Name;
@@ -204,7 +204,7 @@ namespace LinXi_ERPApi.Controllers
             {
                 data = data.Where(d => d.Id == id).ToList();
             }
-            return data;
+            return data.ToList();
         }
         /// <summary>
         /// 查询所有领料单
@@ -213,7 +213,7 @@ namespace LinXi_ERPApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<PrProductMaterialDtos>>> GetPPMs()
         {
-            var data = _IMapper.Map<IEnumerable<PrProductMaterialDtos>>(await _IPrProductTaskService.Search(t => true)).ToList();
+            var data = _IMapper.Map<IEnumerable<PrProductMaterialDtos>>((await _IPrProductTaskService.Search(t => true)).ToList());
             foreach (var item in data)
             {
                 item.StaffName = (await _IAcStaffService.FindAsyncById((int)item.StaffId)).Name;
@@ -221,7 +221,7 @@ namespace LinXi_ERPApi.Controllers
                 item.CommodityName = (await _IPuCommodityServicce.FindAsyncById((int)item.CommodityId)).Name;
                 item.CommoditySpec = (await _IPuCommodityServicce.FindAsyncById((int)item.CommodityId)).Spec;
             }
-            return data;
+            return data.ToList();
         }
         /// <summary>
         /// 修改领料单
@@ -295,7 +295,7 @@ namespace LinXi_ERPApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<IcProductRecordDtos>>> GetIPR(int? productid,int? status, int? id)
         {
-            var data = _IMapper.Map<IEnumerable<IcProductRecordDtos>>(await _IIcProductRecordService.Search(t => true)).ToList();
+            var data = _IMapper.Map<IEnumerable<IcProductRecordDtos>>((await _IIcProductRecordService.Search(t => true)).ToList());
             foreach (var item in data)
             {
                 item.ProductName = (await _IPrProductService.FindAsyncById((int)item.ProductId)).Name;
@@ -313,7 +313,7 @@ namespace LinXi_ERPApi.Controllers
             {
                 data = data.Where(d => d.Id == id).ToList();
             }
-            return data;
+            return data.ToList();
         }
         /// <summary>
         /// 查询所有生产单
@@ -322,13 +322,13 @@ namespace LinXi_ERPApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<IcProductRecordDtos>>> GetIPRs()
         {
-            var data = _IMapper.Map<IEnumerable<IcProductRecordDtos>>(await _IIcProductRecordService.Search(t => true)).ToList();
+            var data = _IMapper.Map<IEnumerable<IcProductRecordDtos>>((await _IIcProductRecordService.Search(t => true)).ToList());
             foreach (var item in data)
             {
                 item.ProductName = (await _IPrProductService.FindAsyncById((int)item.ProductId)).Name;
                 item.ProductUnit = (await _IPrProductService.FindAsyncById((int)item.ProductId)).Unit;
             }
-            return data;
+            return data.ToList();
         }
         /// <summary>
         /// 修改一条生产表的数据
