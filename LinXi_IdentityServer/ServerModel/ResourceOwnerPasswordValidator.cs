@@ -19,7 +19,7 @@ namespace LinXi_IdentityServer.ServerModel
         public async Task ValidateAsync(ResourceOwnerPasswordValidationContext context)
         {
             LinXi_Model.db_erpContext db = new LinXi_Model.db_erpContext();
-            //根据context.UserName和context.Password与数据库的数据做校验，判断是否合法
+
             var user = db.AcUserinfo.FirstOrDefault(u => u.Account == context.UserName && context.Password == u.Pwd);
             if (user != null)
             {
@@ -28,7 +28,12 @@ namespace LinXi_IdentityServer.ServerModel
                 authenticationMethod: "custom",
                 claims: new Claim[]
                 {
-                         new Claim("UserId",user.Id.ToString() )
+                          //账号id
+                          new Claim("account_id",user.Id.ToString()),
+                          //操作人id
+                         new Claim("operator_id",user.StaffId.ToString()),
+                          //操作人名字
+                          new Claim("operator_name",user.Staff.Name.ToString())
                 });
             }
             else

@@ -17,6 +17,9 @@ namespace LinXi_Model.DTO.CustomerManageManage.Profiles
                 .ForMember(destinationMember: dest => dest.ProductName,
                 memberOptions: opt => opt.MapFrom(mapExpression: src => $"{src.Product.Name}"));
 
+            CreateMap<SlOrderDots, SlOrder>();
+            CreateMap<SlOrderAddDtos, SlOrder>();
+
         }
     }
 }

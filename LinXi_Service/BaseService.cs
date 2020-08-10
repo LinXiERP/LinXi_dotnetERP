@@ -50,16 +50,15 @@ namespace LinXi_Service
         {
             return await iBaseDAL.FindAsyncById(id);
         }
-        
 
-        public IQueryable<TEntity> SearchByPage<D>(int pageIndex, int pageSize, out int count, Expression<Func<TEntity, bool>> wherelamda, Expression<Func<TEntity, D>> orderlamda, bool isAsc)
+        public IQueryable<TEntity> SearchByPage<D>(int pageSize, int pageIndex, out int count, Expression<Func<TEntity, bool>> wherelamda, Expression<Func<TEntity, D>> orderlamda, bool isAsc)
         {
-            return iBaseDAL.SearchByPage(pageIndex, pageSize, out count, wherelamda, orderlamda, isAsc);
+            return iBaseDAL.SearchByPage(pageSize, pageIndex, out count, wherelamda, orderlamda, isAsc);
         }
 
-        public async Task<IQueryable<TEntity>> SearchByPageAsync<D>(int pageIndex, int pageSize, Expression<Func<TEntity, bool>> wherelamda, Func<TEntity, D> orderlamda, bool isAsc)
+        public async Task<IQueryable<TEntity>> SearchByPageAsync<D>(int pageSize, int pageIndex, Expression<Func<TEntity, bool>> wherelamda, Func<TEntity, D> orderlamda, bool isAsc)
         {
-            return await iBaseDAL.SearchByPageAsync(pageIndex, pageSize, wherelamda, orderlamda, isAsc);
+            return await iBaseDAL.SearchByPageAsync(pageSize, pageIndex, wherelamda, orderlamda, isAsc);
         }
 
         private async Task<int> SaveChanges()

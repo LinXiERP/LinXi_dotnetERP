@@ -16,6 +16,134 @@
             <param name="de">xx类</param>
             <returns></returns>
         </member>
+        <member name="T:LinXi_ERPApi.Controllers.BasicInformationManagementController">
+            <summary>
+            基础信息管理
+            </summary>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.BasicInformationManagementController.GetPS(System.String,System.String)">
+            <summary>
+            根据供应商名称联系人姓名筛选供应商
+            </summary>
+            <param name="name">供应商名称</param>
+            <param name="linkman">联系人姓名</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.BasicInformationManagementController.GetPSs">
+            <summary>
+            查找所有供应商信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.BasicInformationManagementController.GetPuS(System.Int32)">
+            <summary>
+            根据供应商编号查找供应商
+            </summary>
+            <param name="id">供应商编号</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.BasicInformationManagementController.EditPS(LinXi_Model.PuSupplier)">
+            <summary>
+            修改一条供应商信息
+            </summary>
+            <param name="table">一条供应商信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.BasicInformationManagementController.AddPS(LinXi_Model.PuSupplier)">
+            <summary>
+            添加一条供应商信息
+            </summary>
+            <param name="table">一条供应商信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.BasicInformationManagementController.DeletePS(LinXi_Model.PuSupplier)">
+            <summary>
+            删除一条供应商信息
+            </summary>
+            <param name="table">一条供应商信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.BasicInformationManagementController.GetPC(System.String,System.Nullable{System.Int32})">
+            <summary>
+            通过原材料名原材料类型编号筛选原材料
+            </summary>
+            <param name="name">原材料名</param>
+            <param name="id">原材料类型编号</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.BasicInformationManagementController.GetPCs">
+            <summary>
+            查找所有原材料
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.BasicInformationManagementController.EditPC(LinXi_Model.PuCommodity)">
+            <summary>
+            修改一条原材料信息
+            </summary>
+            <param name="table">一条原材料信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.BasicInformationManagementController.AddPC(LinXi_Model.PuCommodity)">
+            <summary>
+            添加一条原材料信息
+            </summary>
+            <param name="table">一条原材料信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.BasicInformationManagementController.DeletePC(LinXi_Model.PuCommodity)">
+            <summary>
+            删除一条原材料信息
+            </summary>
+            <param name="table">一条原材料信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.BasicInformationManagementController.GetPCCs">
+            <summary>
+            查找所有原材料类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.BasicInformationManagementController.GetPP(System.String)">
+            <summary>
+            通过产品名称筛选产品
+            </summary>
+            <param name="name">产品名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.BasicInformationManagementController.GetPPs">
+            <summary>
+            查找全部产品
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.BasicInformationManagementController.EditPP(LinXi_Model.PrProduct)">
+            <summary>
+            修改一条产品信息
+            </summary>
+            <param name="table">一条产品信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.BasicInformationManagementController.AddPP(LinXi_Model.PrProduct)">
+            <summary>
+            添加一条产品信息
+            </summary>
+            <param name="table">一条产品信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.BasicInformationManagementController.DeletePP(LinXi_Model.PrProduct)">
+            <summary>
+            删除一条产品信息
+            </summary>
+            <param name="table">一条产品信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.BasicInformationManagementController.GetPPCs">
+            <summary>
+            查找所有产品类型
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:LinXi_ERPApi.Controllers.CommodityInventoryController">
             <summary>
             商品库存管理
@@ -75,20 +203,26 @@
             删除订单
             </summary>
         </member>
-        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.UpdateCustomerOrder(LinXi_Model.DTO.CustomerManageManage.Dtos.SlCustomerDtos)">
+        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.UpdateCustomerOrder(LinXi_Model.DTO.CustomerManageManage.Dtos.SlOrderDots)">
             <summary>
             修改订单信息
             </summary>
         </member>
-        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.AddCustomerOrder(LinXi_Model.DTO.CustomerManageManage.Dtos.SlCustomerDtos)">
+        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.AddCustomerOrder(LinXi_Model.DTO.CustomerManageManage.Dtos.SlOrderAddDtos)">
             <summary>
             添加订单信息
             </summary>
         </member>
-        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.SelectCustomerOrder(LinXi_Model.DTO.CustomerManageManage.DtoParameters.CustomerDtosParameters)">
+        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.SelectCustomerOrder(LinXi_Model.DTO.CustomerManageManage.DtoParameters.CustomerOrderDtosParameters)">
             <summary>
             过滤搜索订单信息
             </summary>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.SelectAllProductandCustomer">
+            <summary>
+            查询所有产品和所有的客户
+            </summary>
+            <returns>集合对象</returns>
         </member>
         <member name="M:LinXi_ERPApi.Controllers.LoginController.LoginCheck(LinXi_Model.DTO.LoginDTO)">
             <summary>
@@ -101,11 +235,13 @@
             生产管理
             </summary>
         </member>
-        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetPPT(System.Int32)">
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetPPT(System.String,System.String,System.Nullable{System.Int32})">
             <summary>
-            获取单个生产计划的详细信息
+            通过年份月份计划编号筛选计划
             </summary>
-            <param name="id"></param>
+            <param name="year">生产年份</param>
+            <param name="month">生产月份</param>
+            <param name="id">计划编号</param>
             <returns></returns>
         </member>
         <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetPPTs">
@@ -114,10 +250,202 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.EditPPT(LinXi_Model.PrProductTask)">
+            <summary>
+            修改生产计划
+            </summary>
+            <param name="table">一行生产计划的实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.AddPPT(LinXi_Model.PrProductTask)">
+            <summary>
+            添加一行生产计划
+            </summary>
+            <param name="table">一行生产计划的实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.DeletePPT(LinXi_Model.PrProductTask)">
+            <summary>
+            删除一行生产计划
+            </summary>
+            <param name="table">一行生产计划的实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetSOS">
+            <summary>
+            查询订单表未制定生产计划的订单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetPPs">
+            <summary>
+            查询产品名称
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetPPM(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            通过部门编号计划编号筛选领料单
+            </summary>
+            <param name="departmentid">部门编号</param>
+            <param name="id">领料单编号</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetPPMs">
+            <summary>
+            查询所有领料单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.EditPPM(LinXi_Model.PrProductMaterial)">
+            <summary>
+            修改领料单
+            </summary>
+            <param name="table">一条领料单记录</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.AddPPM(LinXi_Model.PrProductMaterial)">
+            <summary>
+            添加领料单
+            </summary>
+            <param name="table">一条领料单记录</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.DeletePPM(LinXi_Model.PrProductMaterial)">
+            <summary>
+            删除一行领料单
+            </summary>
+            <param name="table">一行领料单的实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetPCs">
+            <summary>
+            查询原材料名称
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetADs">
+            <summary>
+            查询部门
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetASs(System.Int32)">
+            <summary>
+            根据部门编号查询员工
+            </summary>
+            <param name="id">部门ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetIPR(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            通过产品编号生产状态状态生产单编号筛选生产单
+            </summary>
+            <param name="productid">产品编号</param>
+            <param name="status">生产状态</param>
+            <param name="id">生产单编号</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetIPRs">
+            <summary>
+            查询所有生产单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.EditIPRs(LinXi_Model.IcProductRecord)">
+            <summary>
+            修改一条生产表的数据
+            </summary>
+            <param name="table">一行生产单的实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.AddIPR(LinXi_Model.IcProductRecord)">
+            <summary>
+            添加一条生产表的数据
+            </summary>
+            <param name="table">一行生产单的实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.DeleteIPR(LinXi_Model.IcProductRecord)">
+            <summary>
+            删除一条生产表的数据
+            </summary>
+            <param name="table">一行生产单的实体</param>
+            <returns></returns>
+        </member>
         <member name="T:LinXi_ERPApi.Controllers.PurchasingManagementController">
             <summary>
             采购管理
             </summary>
+        </member>
+        <member name="P:LinXi_ERPApi.Controllers.PurchasingManagementController.Operator_id">
+            <summary>
+            操作人ID
+            </summary>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.PurchasingManagementController.PurchaseInfo(System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            采购单信息（pu_order）
+            </summary>
+            <param name="no">采购单编号</param>
+            <param name="SearchName">商品名（模糊查询）</param>
+            <param name="CategoryName">商品类别名（模糊查询）</param>
+            <param name="pageSize">每页数量（分页）</param>
+            <param name="pageIndex">页码（分页）</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.PurchasingManagementController.AllCategoryName">
+            <summary>
+            获取所有商品类别
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.PurchasingManagementController.AllCommodityName">
+            <summary>
+            获取所有商品信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.PurchasingManagementController.GetPurchasingByCategoryId(System.Int32)">
+            <summary>
+            根据商品类别获取采购单信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.PurchasingManagementController.AllStatisc(System.String,System.String)">
+            <summary>
+            统计信息
+            </summary>
+            <param name="year">年份</param>
+            <param name="CategoryName">商品名</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.PurchasingManagementController.CreatePuOrder(LinXi_Model.DTO.PurchasingManage.Dtos.PuOrderCreateDtos)">
+            <summary>
+            添加采购单
+            </summary>
+            <param name="puOrder"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.PurchasingManagementController.ReturnBack(LinXi_Model.DTO.CommodityInventory.Dtos.PuOrderDtos)">
+            <summary>
+            退货
+            </summary>
+            <param name="puOrder">采购单信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.PurchasingManagementController.PurchaseInfoEdit(LinXi_Model.DTO.CommodityInventory.Dtos.PuOrderDtos)">
+            <summary>
+            修改采购数量/采购方式
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.PurchasingManagementController.PayMent(LinXi_Model.DTO.CommodityInventory.Dtos.PuOrderDtos)">
+            <summary>
+            采购单结款
+            </summary>
+            <param name="puOrder"></param>
+            <returns></returns>
         </member>
         <member name="T:LinXi_ERPApi.Controllers.SaleManagementController">
             <summary>

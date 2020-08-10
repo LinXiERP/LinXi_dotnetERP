@@ -10802,11 +10802,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Yjinjian\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\cheny\\.nuget\\packages\\": {}
+>>>>>>> 6de42f00ffffc3f2242659b99b36b6b781f5d9b4
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "G:\\LinXi_dotnetERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj",
       "projectName": "LinXi_IdentityServer",
       "projectPath": "G:\\LinXi_dotnetERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj",
@@ -10815,6 +10820,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yjinjian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "E:\\Net Core\\LinXi_ERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj",
+      "projectName": "LinXi_IdentityServer",
+      "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj",
+      "packagesPath": "C:\\Users\\cheny\\.nuget\\packages\\",
+      "outputPath": "E:\\Net Core\\LinXi_ERP\\LinXi_IdentityServer\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\cheny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 6de42f00ffffc3f2242659b99b36b6b781f5d9b4
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10827,6 +10842,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+<<<<<<< HEAD
             "G:\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj": {
               "projectPath": "G:\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj"
             },
@@ -10835,6 +10851,16 @@
             },
             "G:\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
               "projectPath": "G:\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
+=======
+            "E:\\Net Core\\LinXi_ERP\\LinXI_Common\\LinXi_Common.csproj": {
+              "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXI_Common\\LinXi_Common.csproj"
+            },
+            "E:\\Net Core\\LinXi_ERP\\LinXi_IService\\LinXi_IService.csproj": {
+              "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXi_IService\\LinXi_IService.csproj"
+            },
+            "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj": {
+              "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj"
+>>>>>>> 6de42f00ffffc3f2242659b99b36b6b781f5d9b4
             }
           }
         }
