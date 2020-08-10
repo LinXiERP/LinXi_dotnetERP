@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using LinXi_IService;
 using LinXi_Model;
+using LinXi_Model.DTO.AcDeparmentManage.Dtos;
 
 //using LinXi_Model.Models;
 using Microsoft.AspNetCore.Authorization;
@@ -56,15 +57,14 @@ namespace LinXi_ERPApi.Controllers
         #endregion 构造函数注入
 
         /// <summary>
-        /// 获取单个用户信息
+        /// 获取所有的部门信息
         /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
-  
         [HttpGet]
-        public async Task<AcDepartment> GetAC(int id)
+        public async Task<ActionResult<IEnumerable<AcDepartment>>> GetAllDeparmentInfo()
         {
-            return await _IAcDepartmentService.FindAsyncById(1); ;
+            var data = (await _IAcDepartmentService.Search(t => true)).ToList();
+            var data2 = _IMapper.Map<List<AcDeparmentDtos>>(data);
+            return Ok(data2);
         }
 
         /// <summary>
