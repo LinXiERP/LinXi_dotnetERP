@@ -71,10 +71,21 @@ namespace LinXi_ERPApi.Controllers
             return await _IAcStaffService.Edit(staff); ;
         }
         /// <summary>
-        /// 删除员工信息
+        /// 删除客户信息
         /// </summary>
-        /// <param name="staff"></param>
-        /// <returns></returns>
+        [HttpPut]
+        public async Task<ActionResult<InfoResult<AcStaffDtos>>> DeleteStaffInfo(AcStaffDtos acStaffDtos)
+        {
+            var data = await _IAcStaffService.Edit(_mapper.Map<AcStaff>(acStaffDtos));
+            
+            InfoResult<AcStaffDtos> messageModel = new InfoResult<AcStaffDtos>();
+            if (data > 0) { messageModel.Msg = "更新成功"; messageModel.Code = 400; messageModel.Success = true; }
+            else
+            {
+                messageModel.Msg = "更新失败"; messageModel.Code = 201; messageModel.Success = false;
+            }
+            return Ok(messageModel);
+        }
         [HttpPut]
         public async Task<int> DeleteStaff(AcStaff staff)
         {

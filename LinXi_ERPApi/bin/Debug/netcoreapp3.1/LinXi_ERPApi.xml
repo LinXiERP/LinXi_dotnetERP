@@ -206,12 +206,10 @@
             <param name="staff"></param>
             <returns></returns>
         </member>
-        <member name="M:LinXi_ERPApi.Controllers.StaffManagementController.DeleteStaff(LinXi_Model.AcStaff)">
+        <member name="M:LinXi_ERPApi.Controllers.StaffManagementController.DeleteStaff(System.Int32)">
             <summary>
-            删除员工信息
+            删除订单
             </summary>
-            <param name="staff"></param>
-            <returns></returns>
         </member>
         <member name="M:LinXi_ERPApi.Startup.ConfigureContainer(Autofac.ContainerBuilder)">
             <summary>
