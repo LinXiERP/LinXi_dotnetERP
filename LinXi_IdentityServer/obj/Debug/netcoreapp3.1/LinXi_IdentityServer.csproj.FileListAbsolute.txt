@@ -1,32 +1,75 @@
+<<<<<<< Updated upstream
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\appsettings.Development.json
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\appsettings.json
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_IdentityServer.exe
+=======
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_IdentityServer.exe
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_IdentityServer.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_IdentityServer.Views.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Autofac.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Castle.Core.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\IdentityModel.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\IdentityServer4.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\IdentityServer4.Storage.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\StackExchange.Redis.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_Common.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_Model.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\appsettings.Development.json
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\appsettings.json
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+>>>>>>> Stashed changes
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\idsrv4.pfx
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_IdentityServer.deps.json
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_IdentityServer.runtimeconfig.json
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_IdentityServer.runtimeconfig.dev.json
+<<<<<<< Updated upstream
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_IdentityServer.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_IdentityServer.pdb
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_IdentityServer.Views.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_IdentityServer.Views.pdb
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Autofac.dll
+=======
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_IdentityServer.pdb
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_IdentityServer.Views.pdb
+>>>>>>> Stashed changes
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Autofac.Configuration.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\AutoMapper.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+<<<<<<< Updated upstream
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Castle.Core.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\IdentityModel.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\IdentityServer4.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\IdentityServer4.Storage.dll
+=======
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+>>>>>>> Stashed changes
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+<<<<<<< Updated upstream
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+=======
+>>>>>>> Stashed changes
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
@@ -34,10 +77,13 @@ G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.CodeAn
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+<<<<<<< Updated upstream
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+=======
+>>>>>>> Stashed changes
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
@@ -57,11 +103,16 @@ G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.Extens
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+<<<<<<< Updated upstream
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+=======
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+>>>>>>> Stashed changes
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -75,6 +126,7 @@ G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\MySql.Data.EntityFrameworkCore.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\MySql.Data.EntityFrameworkCore.Design.dll
+<<<<<<< Updated upstream
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\MySqlConnector.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
@@ -84,6 +136,12 @@ G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Pomelo.JsonObjec
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\SshNet.Security.Cryptography.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\StackExchange.Redis.dll
+=======
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Pipelines.Sockets.Unofficial.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\SshNet.Security.Cryptography.dll
+>>>>>>> Stashed changes
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
@@ -93,7 +151,10 @@ G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\System.Compositi
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+<<<<<<< Updated upstream
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+=======
+>>>>>>> Stashed changes
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
@@ -161,10 +222,15 @@ G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\runtimes\win\lib
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+<<<<<<< Updated upstream
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_Common.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_IRepository.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_IService.dll
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_Model.dll
+=======
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_IRepository.dll
+G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_IService.dll
+>>>>>>> Stashed changes
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_Common.pdb
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_IService.pdb
 G:\LinXi_dotnetERP\LinXi_IdentityServer\bin\Debug\netcoreapp3.1\LinXi_Model.pdb
