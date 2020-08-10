@@ -21,7 +21,7 @@ namespace LinXi_ERPApi
                    Host.CreateDefaultBuilder(args)
                    .ConfigureLogging(configureLogging =>
                    {
-                       //过滤掉System和Microsoft开头的命名空间下的组件产生的警告级别一下的日志
+                       //过滤掉System和Microsoft开头的命名空间下的组件产生的警告级别以下的日志
                        //configureLogging.AddFilter("System", LogLevel.Warning);
                        //configureLogging.AddFilter("Microsoft", LogLevel.Warning);
                        configureLogging.AddFilter("Microsoft.Hosting.Lifetime", LogLevel.Warning);
