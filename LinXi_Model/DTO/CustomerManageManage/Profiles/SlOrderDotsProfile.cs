@@ -7,7 +7,7 @@ namespace LinXi_Model.DTO.CustomerManageManage.Profiles
     {
         public SlOrderDotsProfile()
         {
-            CreateMap<SlOrder, SlOrderDots>()
+            CreateMap<SlOrder, SlOrderDtos>()
                 .ForMember(destinationMember: dest => dest.CustomerName,
                 memberOptions: opt => opt.MapFrom(mapExpression: src => $"{src.Customer.Name}"))//字段替换
                 .ForMember(destinationMember: dest => dest.HandleName,
@@ -17,7 +17,7 @@ namespace LinXi_Model.DTO.CustomerManageManage.Profiles
                 .ForMember(destinationMember: dest => dest.ProductName,
                 memberOptions: opt => opt.MapFrom(mapExpression: src => $"{src.Product.Name}"));
 
-            CreateMap<SlOrderDots, SlOrder>();
+            CreateMap<SlOrderDtos, SlOrder>();
             CreateMap<SlOrderAddDtos, SlOrder>();
 
         }

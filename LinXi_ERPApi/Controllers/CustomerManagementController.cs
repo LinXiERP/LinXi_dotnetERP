@@ -29,6 +29,7 @@ namespace LinXi_ERPApi.Controllers
         private readonly ISlOrderService _slOrderService;
         private readonly IPrProductService _prProductService;
         private readonly IAcUserinfoService _acUserinfoService;
+        private readonly ISlSaleOrderService _slSaleOrderService;
         private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly IMapper _mapper;
         private int UserId
@@ -41,12 +42,13 @@ namespace LinXi_ERPApi.Controllers
 
 
 
-        public CustomerManagementController(ISlCustomerService slCustomerService, ISlOrderService slOrderService,IPrProductService prProductService,IAcUserinfoService acUserinfoService, IHttpContextAccessor httpContextAccessor,IMapper mapper)
+        public CustomerManagementController(ISlCustomerService slCustomerService, ISlOrderService slOrderService, IPrProductService prProductService, IAcUserinfoService acUserinfoService, ISlSaleOrderService slSaleOrderService, IHttpContextAccessor httpContextAccessor, IMapper mapper)
         {
             this._slCustomerService = slCustomerService;
             this._slOrderService = slOrderService;
             this._prProductService = prProductService;
             this._acUserinfoService = acUserinfoService;
+            this._slSaleOrderService = slSaleOrderService;
             this._httpContextAccessor = httpContextAccessor;
             this._mapper = mapper;
         }
@@ -185,10 +187,10 @@ namespace LinXi_ERPApi.Controllers
         /// 获取所有订单信息
         /// </summary>
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<SlOrderDots>>> GetAllCustomerOrder()
+        public async Task<ActionResult<IEnumerable<SlOrderDtos>>> GetAllCustomerOrder()
         {
             var data2 = (await _slOrderService.Search(t => true)).ToList();
-            var data = _mapper.Map<List<SlOrderDots>>(data2);
+            var data = _mapper.Map<List<SlOrderDtos>>(data2);
             return Ok(data);
         }
 
@@ -233,7 +235,7 @@ namespace LinXi_ERPApi.Controllers
         /// 修改订单信息
         /// </summary>
         [HttpPut]
-        public async Task<ActionResult<InfoResult<SlCustomerDtos>>> UpdateCustomerOrder(SlOrderDots slOrderDots)
+        public async Task<ActionResult<InfoResult<SlCustomerDtos>>> UpdateCustomerOrder(SlOrderDtos slOrderDots)
         {
             var data = await _slOrderService.Edit(_mapper.Map<SlOrder>(slOrderDots));
             InfoResult<SlCustomerDtos> messageModel = new InfoResult<SlCustomerDtos>();
@@ -250,7 +252,7 @@ namespace LinXi_ERPApi.Controllers
         /// 添加订单信息
         /// </summary>
         [HttpPost]
-        public async Task<ActionResult<InfoResult<SlOrderDots>>> AddCustomerOrder(SlOrderAddDtos slOrderDots)
+        public async Task<ActionResult<InfoResult<SlOrderDtos>>> AddCustomerOrder(SlOrderAddDtos slOrderDots)
         {
             var cusList = (await _slOrderService.Search(t => true)).ToList();
             int max = 0;
@@ -261,11 +263,11 @@ namespace LinXi_ERPApi.Controllers
                 {
                     max = int.Parse(item.No);
                 }
-                if(item.Id>max2)
+                if (item.Id > max2)
                 {
                     max2 = item.Id;
                 }
-                if(item.Product.Id== slOrderDots.ProductId)
+                if (item.Product.Id == slOrderDots.ProductId)
                 {
                     slOrderDots.Price = item.Product.Price;//Pirce
                 }
@@ -282,10 +284,10 @@ namespace LinXi_ERPApi.Controllers
 
 
             var data = await _slOrderService.Add(_mapper.Map<SlOrder>(slOrderDots));
-            InfoResult<SlOrderDots> messageModel = new InfoResult<SlOrderDots>();
-            if (data > 0) 
+            InfoResult<SlOrderDtos> messageModel = new InfoResult<SlOrderDtos>();
+            if (data > 0)
             {
-                messageModel.Msg = "添加成功！"; messageModel.Code = 200; messageModel.Success = true; 
+                messageModel.Msg = "添加成功！"; messageModel.Code = 200; messageModel.Success = true;
             }
             else
             {
@@ -302,17 +304,17 @@ namespace LinXi_ERPApi.Controllers
         public async Task<ActionResult<IEnumerable<SlCustomerDtos>>> SelectCustomerOrder([FromQuery] CustomerOrderDtosParameters customerOrderDtosParameters)
         {
             var data = (await _slOrderService.Search(t => true)).ToList();
-            var data2 = _mapper.Map<List<SlOrderDots>>(data);
+            var data2 = _mapper.Map<List<SlOrderDtos>>(data);
 
-            if (!string.IsNullOrWhiteSpace(customerOrderDtosParameters.product)&& customerOrderDtosParameters.product!="所有")
+            if (!string.IsNullOrWhiteSpace(customerOrderDtosParameters.product) && customerOrderDtosParameters.product != "所有")
             {
                 data2 = data2.Where(t => t.ProductName.Contains(customerOrderDtosParameters.product.ToString())).ToList();
             }
-            if (customerOrderDtosParameters.id != 0&&customerOrderDtosParameters.id!=-1)
+            if (customerOrderDtosParameters.id != 0 && customerOrderDtosParameters.id != -1)
             {
                 data2 = data2.Where(t => t.No.Contains(customerOrderDtosParameters.id.ToString())).ToList();
             }
-            if (!string.IsNullOrWhiteSpace(customerOrderDtosParameters.status)&&customerOrderDtosParameters.status!="-100")
+            if (!string.IsNullOrWhiteSpace(customerOrderDtosParameters.status) && customerOrderDtosParameters.status != "-100")
             {
                 data2 = data2.Where(t => t.Status == int.Parse(customerOrderDtosParameters.status)).ToList();
             }
@@ -324,11 +326,11 @@ namespace LinXi_ERPApi.Controllers
         /// <summary>
         /// 查询所有产品和所有的客户
         /// </summary>
-        /// <returns>集合对象</returns>
+        /// <returns>ProductAndCustomerDtos</returns>
         [HttpGet]
         public async Task<ActionResult<ProductAndCustomerDtos>> SelectAllProductandCustomer()
         {
-            var prolist =_mapper.Map<IEnumerable<PrProductDtos>> ((await _prProductService.Search(t => true)).ToList());
+            var prolist = _mapper.Map<IEnumerable<PrProductDtos>>((await _prProductService.Search(t => true)).ToList());
             var cuslist = _mapper.Map<IEnumerable<SlCustomerDtos>>((await _slCustomerService.Search(t => true)).ToList());
             ProductAndCustomerDtos productAndCustomerDtos = new ProductAndCustomerDtos() { Product = prolist, Customer = cuslist };
             return Ok(productAndCustomerDtos);
@@ -339,9 +341,59 @@ namespace LinXi_ERPApi.Controllers
 
 
 
+
+        #endregion
+
+        #region 订单追踪
+        /// <summary>
+        /// 查询所有的订单编号
+        /// </summary>
+        /// <returns>OrderTraceDtos</returns>
+        [HttpGet]
+        public async Task<ActionResult<List<SlOrderDtos>>> SelectAllOrderId()
+        {
+            var data = (await _slOrderService.Search(t => true)).ToList();
+            if (data.Count > 0)
+            {
+                return _mapper.Map<List<SlOrderDtos>>(data);
+            }
+            return NotFound();
+        }
+
+
+        /// <summary>
+        /// 通过订单编号查询订单的各项信息
+        /// </summary>
+        /// <returns>OrderTraceDtos</returns>
+        [HttpGet]
+        public async Task<ActionResult<OrderTraceDtos>> SelectOrderById(int id)
+        {
+
+            var orderIn = (await _slOrderService.Search(t => t.No == id.ToString())).ToList();
+            if (orderIn.Count > 0)
+            {
+                OrderTraceDtos orderTraceDtos = new OrderTraceDtos();
+                orderTraceDtos.Order = _mapper.Map<SlOrderDtos>(orderIn[0]);
+                orderTraceDtos.BalanceDue = _mapper.Map<SlOrderDtos>(orderIn[0]);
+
+                orderTraceDtos.Sale = _mapper.Map<SlSaleOrderDtos>((await _slSaleOrderService.Search(t=> t.OrderId== orderIn[0].Id)).FirstOrDefault());
+           
+                if (orderIn[0].Product != null)
+                {
+                    orderTraceDtos.Product = _mapper.Map<PrProductDtos>(orderIn[0].Product);
+                }
+                return Ok(orderTraceDtos);
+            }
+            else
+            {
+                return NotFound();
+            }
+
+        } 
         #endregion
 
 
-     
+
+
     }
 }

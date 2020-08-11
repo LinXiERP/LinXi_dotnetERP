@@ -203,7 +203,7 @@
             删除订单
             </summary>
         </member>
-        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.UpdateCustomerOrder(LinXi_Model.DTO.CustomerManageManage.Dtos.SlOrderDots)">
+        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.UpdateCustomerOrder(LinXi_Model.DTO.CustomerManageManage.Dtos.SlOrderDtos)">
             <summary>
             修改订单信息
             </summary>
@@ -222,7 +222,19 @@
             <summary>
             查询所有产品和所有的客户
             </summary>
-            <returns>集合对象</returns>
+            <returns>ProductAndCustomerDtos</returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.SelectAllOrderId">
+            <summary>
+            查询所有的订单编号
+            </summary>
+            <returns>OrderTraceDtos</returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.SelectOrderById(System.Int32)">
+            <summary>
+            通过订单编号查询订单的各项信息
+            </summary>
+            <returns>OrderTraceDtos</returns>
         </member>
         <member name="M:LinXi_ERPApi.Controllers.LoginController.LoginCheck(LinXi_Model.DTO.LoginDTO)">
             <summary>
