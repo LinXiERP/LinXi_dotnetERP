@@ -314,11 +314,11 @@
             <param name="table">一行生产计划的实体</param>
             <returns></returns>
         </member>
-        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.DeletePPT(LinXi_Model.PrProductTask)">
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.DeletePPT(System.Int32)">
             <summary>
             删除一行生产计划
             </summary>
-            <param name="table">一行生产计划的实体</param>
+            <param name="taskid">一行生产计划的编号</param>
             <returns></returns>
         </member>
         <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetSOS">

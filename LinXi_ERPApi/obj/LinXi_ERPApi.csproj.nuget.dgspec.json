@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXI_ERPApi\\LinXi_ERPApi.csproj": {}
   },
@@ -38,6 +39,25 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
 =======
           "C:\\Users\\cheny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "E:\\ERP\\LinXi_dotnetERP\\LinXI_ERPApi\\LinXi_ERPApi.csproj": {}
+  },
+  "projects": {
+    "E:\\ERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj",
+        "projectName": "LinXi_Common",
+        "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj",
+        "packagesPath": "C:\\Users\\CrazyTao\\.nuget\\packages\\",
+        "outputPath": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CrazyTao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Stashed changes
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
 >>>>>>> f99dd50e378056e3a80234b29b72985c1bcd9f36
         ],
@@ -51,6 +71,7 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
               "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
                 "projectPath": "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
@@ -58,6 +79,10 @@
               "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj": {
                 "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj"
 >>>>>>> f99dd50e378056e3a80234b29b72985c1bcd9f36
+=======
+              "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
+                "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -123,6 +148,7 @@
         }
       }
     },
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXI_ERPApi\\LinXi_ERPApi.csproj": {
 =======
@@ -147,6 +173,22 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
 =======
           "C:\\Users\\cheny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "E:\\ERP\\LinXi_dotnetERP\\LinXI_ERPApi\\LinXi_ERPApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ERP\\LinXi_dotnetERP\\LinXI_ERPApi\\LinXi_ERPApi.csproj",
+        "projectName": "LinXi_ERPApi",
+        "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXI_ERPApi\\LinXi_ERPApi.csproj",
+        "packagesPath": "C:\\Users\\CrazyTao\\.nuget\\packages\\",
+        "outputPath": "E:\\ERP\\LinXi_dotnetERP\\LinXI_ERPApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CrazyTao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Stashed changes
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
 >>>>>>> f99dd50e378056e3a80234b29b72985c1bcd9f36
         ],
@@ -160,6 +202,7 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
               "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj": {
                 "projectPath": "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj"
@@ -179,6 +222,16 @@
               "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj": {
                 "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj"
 >>>>>>> f99dd50e378056e3a80234b29b72985c1bcd9f36
+=======
+              "E:\\ERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj": {
+                "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj"
+              },
+              "E:\\ERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj": {
+                "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj"
+              },
+              "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
+                "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -307,6 +360,7 @@
         }
       }
     },
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj": {
       "version": "1.0.0",
@@ -338,6 +392,22 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
 =======
           "C:\\Users\\cheny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "E:\\ERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj",
+        "projectName": "LinXi_IRepository",
+        "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj",
+        "packagesPath": "C:\\Users\\CrazyTao\\.nuget\\packages\\",
+        "outputPath": "E:\\ERP\\LinXi_dotnetERP\\LinXi_IRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CrazyTao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Stashed changes
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
 >>>>>>> f99dd50e378056e3a80234b29b72985c1bcd9f36
         ],
@@ -351,6 +421,7 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
               "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
                 "projectPath": "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
@@ -358,6 +429,10 @@
               "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj": {
                 "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj"
 >>>>>>> f99dd50e378056e3a80234b29b72985c1bcd9f36
+=======
+              "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
+                "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -389,6 +464,7 @@
         }
       }
     },
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj": {
 =======
@@ -413,6 +489,22 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
 =======
           "C:\\Users\\cheny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "E:\\ERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj",
+        "projectName": "LinXi_IService",
+        "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj",
+        "packagesPath": "C:\\Users\\CrazyTao\\.nuget\\packages\\",
+        "outputPath": "E:\\ERP\\LinXi_dotnetERP\\LinXi_IService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CrazyTao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Stashed changes
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
 >>>>>>> f99dd50e378056e3a80234b29b72985c1bcd9f36
         ],
@@ -426,6 +518,7 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
               "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj": {
                 "projectPath": "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj"
@@ -439,6 +532,13 @@
               "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj": {
                 "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj"
 >>>>>>> f99dd50e378056e3a80234b29b72985c1bcd9f36
+=======
+              "E:\\ERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj": {
+                "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXi_IRepository\\LinXi_IRepository.csproj"
+              },
+              "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
+                "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -470,6 +570,7 @@
         }
       }
     },
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
 =======
@@ -494,6 +595,22 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
 =======
           "C:\\Users\\cheny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj",
+        "projectName": "LinXi_Model",
+        "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj",
+        "packagesPath": "C:\\Users\\CrazyTao\\.nuget\\packages\\",
+        "outputPath": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CrazyTao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Stashed changes
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
 >>>>>>> f99dd50e378056e3a80234b29b72985c1bcd9f36
         ],

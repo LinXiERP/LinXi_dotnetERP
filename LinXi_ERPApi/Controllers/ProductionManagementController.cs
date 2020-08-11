@@ -146,16 +146,29 @@ namespace LinXi_ERPApi.Controllers
         [HttpPost]
         public async Task<int> AddPPT(PrProductTask table)
         {
-            return await _IPrProductTaskService.Add(table);
+            int taskid = table.Id;
+            var task = await _IPrProductTaskService.FindAsyncById(taskid);
+            if (task==null)
+            {
+                table.OperatorId = int.Parse(_httpContext.HttpContext.User.FindFirst("operator_id").Value);
+                table.OperateTime = DateTime.Now;
+                table.Status = 0;
+                return await _IPrProductTaskService.Add(table);
+            }
+            else
+            {
+                return -99;
+            }
         }
         /// <summary>
         /// 删除一行生产计划
         /// </summary>
-        /// <param name="table">一行生产计划的实体</param>
+        /// <param name="taskid">一行生产计划的编号</param>
         /// <returns></returns>
         [HttpDelete]
-        public async Task<int> DeletePPT(PrProductTask table)
+        public async Task<int> DeletePPT(int taskid)
         {
+            var table = await _IPrProductTaskService.FindAsyncById(taskid);
             return await _IPrProductTaskService.Delete(table);
         }
         /// <summary>

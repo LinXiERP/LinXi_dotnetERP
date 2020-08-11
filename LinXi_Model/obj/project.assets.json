@@ -3373,7 +3373,6 @@
       "path": "runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -7412,7 +7411,6 @@
       "path": "system.threading.tasks.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
@@ -7916,6 +7914,7 @@
     ]
   },
   "packageFolders": {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     "C:\\Users\\Administrator\\.nuget\\packages\\": {},
     "D:\\Microsoft\\Xamarin\\NuGet\\": {},
@@ -7923,10 +7922,15 @@
 =======
     "C:\\Users\\cheny\\.nuget\\packages\\": {}
 >>>>>>> f99dd50e378056e3a80234b29b72985c1bcd9f36
+=======
+    "C:\\Users\\CrazyTao\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+>>>>>>> Stashed changes
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       "projectUniqueName": "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj",
       "projectName": "LinXi_Model",
@@ -7952,6 +7956,19 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
 =======
         "C:\\Users\\cheny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj",
+      "projectName": "LinXi_Model",
+      "projectPath": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj",
+      "packagesPath": "C:\\Users\\CrazyTao\\.nuget\\packages\\",
+      "outputPath": "E:\\ERP\\LinXi_dotnetERP\\LinXI_Model\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\CrazyTao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Stashed changes
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
 >>>>>>> f99dd50e378056e3a80234b29b72985c1bcd9f36
       ],
