@@ -194,7 +194,7 @@ namespace LinXi_ERPApi.Controllers
             {
                 if (dc.ContainsKey(item.PurchaseDate.Value.Month + "月"))
                 {
-                    dc[item.PurchaseDate.Value.Month + "月"] = dc[item.PurchaseDate.Value.Month + "月"] + 1;
+                    dc[item.PurchaseDate.Value.Month + "月"] = (int)(dc[item.PurchaseDate.Value.Month + "月"] + item.Nums);
                 }
             }
 

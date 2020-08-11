@@ -2,18 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LinXi_Model.DTO.PurchasingManage.Dtos
+namespace LinXi_Model.DTO.IntercourseManagement.Dtos
 {
-    public class PuOrderCreateDtos
+    public class PurchasingNoPayDtos
     {
-        public int Id { get; set; }
         public string No { get; set; }
-        public string Place { get; set; }
-        public string CommodityType { get; set; }
+        public string CategoryName { get; set; }
         public string Name { get; set; }
         public decimal Nums { get; set; }
         public decimal Price { get; set; }
-        public DateTime? PurchaseDate { get { return DateTime.Now; } set { } }
+        public DateTime? PurchaseDate { get; set; }
         public int? Status { get; set; }
         public string Batch { get; set; }
         public decimal? Amount { get; set; }
@@ -21,8 +19,5 @@ namespace LinXi_Model.DTO.PurchasingManage.Dtos
         public decimal? AmountReceivable { get; set; }
         public decimal? AmountReceived { get; set; }
         public string OperatorName { get; set; }
-
-        //public DateTime? OperateTime { get; set; }
-        public string SupplierName { get; set; }
     }
 }

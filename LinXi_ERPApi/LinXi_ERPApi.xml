@@ -224,6 +224,44 @@
             </summary>
             <returns>集合对象</returns>
         </member>
+        <member name="M:LinXi_ERPApi.Controllers.IntercourseManagementController.GetAllSlSaryOrder(System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            获取销售结款单
+            </summary>
+            <param name="Slno"></param>
+            <param name="OrderId"></param>
+            <param name="pageSize"></param>
+            <param name="pageIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.IntercourseManagementController.GetAllPuOrder(System.String,System.Int32,System.Int32)">
+            <summary>
+            获取采购结款单
+            </summary>
+            <param name="no"></param>
+            <param name="pageSize"></param>
+            <param name="pageIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.IntercourseManagementController.GetAllPuOrderReturn(System.String,System.Int32,System.Int32)">
+            <summary>
+            获取采购退货单
+            </summary>
+            <param name="no"></param>
+            <param name="pageSize"></param>
+            <param name="pageIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.IntercourseManagementController.GetAllPurchasingSend(System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            获取销售发货单
+            </summary>
+            <param name="Slno"></param>
+            <param name="OrderId"></param>
+            <param name="pageSize"></param>
+            <param name="pageIndex"></param>
+            <returns></returns>
+        </member>
         <member name="M:LinXi_ERPApi.Controllers.LoginController.LoginCheck(LinXi_Model.DTO.LoginDTO)">
             <summary>
             登录判断
