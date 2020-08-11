@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-G:\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.deps.json
-G:\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.dll
-G:\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.pdb
-G:\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Model.dll
-G:\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Model.pdb
-G:\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csprojAssemblyReference.cache
-G:\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.AssemblyInfoInputs.cache
-G:\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.AssemblyInfo.cs
-G:\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csproj.CoreCompileInputs.cache
-G:\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csproj.CopyComplete
-G:\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.dll
-G:\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.pdb
-=======
 E:\Net Core\LinXi_ERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.deps.json
 E:\Net Core\LinXi_ERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.dll
 E:\Net Core\LinXi_ERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.pdb
@@ -24,4 +10,3 @@ E:\Net Core\LinXi_ERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csproj.C
 E:\Net Core\LinXi_ERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csproj.CopyComplete
 E:\Net Core\LinXi_ERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.dll
 E:\Net Core\LinXi_ERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.pdb
->>>>>>> 6de42f00ffffc3f2242659b99b36b6b781f5d9b4

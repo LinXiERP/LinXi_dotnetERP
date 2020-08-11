@@ -4,12 +4,10 @@
         <name>LinXi_ERPApi</name>
     </assembly>
     <members>
-        <member name="M:LinXi_ERPApi.Controllers.AcDepartmentController.GetAC(System.Int32)">
+        <member name="M:LinXi_ERPApi.Controllers.AcDepartmentController.GetAllDeparmentInfo">
             <summary>
-            获取单个用户信息
+            获取所有的部门信息
             </summary>
-            <param name="id"></param>
-            <returns></returns>
         </member>
         <member name="M:LinXi_ERPApi.Controllers.AcDepartmentController.EditAC(LinXi_Model.AcDepartment)">
             <summary>
@@ -527,19 +525,20 @@
             <param name="staff"></param>
             <returns></returns>
         </member>
-        <member name="M:LinXi_ERPApi.Controllers.StaffManagementController.EditStaff(LinXi_Model.AcStaff)">
+        <member name="M:LinXi_ERPApi.Controllers.StaffManagementController.UpdateStaff(LinXi_Model.DTO.StaffManagement.Dtos.AcStaffDtos)">
             <summary>
             修改员工信息
             </summary>
-            <param name="staff"></param>
-            <returns></returns>
         </member>
-        <member name="M:LinXi_ERPApi.Controllers.StaffManagementController.DeleteStaff(LinXi_Model.AcStaff)">
+        <member name="M:LinXi_ERPApi.Controllers.StaffManagementController.DeleteStaffInfo(LinXi_Model.DTO.StaffManagement.Dtos.AcStaffDtos)">
             <summary>
-            删除员工信息
+            删除客户信息
             </summary>
-            <param name="staff"></param>
-            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.StaffManagementController.SelectAcStaffInfo(LinXi_Model.DTO.StaffManagement.DtoParameters.AcStaffDtosParameters)">
+            <summary>
+            过滤员工信息
+            </summary>
         </member>
         <member name="M:LinXi_ERPApi.Startup.ConfigureContainer(Autofac.ContainerBuilder)">
             <summary>
