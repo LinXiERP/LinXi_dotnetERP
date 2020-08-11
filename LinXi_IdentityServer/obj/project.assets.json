@@ -10714,27 +10714,44 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Administrator\\.nuget\\packages\\": {},
     "D:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+=======
+    "C:\\Users\\cheny\\.nuget\\packages\\": {}
+>>>>>>> f99dd50e378056e3a80234b29b72985c1bcd9f36
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj",
       "projectName": "LinXi_IdentityServer",
       "projectPath": "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXi_IdentityServer\\obj\\",
+=======
+      "projectUniqueName": "E:\\Net Core\\LinXi_ERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj",
+      "projectName": "LinXi_IdentityServer",
+      "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj",
+      "packagesPath": "C:\\Users\\cheny\\.nuget\\packages\\",
+      "outputPath": "E:\\Net Core\\LinXi_ERP\\LinXi_IdentityServer\\obj\\",
+>>>>>>> f99dd50e378056e3a80234b29b72985c1bcd9f36
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+=======
+        "C:\\Users\\cheny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> f99dd50e378056e3a80234b29b72985c1bcd9f36
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -10746,14 +10763,24 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+<<<<<<< HEAD
             "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj": {
               "projectPath": "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXI_Common\\LinXi_Common.csproj"
+=======
+            "E:\\Net Core\\LinXi_ERP\\LinXI_Common\\LinXi_Common.csproj": {
+              "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXI_Common\\LinXi_Common.csproj"
+>>>>>>> f99dd50e378056e3a80234b29b72985c1bcd9f36
             },
             "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj": {
               "projectPath": "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXi_IService\\LinXi_IService.csproj"
             },
+<<<<<<< HEAD
             "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj": {
               "projectPath": "D:\\学习\\erp项目\\LinXi_dotnetERP\\LinXI_Model\\LinXi_Model.csproj"
+=======
+            "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj": {
+              "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj"
+>>>>>>> f99dd50e378056e3a80234b29b72985c1bcd9f36
             }
           }
         }
