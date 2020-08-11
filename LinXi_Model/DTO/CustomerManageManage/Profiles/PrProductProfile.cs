@@ -8,6 +8,7 @@ namespace LinXi_Model.DTO.CustomerManageManage.Profiles
         public PrProductProfile()
         {
             CreateMap<PrProduct, PrProductDtos>();
+            CreateMap<PrProductDtos, PrProduct>();
         }
     }
 }
