@@ -1,29 +1,3 @@
-<<<<<<< Updated upstream
-E:\Net Core\LinXi_ERP\LinXi_ERPApi\bin\Debug\netcoreapp3.1\LinXi_Repository.deps.json
-E:\Net Core\LinXi_ERP\LinXi_ERPApi\bin\Debug\netcoreapp3.1\LinXi_Repository.dll
-E:\Net Core\LinXi_ERP\LinXi_ERPApi\bin\Debug\netcoreapp3.1\LinXi_Repository.pdb
-E:\Net Core\LinXi_ERP\LinXi_Repository\obj\Debug\netcoreapp3.1\LinXi_Repository.csprojAssemblyReference.cache
-E:\Net Core\LinXi_ERP\LinXi_Repository\obj\Debug\netcoreapp3.1\LinXi_Repository.AssemblyInfoInputs.cache
-E:\Net Core\LinXi_ERP\LinXi_Repository\obj\Debug\netcoreapp3.1\LinXi_Repository.AssemblyInfo.cs
-E:\Net Core\LinXi_ERP\LinXi_Repository\obj\Debug\netcoreapp3.1\LinXi_Repository.csproj.CoreCompileInputs.cache
-E:\Net Core\LinXi_ERP\LinXi_Repository\obj\Debug\netcoreapp3.1\LinXi_Repository.csproj.CopyComplete
-E:\Net Core\LinXi_ERP\LinXi_Repository\obj\Debug\netcoreapp3.1\LinXi_Repository.dll
-E:\Net Core\LinXi_ERP\LinXi_Repository\obj\Debug\netcoreapp3.1\LinXi_Repository.pdb
-<<<<<<< HEAD
->>>>>>> 6de42f00ffffc3f2242659b99b36b6b781f5d9b4
-D:\学习\erp项目\LinXi_dotnetERP\LinXi_ERPApi\bin\Debug\netcoreapp3.1\LinXi_Repository.deps.json
-D:\学习\erp项目\LinXi_dotnetERP\LinXi_ERPApi\bin\Debug\netcoreapp3.1\LinXi_Repository.dll
-D:\学习\erp项目\LinXi_dotnetERP\LinXi_ERPApi\bin\Debug\netcoreapp3.1\LinXi_Repository.pdb
-D:\学习\erp项目\LinXi_dotnetERP\LinXi_Repository\obj\Debug\netcoreapp3.1\LinXi_Repository.csprojAssemblyReference.cache
-D:\学习\erp项目\LinXi_dotnetERP\LinXi_Repository\obj\Debug\netcoreapp3.1\LinXi_Repository.AssemblyInfoInputs.cache
-D:\学习\erp项目\LinXi_dotnetERP\LinXi_Repository\obj\Debug\netcoreapp3.1\LinXi_Repository.AssemblyInfo.cs
-D:\学习\erp项目\LinXi_dotnetERP\LinXi_Repository\obj\Debug\netcoreapp3.1\LinXi_Repository.csproj.CoreCompileInputs.cache
-D:\学习\erp项目\LinXi_dotnetERP\LinXi_Repository\obj\Debug\netcoreapp3.1\LinXi_Repository.csproj.CopyComplete
-D:\学习\erp项目\LinXi_dotnetERP\LinXi_Repository\obj\Debug\netcoreapp3.1\LinXi_Repository.dll
-D:\学习\erp项目\LinXi_dotnetERP\LinXi_Repository\obj\Debug\netcoreapp3.1\LinXi_Repository.pdb
-=======
->>>>>>> f99dd50e378056e3a80234b29b72985c1bcd9f36
-=======
 E:\ERP\LinXi_dotnetERP\LinXi_ERPApi\bin\Debug\netcoreapp3.1\LinXi_Repository.deps.json
 E:\ERP\LinXi_dotnetERP\LinXi_ERPApi\bin\Debug\netcoreapp3.1\LinXi_Repository.dll
 E:\ERP\LinXi_dotnetERP\LinXi_ERPApi\bin\Debug\netcoreapp3.1\LinXi_Repository.pdb
@@ -34,4 +8,3 @@ E:\ERP\LinXi_dotnetERP\LinXi_Repository\obj\Debug\netcoreapp3.1\LinXi_Repository
 E:\ERP\LinXi_dotnetERP\LinXi_Repository\obj\Debug\netcoreapp3.1\LinXi_Repository.csproj.CopyComplete
 E:\ERP\LinXi_dotnetERP\LinXi_Repository\obj\Debug\netcoreapp3.1\LinXi_Repository.dll
 E:\ERP\LinXi_dotnetERP\LinXi_Repository\obj\Debug\netcoreapp3.1\LinXi_Repository.pdb
->>>>>>> Stashed changes

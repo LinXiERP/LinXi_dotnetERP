@@ -136,7 +136,15 @@ namespace LinXi_ERPApi.Controllers
         [HttpPut]
         public async Task<int> EditPPT(PrProductTask table)
         {
-            return await _IPrProductTaskService.Edit(table);
+            var task = await _IPrProductTaskService.FindAsyncById(table.Id);
+            task.No = table.No;
+            task.ProductId = table.ProductId;
+            task.Nums = table.Nums;
+            task.ProductDate = table.ProductDate;
+            task.Batch = table.Batch;
+            task.DepartmentId = table.DepartmentId;
+            task.Remark = table.Remark;
+            return await _IPrProductTaskService.Edit(task);
         }
         /// <summary>
         /// 添加一行生产计划
@@ -201,7 +209,7 @@ namespace LinXi_ERPApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<PrProductMaterialDtos>>> GetPPM(int? departmentid, int? id)
         {
-            var data = _IMapper.Map<IEnumerable<PrProductMaterialDtos>>((await _IPrProductTaskService.Search(t => true)).ToList());
+            var data = _IMapper.Map<IEnumerable<PrProductMaterialDtos>>((await _IPrProductMaterialService.Search(t => true)).ToList());
             foreach (var item in data)
             {
                 item.StaffName = (await _IAcStaffService.FindAsyncById((int)item.StaffId)).Name;
@@ -226,7 +234,7 @@ namespace LinXi_ERPApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<PrProductMaterialDtos>>> GetPPMs()
         {
-            var data = _IMapper.Map<IEnumerable<PrProductMaterialDtos>>((await _IPrProductTaskService.Search(t => true)).ToList());
+            var data = _IMapper.Map<IEnumerable<PrProductMaterialDtos>>((await _IPrProductMaterialService.Search(t => true)).ToList());
             foreach (var item in data)
             {
                 item.StaffName = (await _IAcStaffService.FindAsyncById((int)item.StaffId)).Name;
@@ -244,7 +252,15 @@ namespace LinXi_ERPApi.Controllers
         [HttpPut]
         public async Task<int> EditPPM(PrProductMaterial table)
         {
-            return await _IPrProductMaterialService.Edit(table);
+            var material = await _IPrProductMaterialService.FindAsyncById(table.Id);
+            material.CommodityId = table.CommodityId;
+            material.DepartmentId = table.DepartmentId;
+            material.Nums = table.Nums;
+            material.Remark = table.Remark;
+            material.StaffId = table.StaffId;
+            material.TaskId = table.TaskId;
+            material.Uses = table.Uses;
+            return await _IPrProductMaterialService.Edit(material);
         }
         /// <summary>
         /// 添加领料单
@@ -254,16 +270,38 @@ namespace LinXi_ERPApi.Controllers
         [HttpPost]
         public async Task<int> AddPPM(PrProductMaterial table)
         {
-            return await _IPrProductMaterialService.Add(table);
+            var meterial = await _IPrProductMaterialService.FindAsyncById(table.Id);
+            if (meterial==null)
+            {
+                table.OperatorId = int.Parse(_httpContext.HttpContext.User.FindFirst("operator_id").Value);
+                table.OperateTime = DateTime.Now;
+                table.Status = 0;
+                int i = await _IPrProductMaterialService.Add(table);
+                if (i>0)
+                {
+                    var task = await _IPrProductTaskService.FindAsyncById((int)table.TaskId);
+                    if (task.Status == 0)
+                    {
+                        task.Status = 1;
+                        await _IPrProductTaskService.Edit(task);
+                    }
+                }
+                return i;
+            }
+            else
+            {
+                return -99;
+            }
         }
         /// <summary>
         /// 删除一行领料单
         /// </summary>
-        /// <param name="table">一行领料单的实体</param>
+        /// <param name="id">领料单编号</param>
         /// <returns></returns>
         [HttpDelete]
-        public async Task<int> DeletePPM(PrProductMaterial table)
+        public async Task<int> DeletePPM(int id)
         {
+            var table = await _IPrProductMaterialService.FindAsyncById(id);
             return await _IPrProductMaterialService.Delete(table);
         }
         /// <summary>
@@ -285,14 +323,13 @@ namespace LinXi_ERPApi.Controllers
             return (await _IAcDepartmentService.Search(t => true)).ToList();
         }
         /// <summary>
-        /// 根据部门编号查询员工
+        /// 查询所有员工
         /// </summary>
-        /// <param name="id">部门ID</param>
         /// <returns></returns>
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<AcStaff>>> GetASs(int id)
+        public async Task<ActionResult<IEnumerable<AcStaff>>> GetASs()
         {
-            return (await _IAcStaffService.Search(t => t.DepartmentId==id)).ToList();
+            return (await _IAcStaffService.Search(t => true)).ToList();
         }
         #endregion 领料管理模块
 

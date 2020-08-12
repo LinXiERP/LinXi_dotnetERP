@@ -361,11 +361,11 @@
             <param name="table">一条领料单记录</param>
             <returns></returns>
         </member>
-        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.DeletePPM(LinXi_Model.PrProductMaterial)">
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.DeletePPM(System.Int32)">
             <summary>
             删除一行领料单
             </summary>
-            <param name="table">一行领料单的实体</param>
+            <param name="id">领料单编号</param>
             <returns></returns>
         </member>
         <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetPCs">
@@ -380,11 +380,10 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetASs(System.Int32)">
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetASs">
             <summary>
-            根据部门编号查询员工
+            查询所有员工
             </summary>
-            <param name="id">部门ID</param>
             <returns></returns>
         </member>
         <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.GetIPR(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32})">

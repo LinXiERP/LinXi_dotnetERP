@@ -1,33 +1,3 @@
-<<<<<<< Updated upstream
-E:\Net Core\LinXi_ERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.deps.json
-E:\Net Core\LinXi_ERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.dll
-E:\Net Core\LinXi_ERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.pdb
-E:\Net Core\LinXi_ERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Model.dll
-E:\Net Core\LinXi_ERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Model.pdb
-E:\Net Core\LinXi_ERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csprojAssemblyReference.cache
-E:\Net Core\LinXi_ERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.AssemblyInfoInputs.cache
-E:\Net Core\LinXi_ERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.AssemblyInfo.cs
-E:\Net Core\LinXi_ERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csproj.CoreCompileInputs.cache
-E:\Net Core\LinXi_ERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csproj.CopyComplete
-E:\Net Core\LinXi_ERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.dll
-E:\Net Core\LinXi_ERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.pdb
-<<<<<<< HEAD
->>>>>>> 6de42f00ffffc3f2242659b99b36b6b781f5d9b4
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.deps.json
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.dll
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.pdb
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Model.dll
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Model.pdb
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csprojAssemblyReference.cache
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.AssemblyInfoInputs.cache
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.AssemblyInfo.cs
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csproj.CoreCompileInputs.cache
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csproj.CopyComplete
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.dll
-D:\学习\erp项目\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.pdb
-=======
->>>>>>> f99dd50e378056e3a80234b29b72985c1bcd9f36
-=======
 E:\ERP\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.deps.json
 E:\ERP\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.dll
 E:\ERP\LinXi_dotnetERP\LinXI_Common\bin\Debug\netcoreapp3.1\LinXi_Common.pdb
@@ -40,4 +10,3 @@ E:\ERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csproj.
 E:\ERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.csproj.CopyComplete
 E:\ERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.dll
 E:\ERP\LinXi_dotnetERP\LinXI_Common\obj\Debug\netcoreapp3.1\LinXi_Common.pdb
->>>>>>> Stashed changes
