@@ -120,7 +120,18 @@ namespace LinXi_ERPApi.Controllers
         [HttpPut]
         public async Task<int> EditPS(PuSupplier table)
         {
-            return await _IPuSupplierService.Edit(table);
+            var supplier = await _IPuSupplierService.FindAsyncById(table.Id);
+            supplier.Address = table.Address;
+            supplier.Credit = table.Credit;
+            supplier.Email = table.Email;
+            supplier.Linkman = table.Linkman;
+            supplier.Name = table.Name;
+            supplier.Postcode = table.Postcode;
+            supplier.Qq = table.Qq;
+            supplier.Remark = table.Remark;
+            supplier.Tel = table.Tel;
+            supplier.Weixin = table.Weixin;
+            return await _IPuSupplierService.Edit(supplier);
         }
         /// <summary>
         /// 添加一条供应商信息
@@ -130,17 +141,17 @@ namespace LinXi_ERPApi.Controllers
         [HttpPost]
         public async Task<int> AddPS(PuSupplier table)
         {
-            return await _IPuSupplierService.Add(table);
-        }
-        /// <summary>
-        /// 删除一条供应商信息
-        /// </summary>
-        /// <param name="table">一条供应商信息</param>
-        /// <returns></returns>
-        [HttpDelete]
-        public async Task<int> DeletePS(PuSupplier table)
-        {
-            return await _IPuSupplierService.Delete(table);
+            var supplier = await _IPuSupplierService.FindAsyncById(table.Id);
+            if (supplier==null)
+            {
+                table.OperatorId = int.Parse(_httpContext.HttpContext.User.FindFirst("operator_id").Value);
+                table.OperateTime = DateTime.Now;
+                return await _IPuSupplierService.Add(table);
+            }
+            else
+            {
+                return -99;
+            }
         }
         #endregion 供应商资料模块
 
@@ -194,7 +205,17 @@ namespace LinXi_ERPApi.Controllers
         [HttpPut]
         public async Task<int> EditPC(PuCommodity table)
         {
-            return await _IPuCommodityServicce.Edit(table);
+            var commodity = await _IPuCommodityServicce.FindAsyncById(table.Id);
+            commodity.CategoryId = table.CategoryId;
+            commodity.Id = table.Id;
+            commodity.LicenseNo = table.LicenseNo;
+            commodity.Name = table.Name;
+            commodity.Place = table.Place;
+            commodity.Price = table.Price;
+            commodity.Remark = table.Remark;
+            commodity.Spec = table.Spec;
+            commodity.SupplierId = table.SupplierId;
+            return await _IPuCommodityServicce.Edit(commodity);
         }
         /// <summary>
         /// 添加一条原材料信息
@@ -204,19 +225,19 @@ namespace LinXi_ERPApi.Controllers
         [HttpPost]
         public async Task<int> AddPC(PuCommodity table)
         {
-            return await _IPuCommodityServicce.Add(table);
+            var commodity = await _IPuCommodityServicce.FindAsyncById(table.Id);
+            if (commodity==null)
+            {
+                table.OperatorId = int.Parse(_httpContext.HttpContext.User.FindFirst("operator_id").Value);
+                table.OperateTime = DateTime.Now;
+                table.Stock = 0;
+                return await _IPuCommodityServicce.Add(table);
+            }
+            else
+            {
+                return -99;
+            }
         }
-        /// <summary>
-        /// 删除一条原材料信息
-        /// </summary>
-        /// <param name="table">一条原材料信息</param>
-        /// <returns></returns>
-        [HttpDelete]
-        public async Task<int> DeletePC(PuCommodity table)
-        {
-            return await _IPuCommodityServicce.Delete(table);
-        }
-
         /// <summary>
         /// 查找所有原材料类型
         /// </summary>
@@ -273,7 +294,18 @@ namespace LinXi_ERPApi.Controllers
         [HttpPut]
         public async Task<int> EditPP(PrProduct table)
         {
-            return await _IPrProductService.Edit(table);
+            var product = await _IPrProductService.FindAsyncById(table.Id);
+            product.BarCode = table.BarCode;
+            product.CategoryId = table.CategoryId;
+            product.LicenseNo = table.LicenseNo;
+            product.Manufacturer = table.Manufacturer;
+            product.Name = table.Name;
+            product.Place = table.Place;
+            product.Price = table.Price;
+            product.Remark = table.Remark;
+            product.Spec = table.Spec;
+            product.Unit = table.Unit;
+            return await _IPrProductService.Edit(product);
         }
         /// <summary>
         /// 添加一条产品信息
@@ -283,19 +315,19 @@ namespace LinXi_ERPApi.Controllers
         [HttpPost]
         public async Task<int> AddPP(PrProduct table)
         {
-            return await _IPrProductService.Add(table);
+            var product = await _IPrProductService.FindAsyncById(table.Id);
+            if (product==null)
+            {
+                table.OperatorId = int.Parse(_httpContext.HttpContext.User.FindFirst("operator_id").Value);
+                table.OperatorTime = DateTime.Now;
+                table.Stock = 0;
+                return await _IPrProductService.Add(table);
+            }
+            else
+            {
+                return -99;
+            }
         }
-        /// <summary>
-        /// 删除一条产品信息
-        /// </summary>
-        /// <param name="table">一条产品信息</param>
-        /// <returns></returns>
-        [HttpDelete]
-        public async Task<int> DeletePP(PrProduct table)
-        {
-            return await _IPrProductService.Delete(table);
-        }
-
         /// <summary>
         /// 查找所有产品类型
         /// </summary>
