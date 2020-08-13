@@ -388,7 +388,14 @@ namespace LinXi_ERPApi.Controllers
         [HttpPut]
         public async Task<int> EditIPRs(IcProductRecord table)
         {
-            return await _IIcProductRecordService.Edit(table);
+            var record = await _IIcProductRecordService.FindAsyncById(table.Id);
+            record.Batch = table.Batch;
+            record.Nums = table.Nums;
+            record.ProductId = table.ProductId;
+            record.Remark = table.Remark;
+            record.SourceCategory = table.SourceCategory;
+            record.DepartmentId = table.DepartmentId;
+            return await _IIcProductRecordService.Edit(record);
         }
         /// <summary>
         /// 添加一条生产表的数据
@@ -398,16 +405,28 @@ namespace LinXi_ERPApi.Controllers
         [HttpPost]
         public async Task<int> AddIPR(IcProductRecord table)
         {
-            return await _IIcProductRecordService.Add(table);
+            var record = await _IIcProductRecordService.FindAsyncById(table.Id);
+            if (record==null)
+            {
+                table.OperatorId = int.Parse(_httpContext.HttpContext.User.FindFirst("operator_id").Value);
+                table.OperateTime = DateTime.Now;
+                table.Status = 0;
+                return await _IIcProductRecordService.Add(table);
+            }
+            else
+            {
+                return -99;
+            }
         }
         /// <summary>
         /// 删除一条生产表的数据
         /// </summary>
-        /// <param name="table">一行生产单的实体</param>
+        /// <param name="id">生产编号</param>
         /// <returns></returns>
         [HttpDelete]
-        public async Task<int> DeleteIPR(IcProductRecord table)
+        public async Task<int> DeleteIPR(int id)
         {
+            var table = await _IIcProductRecordService.FindAsyncById(id);
             return await _IIcProductRecordService.Delete(table);
         }
         

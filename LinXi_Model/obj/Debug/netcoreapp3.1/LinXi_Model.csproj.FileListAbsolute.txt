@@ -9,3 +9,4 @@ E:\ERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.csproj.Co
 E:\ERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.dll
 E:\ERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.pdb
 E:\ERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.genruntimeconfig.cache
+E:\ERP\LinXi_dotnetERP\LinXI_Model\obj\Debug\netcoreapp3.1\LinXi_Model.csprojAssemblyReference.cache

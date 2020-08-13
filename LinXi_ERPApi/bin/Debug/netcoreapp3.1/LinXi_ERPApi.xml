@@ -415,11 +415,11 @@
             <param name="table">一行生产单的实体</param>
             <returns></returns>
         </member>
-        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.DeleteIPR(LinXi_Model.IcProductRecord)">
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.DeleteIPR(System.Int32)">
             <summary>
             删除一条生产表的数据
             </summary>
-            <param name="table">一行生产单的实体</param>
+            <param name="id">生产编号</param>
             <returns></returns>
         </member>
         <member name="T:LinXi_ERPApi.Controllers.PurchasingManagementController">
