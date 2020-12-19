@@ -15,6 +15,7 @@ namespace LinXi_Model
         public string Pwd { get; set; }
         public int? RoleId { get; set; }
         public int? StaffId { get; set; }
+        public int? Status { get; set; }
 
         public virtual AcRole Role { get; set; }
         public virtual AcStaff Staff { get; set; }

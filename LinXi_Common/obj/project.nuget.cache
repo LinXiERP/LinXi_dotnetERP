@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4AOdISPNMQAuAyDH4ZIpMyB+qoYmuiO1h5kPS5xNE29ujuyQiiuE8+NFU6/v/6Z5lGc72pnLAmQERm2NM2t+NA==",
+  "dgSpecHash": "pHLltg2pdNFD5UnuJLbsz9drDC0JM6AeV5C+WUo/ojcRSLLcQEuB2W0eLymAPnDfrGrTkbmNLag330P9oCwkUw==",
   "success": true,
-  "projectFilePath": "E:\\Net Core\\LinXi_ERP\\LinXI_Common\\LinXi_Common.csproj",
+  "projectFilePath": "E:\\NetCore\\LinXi_ERP\\LinXI_Common\\LinXi_Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cheny\\.nuget\\packages\\autofac\\5.2.0\\autofac.5.2.0.nupkg.sha512",
     "C:\\Users\\cheny\\.nuget\\packages\\autofac.configuration\\5.1.0\\autofac.configuration.5.1.0.nupkg.sha512",

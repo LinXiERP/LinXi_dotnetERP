@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p/7bvwh1pLEbxNVMaUJI1Ge6C/NgFUV76qCaXZTKA/Kt1WgTyGVqupNPpiaES0wjhAOGyPl/4pHjIavxP9yBUA==",
+  "dgSpecHash": "X9U2BJVW1xee8KaDRXEDOobFAg/nqr4N7oPfq2h/ULVb7lhF7CLX0acKH/tLiu6AV64iDPSURFc/Iy/V7FWYEw==",
   "success": true,
-  "projectFilePath": "E:\\Net Core\\LinXi_ERP\\LinXi_Service\\LinXi_Service.csproj",
+  "projectFilePath": "E:\\NetCore\\LinXi_ERP\\LinXi_Service\\LinXi_Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cheny\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\cheny\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",

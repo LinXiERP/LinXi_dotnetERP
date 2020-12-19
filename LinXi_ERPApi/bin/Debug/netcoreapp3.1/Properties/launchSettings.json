@@ -2,7 +2,7 @@
   "profiles": {
     "LinXI_ERPApi": {
       "commandName": "Project",
-      "launchBrowser": true,
+      "launchBrowser": false,
       "launchUrl": "swagger/index.html",
       "applicationUrl": "http://localhost:56567",
       "environmentVariables": {

@@ -1,0 +1,12 @@
+E:\NetCore\LinXi_ERP\LinXI_Model\bin\Release\netcoreapp3.1\LinXi_Model.deps.json
+E:\NetCore\LinXi_ERP\LinXI_Model\bin\Release\netcoreapp3.1\LinXi_Model.runtimeconfig.json
+E:\NetCore\LinXi_ERP\LinXI_Model\bin\Release\netcoreapp3.1\LinXi_Model.runtimeconfig.dev.json
+E:\NetCore\LinXi_ERP\LinXI_Model\bin\Release\netcoreapp3.1\LinXi_Model.dll
+E:\NetCore\LinXi_ERP\LinXI_Model\bin\Release\netcoreapp3.1\LinXi_Model.pdb
+E:\NetCore\LinXi_ERP\LinXI_Model\obj\Release\netcoreapp3.1\LinXi_Model.csprojAssemblyReference.cache
+E:\NetCore\LinXi_ERP\LinXI_Model\obj\Release\netcoreapp3.1\LinXi_Model.AssemblyInfoInputs.cache
+E:\NetCore\LinXi_ERP\LinXI_Model\obj\Release\netcoreapp3.1\LinXi_Model.AssemblyInfo.cs
+E:\NetCore\LinXi_ERP\LinXI_Model\obj\Release\netcoreapp3.1\LinXi_Model.csproj.CoreCompileInputs.cache
+E:\NetCore\LinXi_ERP\LinXI_Model\obj\Release\netcoreapp3.1\LinXi_Model.dll
+E:\NetCore\LinXi_ERP\LinXI_Model\obj\Release\netcoreapp3.1\LinXi_Model.pdb
+E:\NetCore\LinXi_ERP\LinXI_Model\obj\Release\netcoreapp3.1\LinXi_Model.genruntimeconfig.cache

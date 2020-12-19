@@ -1,0 +1,12 @@
+E:\NetCore\LinXi_ERP\LinXi_IRepository\bin\Release\netcoreapp3.1\LinXi_IRepository.deps.json
+E:\NetCore\LinXi_ERP\LinXi_IRepository\bin\Release\netcoreapp3.1\LinXi_IRepository.dll
+E:\NetCore\LinXi_ERP\LinXi_IRepository\bin\Release\netcoreapp3.1\LinXi_IRepository.pdb
+E:\NetCore\LinXi_ERP\LinXi_IRepository\bin\Release\netcoreapp3.1\LinXi_Model.dll
+E:\NetCore\LinXi_ERP\LinXi_IRepository\bin\Release\netcoreapp3.1\LinXi_Model.pdb
+E:\NetCore\LinXi_ERP\LinXi_IRepository\obj\Release\netcoreapp3.1\LinXi_IRepository.csprojAssemblyReference.cache
+E:\NetCore\LinXi_ERP\LinXi_IRepository\obj\Release\netcoreapp3.1\LinXi_IRepository.AssemblyInfoInputs.cache
+E:\NetCore\LinXi_ERP\LinXi_IRepository\obj\Release\netcoreapp3.1\LinXi_IRepository.AssemblyInfo.cs
+E:\NetCore\LinXi_ERP\LinXi_IRepository\obj\Release\netcoreapp3.1\LinXi_IRepository.csproj.CoreCompileInputs.cache
+E:\NetCore\LinXi_ERP\LinXi_IRepository\obj\Release\netcoreapp3.1\LinXi_IRepository.csproj.CopyComplete
+E:\NetCore\LinXi_ERP\LinXi_IRepository\obj\Release\netcoreapp3.1\LinXi_IRepository.dll
+E:\NetCore\LinXi_ERP\LinXi_IRepository\obj\Release\netcoreapp3.1\LinXi_IRepository.pdb

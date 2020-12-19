@@ -22,15 +22,19 @@ namespace LinXi_ERPApi.Controllers
     public class StaffManagementController : ControllerBase
     {
         #region 依赖注入
+
         private readonly IAcStaffService _IAcStaffService;
         private readonly IMapper _mapper;
-        public StaffManagementController(IAcStaffService IAcStaffService, IMapper mapper)
+        private readonly IAcDepartmentService _IAcDepartmentService;
+
+        public StaffManagementController(IAcStaffService IAcStaffService, IMapper mapper, IAcDepartmentService acDepartmentService)
         {
             this._IAcStaffService = IAcStaffService;
             this._mapper = mapper;
+            _IAcDepartmentService = acDepartmentService;
         }
-        #endregion
 
+        #endregion 依赖注入
 
         /// <summary>
         /// 获取所有的员工信息
@@ -42,26 +46,26 @@ namespace LinXi_ERPApi.Controllers
             var data2 = _mapper.Map<List<AcStaffDtos>>(data);
             foreach (var item in data2)
             {
-                if (item.Sex==1)
+                if (item.Sex == 1)
                 {
                     item.SexName = "男";
-                    
                 }
                 else
                 {
                     item.SexName = "女";
                 }
-                if (item.Status==1)
+                if (item.Status == 1)
                 {
                     item.StatusStr = "在职";
                 }
-                else
+                else if (item.Status == 0)
                 {
                     item.StatusStr = "离职";
                 }
             }
             return Ok(data2);
         }
+
         /// <summary>
         /// 获取指定员工的详细信息
         /// </summary>
@@ -72,52 +76,98 @@ namespace LinXi_ERPApi.Controllers
         {
             return await _IAcStaffService.FindAsyncById(id); ;
         }
+
         /// <summary>
         /// 添加员工信息
         /// </summary>
-        /// <param name="staff"></param>
-        /// <returns></returns>
+        /// <param name="acStaffDtos"></param>
         [HttpPost]
-        public async Task<int> AddStaff(AcStaff staff)
+        public async Task<ActionResult<InfoResult<AcStaffDtos>>> AddStaff(AcStaffDtos acStaffDtos)
         {
-            return await _IAcStaffService.Add(staff); ;
+            var NewDepartment = (await _IAcDepartmentService.Search(u => u.Name == acStaffDtos.DeparmentName)).FirstOrDefault();
+            acStaffDtos.DepartmentId = NewDepartment.Id;
+            var staffList = await _IAcStaffService.Search(t => true);
+            int max = 0;
+            foreach (var item in staffList)
+            {
+                if (item.Id > max)
+                {
+                    max = item.Id;
+                }
+            }
+            acStaffDtos.Id = max + 1;
+            InfoResult<AcStaffDtos> messageModel = new InfoResult<AcStaffDtos>();
+            var data = await _IAcStaffService.Add(_mapper.Map<AcStaff>(acStaffDtos));
+            if (data > 0)
+            {
+                messageModel.Msg = "添加成功！"; messageModel.Code = 200; messageModel.Success = true;
+            }
+            else
+            {
+                messageModel.Msg = "添加失败！"; messageModel.Code = 400; messageModel.Success = false;
+            }
+            return Ok(messageModel);
         }
+
+        /// <summary>
+        /// 删除员工信息
+        /// </summary>
+        /// <returns></returns>
+        [HttpPut]
+        public async Task<ActionResult<InfoResult<string>>> DeleteStaff(AcStaffDtos acStaffDtos)
+        {
+            var NewStaff = (await _IAcStaffService.Search(u => u.Id == acStaffDtos.Id)).FirstOrDefault();
+            InfoResult<AcStaffDtos> messageModel = new InfoResult<AcStaffDtos>();
+            if (NewStaff != null)
+            {
+                if (NewStaff.Status == 0)
+                {
+                    messageModel.Msg = "该员工已处于离职状态";
+                    return Ok(messageModel);
+                }
+                else
+                {
+                    //将员工状态修改为离职
+                    NewStaff.Status = 0;
+                    var data = (await _IAcStaffService.Search(t => true)).ToList();
+                    var data2 = _mapper.Map<List<AcStaffDtos>>(data);
+                    foreach (var item in data2)
+                    {
+                        if (item.Status == 0)
+                        {
+                            item.StatusStr = "离职";
+                        }
+                    }
+                    return await _IAcStaffService.Edit(NewStaff) > 0 ? new InfoResult<string>("修改成功！") : new InfoResult<string>("修改失败！");
+                }
+            }
+            return Ok(messageModel);
+        }
+
         /// <summary>
         /// 修改员工信息
         /// </summary>
+        /// <returns></returns>
         [HttpPut]
-        public async Task<ActionResult<InfoResult<AcStaffDtos>>> UpdateStaff(AcStaffDtos acStaffDtos)
+        public async Task<ActionResult<InfoResult<string>>> UpdateStaff(AcStaffDtos acStaffDtos)
         {
-            var data = await _IAcStaffService.Edit(_mapper.Map<AcStaff>(acStaffDtos));
+            var NewStaff = (await _IAcStaffService.Search(u => u.Id == acStaffDtos.Id)).FirstOrDefault();
             InfoResult<AcStaffDtos> messageModel = new InfoResult<AcStaffDtos>();
-            if (data > 0) { messageModel.Msg = "更新成功"; messageModel.Code = 400; messageModel.Success = true; }
-            else
+            if (NewStaff != null)
             {
-                messageModel.Msg = "更新失败"; messageModel.Code = 201; messageModel.Success = false;
+                NewStaff.Id = acStaffDtos.Id;
+                NewStaff.Name = acStaffDtos.Name;
+                NewStaff.Sex = (sbyte)acStaffDtos.Sex;
+                NewStaff.No = acStaffDtos.No;
+                NewStaff.Address = acStaffDtos.Address;
+                NewStaff.Tel = acStaffDtos.Tel;
+                NewStaff.DepartmentId = acStaffDtos.DepartmentId;
+                NewStaff.Status = (sbyte)acStaffDtos.Status;
+                return await _IAcStaffService.Edit(NewStaff) > 0 ? new InfoResult<string>("修改成功！") : new InfoResult<string>("修改失败！");
             }
             return Ok(messageModel);
         }
-        /// <summary>
-        /// 删除客户信息
-        /// </summary>
-        [HttpPut]
-        public async Task<ActionResult<InfoResult<AcStaffDtos>>> DeleteStaffInfo(AcStaffDtos acStaffDtos)
-        {
-            var data = await _IAcStaffService.Edit(_mapper.Map<AcStaff>(acStaffDtos));
-            
-            InfoResult<AcStaffDtos> messageModel = new InfoResult<AcStaffDtos>();
-            if (data > 0) { messageModel.Msg = "更新成功"; messageModel.Code = 400; messageModel.Success = true; }
-            else
-            {
-                messageModel.Msg = "更新失败"; messageModel.Code = 201; messageModel.Success = false;
-            }
-            return Ok(messageModel);
-        }
-        [HttpPut]
-        public async Task<int> DeleteStaff(AcStaff staff)
-        {
-            return await _IAcStaffService.Delete(staff); ;
-        }
+
         /// <summary>
         /// 过滤员工信息
         /// </summary>
@@ -126,25 +176,62 @@ namespace LinXi_ERPApi.Controllers
         {
             IEnumerable<AcStaff> list = _mapper.Map<IEnumerable<AcStaff>>(await _IAcStaffService.Search(t => true));
             if (!string.IsNullOrWhiteSpace(staffDtosParameters.name))
-            {   
+            {
                 switch (staffDtosParameters.select)
                 {
                     case 1:
                         {
                             var data = list.Where(t => t.Name.Contains(staffDtosParameters.name)).ToList();
-                            return Ok(data);
+                            var data2 = _mapper.Map<List<AcStaffDtos>>(data);
+                            foreach (var item in data2)
+                            {
+                                if (item.Sex == 1)
+                                {
+                                    item.SexName = "男";
+                                }
+                                else
+                                {
+                                    item.SexName = "女";
+                                }
+                                if (item.Status == 1)
+                                {
+                                    item.StatusStr = "在职";
+                                }
+                                else if (item.Status == 0)
+                                {
+                                    item.StatusStr = "离职";
+                                }
+                            }
+                            return Ok(data2);
                         }
-
-                    case 2:
-                        {
-                            var data = list.Where(t => t.DepartmentId==staffDtosParameters.deparmentId).ToList();
-                            return Ok(data);
-                        }
-                   
                 }
             }
+            else
+            {
+                var data = (await _IAcStaffService.Search(t => true)).ToList();
+                var data2 = _mapper.Map<List<AcStaffDtos>>(data);
+                foreach (var item in data2)
+                {
+                    if (item.Sex == 1)
+                    {
+                        item.SexName = "男";
+                    }
+                    else
+                    {
+                        item.SexName = "女";
+                    }
+                    if (item.Status == 1)
+                    {
+                        item.StatusStr = "在职";
+                    }
+                    else if (item.Status == 0)
+                    {
+                        item.StatusStr = "离职";
+                    }
+                }
+                return Ok(data2);
+            }
             return Ok(list);
-
         }
     }
 }

@@ -17,7 +17,7 @@ namespace LinXI_ERPApi.Extensions
                     option.ApiName = "api2";
                     option.RequireHttpsMetadata = false;
                     option.Authority = "http://localhost:56568";
-                    option.JwtValidationClockSkew = TimeSpan.FromSeconds(0);
+                    option.JwtValidationClockSkew = TimeSpan.FromSeconds(300);
                 });
         }
     }

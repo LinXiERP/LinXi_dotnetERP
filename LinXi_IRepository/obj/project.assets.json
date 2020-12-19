@@ -7989,11 +7989,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Net Core\\LinXi_ERP\\LinXi_IRepository\\LinXi_IRepository.csproj",
+      "projectUniqueName": "E:\\NetCore\\LinXi_ERP\\LinXi_IRepository\\LinXi_IRepository.csproj",
       "projectName": "LinXi_IRepository",
-      "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXi_IRepository\\LinXi_IRepository.csproj",
+      "projectPath": "E:\\NetCore\\LinXi_ERP\\LinXi_IRepository\\LinXi_IRepository.csproj",
       "packagesPath": "C:\\Users\\cheny\\.nuget\\packages\\",
-      "outputPath": "E:\\Net Core\\LinXi_ERP\\LinXi_IRepository\\obj\\",
+      "outputPath": "E:\\NetCore\\LinXi_ERP\\LinXi_IRepository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cheny\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8008,9 +8008,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj": {
-              "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj"
+            "E:\\NetCore\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj": {
+              "projectPath": "E:\\NetCore\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj"
             }
           }
         }
@@ -8023,6 +8024,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -8038,7 +8040,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   },

@@ -24,7 +24,7 @@ namespace LinXi_ERPApi.Controllers
     {
         #region 字段
 
-        private ILogger<ProductionManagementController> _logger; 
+        private ILogger<ProductionManagementController> _logger;
         private IServiceProvider _service;
         private IMapper _IMapper;
         private IHttpContextAccessor _httpContext;
@@ -52,7 +52,6 @@ namespace LinXi_ERPApi.Controllers
             IPrProductService IPrProductService,
             IPrProductCategoryService IPrProductCategoryService
 
-
             )
         {
             _logger = logger;
@@ -78,19 +77,55 @@ namespace LinXi_ERPApi.Controllers
         /// <param name="linkman">联系人姓名</param>
         /// <returns></returns>
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<PuSupplier>>> GetPS(string name,string linkman)
+        public async Task<ActionResult<IEnumerable<PuSupplier>>> GetPS(string name, string linkman)
         {
-            var data = (await _IPuSupplierService.Search(t => true)).ToList();
-            if (name!=""&&name!=null)
+            var z = (await _IPuSupplierService.Search(t => true)).Select(u => new
             {
-                data = data.Where(d => d.Name.Contains(name)).ToList();
-            }
-            if (linkman!=""&&linkman!=null)
+                u.Id,
+                u.Name,
+                u.Postcode,
+                u.Address,
+                u.Linkman,
+                u.Tel,
+                u.Qq,
+                u.Weixin,
+                u.Email,
+                u.Credit,
+                u.Remark,
+                u.OperatorId,
+                u.OperateTime,
+            }).ToList();
+            List<PuSupplier> ls = new List<PuSupplier>();
+            foreach (var item in z)
             {
-                data = data.Where(d => d.Linkman.Contains(linkman)).ToList();
+                ls.Add(new PuSupplier()
+                {
+                    Id = item.Id,
+                    Name = item.Name,
+                    Postcode = item.Postcode,
+                    Address = item.Address,
+                    Linkman = item.Linkman,
+                    Tel = item.Tel,
+                    Qq = item.Qq,
+                    Weixin = item.Weixin,
+                    Email = item.Email,
+                    Credit = item.Credit,
+                    Remark = item.Remark,
+                    OperatorId = item.OperatorId,
+                    OperateTime = item.OperateTime,
+                });
             }
-            return data;
+            if (name != "" && name != null)
+            {
+                ls = ls.Where(d => d.Name.Contains(name)).ToList();
+            }
+            if (linkman != "" && linkman != null)
+            {
+                ls = ls.Where(d => d.Linkman.Contains(linkman)).ToList();
+            }
+            return ls;
         }
+
         /// <summary>
         /// 查找所有供应商信息
         /// </summary>
@@ -98,9 +133,45 @@ namespace LinXi_ERPApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<PuSupplier>>> GetPSs()
         {
-            var data = (await _IPuSupplierService.Search(t => true)).ToList();
-            return data;
+            var z = (await _IPuSupplierService.Search(t => true)).Select(u => new
+            {
+                u.Id,
+                u.Name,
+                u.Postcode,
+                u.Address,
+                u.Linkman,
+                u.Tel,
+                u.Qq,
+                u.Weixin,
+                u.Email,
+                u.Credit,
+                u.Remark,
+                u.OperatorId,
+                u.OperateTime,
+            }).ToList();
+            List<PuSupplier> ls = new List<PuSupplier>();
+            foreach (var item in z)
+            {
+                ls.Add(new PuSupplier()
+                {
+                    Id = item.Id,
+                    Name = item.Name,
+                    Postcode = item.Postcode,
+                    Address = item.Address,
+                    Linkman = item.Linkman,
+                    Tel = item.Tel,
+                    Qq = item.Qq,
+                    Weixin = item.Weixin,
+                    Email = item.Email,
+                    Credit = item.Credit,
+                    Remark = item.Remark,
+                    OperatorId = item.OperatorId,
+                    OperateTime = item.OperateTime,
+                });
+            }
+            return ls;
         }
+
         /// <summary>
         /// 根据供应商编号查找供应商
         /// </summary>
@@ -112,6 +183,7 @@ namespace LinXi_ERPApi.Controllers
             var data = await _IPuSupplierService.FindAsyncById(id);
             return data;
         }
+
         /// <summary>
         /// 修改一条供应商信息
         /// </summary>
@@ -120,8 +192,20 @@ namespace LinXi_ERPApi.Controllers
         [HttpPut]
         public async Task<int> EditPS(PuSupplier table)
         {
-            return await _IPuSupplierService.Edit(table);
+            var supplier = await _IPuSupplierService.FindAsyncById(table.Id);
+            supplier.Address = table.Address;
+            supplier.Credit = table.Credit;
+            supplier.Email = table.Email;
+            supplier.Linkman = table.Linkman;
+            supplier.Name = table.Name;
+            supplier.Postcode = table.Postcode;
+            supplier.Qq = table.Qq;
+            supplier.Remark = table.Remark;
+            supplier.Tel = table.Tel;
+            supplier.Weixin = table.Weixin;
+            return await _IPuSupplierService.Edit(supplier);
         }
+
         /// <summary>
         /// 添加一条供应商信息
         /// </summary>
@@ -130,18 +214,19 @@ namespace LinXi_ERPApi.Controllers
         [HttpPost]
         public async Task<int> AddPS(PuSupplier table)
         {
-            return await _IPuSupplierService.Add(table);
+            var supplier = await _IPuSupplierService.FindAsyncById(table.Id);
+            if (supplier == null)
+            {
+                table.OperatorId = int.Parse(_httpContext.HttpContext.User.FindFirst("operator_id").Value);
+                table.OperateTime = DateTime.Now;
+                return await _IPuSupplierService.Add(table);
+            }
+            else
+            {
+                return -99;
+            }
         }
-        /// <summary>
-        /// 删除一条供应商信息
-        /// </summary>
-        /// <param name="table">一条供应商信息</param>
-        /// <returns></returns>
-        [HttpDelete]
-        public async Task<int> DeletePS(PuSupplier table)
-        {
-            return await _IPuSupplierService.Delete(table);
-        }
+
         #endregion 供应商资料模块
 
         #region 原材料资料模块
@@ -153,7 +238,7 @@ namespace LinXi_ERPApi.Controllers
         /// <param name="id">原材料类型编号</param>
         /// <returns></returns>
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<PuCommodityDtos>>> GetPC(string name,int? id)
+        public async Task<ActionResult<IEnumerable<PuCommodityDtos>>> GetPC(string name, int? id)
         {
             var data = _IMapper.Map<IEnumerable<PuCommodityDtos>>((await _IPuCommodityServicce.Search(t => true)).ToList());
             foreach (var item in data)
@@ -165,12 +250,13 @@ namespace LinXi_ERPApi.Controllers
             {
                 data = data.Where(d => d.Name.Contains(name)).ToList();
             }
-            if (id!=null)
+            if (id != null)
             {
-                data = data.Where(d => d.CategoryId==(int)id).ToList();
+                data = data.Where(d => d.CategoryId == (int)id).ToList();
             }
             return data.ToList();
         }
+
         /// <summary>
         /// 查找所有原材料
         /// </summary>
@@ -186,6 +272,7 @@ namespace LinXi_ERPApi.Controllers
             }
             return data.ToList();
         }
+
         /// <summary>
         /// 修改一条原材料信息
         /// </summary>
@@ -194,8 +281,19 @@ namespace LinXi_ERPApi.Controllers
         [HttpPut]
         public async Task<int> EditPC(PuCommodity table)
         {
-            return await _IPuCommodityServicce.Edit(table);
+            var commodity = await _IPuCommodityServicce.FindAsyncById(table.Id);
+            commodity.CategoryId = table.CategoryId;
+            commodity.Id = table.Id;
+            commodity.LicenseNo = table.LicenseNo;
+            commodity.Name = table.Name;
+            commodity.Place = table.Place;
+            commodity.Price = table.Price;
+            commodity.Remark = table.Remark;
+            commodity.Spec = table.Spec;
+            commodity.SupplierId = table.SupplierId;
+            return await _IPuCommodityServicce.Edit(commodity);
         }
+
         /// <summary>
         /// 添加一条原材料信息
         /// </summary>
@@ -204,17 +302,18 @@ namespace LinXi_ERPApi.Controllers
         [HttpPost]
         public async Task<int> AddPC(PuCommodity table)
         {
-            return await _IPuCommodityServicce.Add(table);
-        }
-        /// <summary>
-        /// 删除一条原材料信息
-        /// </summary>
-        /// <param name="table">一条原材料信息</param>
-        /// <returns></returns>
-        [HttpDelete]
-        public async Task<int> DeletePC(PuCommodity table)
-        {
-            return await _IPuCommodityServicce.Delete(table);
+            var commodity = await _IPuCommodityServicce.FindAsyncById(table.Id);
+            if (commodity == null)
+            {
+                table.OperatorId = int.Parse(_httpContext.HttpContext.User.FindFirst("operator_id").Value);
+                table.OperateTime = DateTime.Now;
+                table.Stock = 0;
+                return await _IPuCommodityServicce.Add(table);
+            }
+            else
+            {
+                return -99;
+            }
         }
 
         /// <summary>
@@ -224,9 +323,15 @@ namespace LinXi_ERPApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<PuCommodityCategory>>> GetPCCs()
         {
-            var data = (await _IPuCommodityCategoryService.Search(t => true)).ToList();
-            return data;
+            var z = (await _IPuCommodityCategoryService.Search(t => true)).Select(u => new { u.Id, u.Name }).ToList();
+            List<PuCommodityCategory> ls = new List<PuCommodityCategory>();
+            foreach (var item in z)
+            {
+                ls.Add(new PuCommodityCategory() { Id = item.Id, Name = item.Name });
+            }
+            return ls;
         }
+
         #endregion 原材料资料模块
 
         #region 产品资料模块
@@ -265,6 +370,7 @@ namespace LinXi_ERPApi.Controllers
             }
             return data.ToList();
         }
+
         /// <summary>
         /// 修改一条产品信息
         /// </summary>
@@ -273,8 +379,20 @@ namespace LinXi_ERPApi.Controllers
         [HttpPut]
         public async Task<int> EditPP(PrProduct table)
         {
-            return await _IPrProductService.Edit(table);
+            var product = await _IPrProductService.FindAsyncById(table.Id);
+            product.BarCode = table.BarCode;
+            product.CategoryId = table.CategoryId;
+            product.LicenseNo = table.LicenseNo;
+            product.Manufacturer = table.Manufacturer;
+            product.Name = table.Name;
+            product.Place = table.Place;
+            product.Price = table.Price;
+            product.Remark = table.Remark;
+            product.Spec = table.Spec;
+            product.Unit = table.Unit;
+            return await _IPrProductService.Edit(product);
         }
+
         /// <summary>
         /// 添加一条产品信息
         /// </summary>
@@ -283,17 +401,18 @@ namespace LinXi_ERPApi.Controllers
         [HttpPost]
         public async Task<int> AddPP(PrProduct table)
         {
-            return await _IPrProductService.Add(table);
-        }
-        /// <summary>
-        /// 删除一条产品信息
-        /// </summary>
-        /// <param name="table">一条产品信息</param>
-        /// <returns></returns>
-        [HttpDelete]
-        public async Task<int> DeletePP(PrProduct table)
-        {
-            return await _IPrProductService.Delete(table);
+            var product = await _IPrProductService.FindAsyncById(table.Id);
+            if (product == null)
+            {
+                table.OperatorId = int.Parse(_httpContext.HttpContext.User.FindFirst("operator_id").Value);
+                table.OperatorTime = DateTime.Now;
+                table.Stock = 0;
+                return await _IPrProductService.Add(table);
+            }
+            else
+            {
+                return -99;
+            }
         }
 
         /// <summary>
@@ -303,9 +422,15 @@ namespace LinXi_ERPApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<PrProductCategory>>> GetPPCs()
         {
-            var data = (await _IPrProductCategoryService.Search(t => true)).ToList();
-            return data;
+            var z = (await _IPrProductCategoryService.Search(t => true)).Select(u => new { u.Id, u.Name }).ToList();
+            List<PrProductCategory> ls = new List<PrProductCategory>();
+            foreach (var item in z)
+            {
+                ls.Add(new PrProductCategory() { Id = item.Id, Name = item.Name });
+            }
+            return ls;
         }
+
         #endregion 产品资料模块
     }
 }

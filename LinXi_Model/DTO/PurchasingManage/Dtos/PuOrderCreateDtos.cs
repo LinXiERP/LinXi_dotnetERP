@@ -11,15 +11,15 @@ namespace LinXi_Model.DTO.PurchasingManage.Dtos
         public string Place { get; set; }
         public string CommodityType { get; set; }
         public string Name { get; set; }
-        public decimal Nums { get { return 1; } set { } }
+        public decimal Nums { get; set; }
         public decimal Price { get; set; }
         public DateTime? PurchaseDate { get { return DateTime.Now; } set { } }
         public int? Status { get; set; }
         public string Batch { get; set; }
-        public decimal? Amount { get { return Price; } set { } }
-        public int? AmountWay { get { return 1; } set { } }
-        public decimal? AmountReceivable { get { return Price; } set { } }
-        public decimal? AmountReceived { get { return 0; } set { } }
+        public decimal? Amount { get; set; }
+        public int? AmountWay { get; set; }
+        public decimal? AmountReceivable { get; set; }
+        public decimal? AmountReceived { get; set; }
         public string OperatorName { get; set; }
 
         //public DateTime? OperateTime { get; set; }

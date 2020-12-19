@@ -15,7 +15,7 @@ namespace LinXi_CloudStorageApi.Extensions
                 o.AddPolicy("AllowCors", policy =>
                 {
                     //第一个是Vue项目地址，第二个是Api地址
-                    policy.WithOrigins("http://localhost:56569", "http://localhost:56567").AllowAnyHeader().AllowAnyMethod().AllowCredentials();
+                    policy.WithOrigins("http://localhost:56569", "http://localhost:56567", "http://localhost:9999").AllowAnyHeader().AllowAnyMethod().AllowCredentials();
                     policy.WithExposedHeaders("Content-Disposition");
                 });
             });

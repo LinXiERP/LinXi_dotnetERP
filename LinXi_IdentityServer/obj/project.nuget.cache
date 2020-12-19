@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V7IFZZes//L6n3LkRc9/jL1f6blUrXBWIHl8k5PQsfMzO6Gk/VJzjeUHAeqA9KGyFhh9532JWpOI7LFTgpELfA==",
+  "dgSpecHash": "wP/y32fSyM9AbG3toKyUlSs/mdeS/17pR7u+DAjBAkDOOXG2naiWP6pJ5mKHLXJDlCusXJegakCV78jBW74mOQ==",
   "success": true,
-  "projectFilePath": "E:\\Net Core\\LinXi_ERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj",
+  "projectFilePath": "E:\\NetCore\\LinXi_ERP\\LinXi_IdentityServer\\LinXi_IdentityServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cheny\\.nuget\\packages\\autofac\\5.2.0\\autofac.5.2.0.nupkg.sha512",
     "C:\\Users\\cheny\\.nuget\\packages\\autofac.configuration\\5.1.0\\autofac.configuration.5.1.0.nupkg.sha512",

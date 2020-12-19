@@ -12,3 +12,17 @@ E:\Net Core\LinXi_ERP\LinXi_IService\obj\Debug\netcoreapp3.1\LinXi_IService.cspr
 E:\Net Core\LinXi_ERP\LinXi_IService\obj\Debug\netcoreapp3.1\LinXi_IService.csproj.CopyComplete
 E:\Net Core\LinXi_ERP\LinXi_IService\obj\Debug\netcoreapp3.1\LinXi_IService.dll
 E:\Net Core\LinXi_ERP\LinXi_IService\obj\Debug\netcoreapp3.1\LinXi_IService.pdb
+E:\NetCore\LinXi_ERP\LinXi_IService\bin\Debug\netcoreapp3.1\LinXi_IService.deps.json
+E:\NetCore\LinXi_ERP\LinXi_IService\bin\Debug\netcoreapp3.1\LinXi_IService.dll
+E:\NetCore\LinXi_ERP\LinXi_IService\bin\Debug\netcoreapp3.1\LinXi_IService.pdb
+E:\NetCore\LinXi_ERP\LinXi_IService\bin\Debug\netcoreapp3.1\LinXi_IRepository.dll
+E:\NetCore\LinXi_ERP\LinXi_IService\bin\Debug\netcoreapp3.1\LinXi_Model.dll
+E:\NetCore\LinXi_ERP\LinXi_IService\bin\Debug\netcoreapp3.1\LinXi_IRepository.pdb
+E:\NetCore\LinXi_ERP\LinXi_IService\bin\Debug\netcoreapp3.1\LinXi_Model.pdb
+E:\NetCore\LinXi_ERP\LinXi_IService\obj\Debug\netcoreapp3.1\LinXi_IService.csprojAssemblyReference.cache
+E:\NetCore\LinXi_ERP\LinXi_IService\obj\Debug\netcoreapp3.1\LinXi_IService.AssemblyInfoInputs.cache
+E:\NetCore\LinXi_ERP\LinXi_IService\obj\Debug\netcoreapp3.1\LinXi_IService.AssemblyInfo.cs
+E:\NetCore\LinXi_ERP\LinXi_IService\obj\Debug\netcoreapp3.1\LinXi_IService.csproj.CoreCompileInputs.cache
+E:\NetCore\LinXi_ERP\LinXi_IService\obj\Debug\netcoreapp3.1\LinXi_IService.csproj.CopyComplete
+E:\NetCore\LinXi_ERP\LinXi_IService\obj\Debug\netcoreapp3.1\LinXi_IService.dll
+E:\NetCore\LinXi_ERP\LinXi_IService\obj\Debug\netcoreapp3.1\LinXi_IService.pdb

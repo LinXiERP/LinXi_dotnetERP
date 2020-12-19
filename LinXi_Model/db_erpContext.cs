@@ -16,9 +16,11 @@ namespace LinXi_Model
         }
 
         public virtual DbSet<AcDepartment> AcDepartment { get; set; }
+        public virtual DbSet<AcNotice> AcNotice { get; set; }
         public virtual DbSet<AcPermission> AcPermission { get; set; }
         public virtual DbSet<AcRole> AcRole { get; set; }
         public virtual DbSet<AcRolePermission> AcRolePermission { get; set; }
+        public virtual DbSet<AcSalary> AcSalary { get; set; }
         public virtual DbSet<AcStaff> AcStaff { get; set; }
         public virtual DbSet<AcUserinfo> AcUserinfo { get; set; }
         public virtual DbSet<AuRecord> AuRecord { get; set; }
@@ -47,7 +49,6 @@ namespace LinXi_Model
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
                 optionsBuilder.UseMySql("uid=root;pwd=123456;database=db_erp;server=localhost", x => x.ServerVersion("8.0.20-mysql"));
             }
             optionsBuilder.UseLazyLoadingProxies();
@@ -75,6 +76,39 @@ namespace LinXi_Model
                     .HasColumnName("remark")
                     .HasColumnType("varchar(200)")
                     .HasComment("备注")
+                    .HasCharSet("utf8mb4")
+                    .HasCollation("utf8mb4_0900_ai_ci");
+            });
+
+            modelBuilder.Entity<AcNotice>(entity =>
+            {
+                entity.ToTable("ac_notice");
+
+                entity.Property(e => e.Id)
+                    .HasColumnName("id")
+                    .HasComment("主键id");
+
+                entity.Property(e => e.Createdate)
+                    .IsRequired()
+                    .HasColumnName("createdate")
+                    .HasColumnType("varchar(50)")
+                    .HasComment("创建时间")
+                    .HasCharSet("utf8mb4")
+                    .HasCollation("utf8mb4_0900_ai_ci");
+
+                entity.Property(e => e.Detail)
+                    .IsRequired()
+                    .HasColumnName("detail")
+                    .HasColumnType("varchar(100)")
+                    .HasComment("公告详情")
+                    .HasCharSet("utf8mb4")
+                    .HasCollation("utf8mb4_0900_ai_ci");
+
+                entity.Property(e => e.Title)
+                    .IsRequired()
+                    .HasColumnName("title")
+                    .HasColumnType("varchar(100)")
+                    .HasComment("公告标题")
                     .HasCharSet("utf8mb4")
                     .HasCollation("utf8mb4_0900_ai_ci");
             });
@@ -182,6 +216,76 @@ namespace LinXi_Model
                     .HasForeignKey(d => d.RoleId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_ac_role_permission_ac_role");
+            });
+
+            modelBuilder.Entity<AcSalary>(entity =>
+            {
+                entity.ToTable("ac_salary");
+
+                entity.HasIndex(e => e.StaffId)
+                    .HasName("staff_id");
+
+                entity.Property(e => e.Id)
+                    .HasColumnName("id")
+                    .HasComment("主键id，自增为1");
+
+                entity.Property(e => e.Base)
+                    .HasColumnName("base")
+                    .HasComment("基本工资");
+
+                entity.Property(e => e.Createdate)
+                    .IsRequired()
+                    .HasColumnName("createdate")
+                    .HasColumnType("varchar(50)")
+                    .HasComment("创建日期")
+                    .HasCharSet("utf8mb4")
+                    .HasCollation("utf8mb4_0900_ai_ci");
+
+                entity.Property(e => e.Extra)
+                    .HasColumnName("extra")
+                    .HasComment("额外补贴");
+
+                entity.Property(e => e.Forfeit)
+                    .HasColumnName("forfeit")
+                    .HasComment("罚款金额");
+
+                entity.Property(e => e.Grant)
+                    .IsRequired()
+                    .HasColumnName("grant")
+                    .HasColumnType("varchar(50)")
+                    .HasComment("发放日期")
+                    .HasCharSet("utf8mb4")
+                    .HasCollation("utf8mb4_0900_ai_ci");
+
+                entity.Property(e => e.Hardwork)
+                    .HasColumnName("hardwork")
+                    .HasComment("全勤补贴");
+
+                entity.Property(e => e.Live)
+                    .HasColumnName("live")
+                    .HasComment("住房补贴");
+
+                entity.Property(e => e.Lunch)
+                    .HasColumnName("lunch")
+                    .HasComment("午餐补贴");
+
+                entity.Property(e => e.StaffId)
+                    .HasColumnName("staff_id")
+                    .HasComment("外键员工id");
+
+                entity.Property(e => e.Sum)
+                    .HasColumnName("sum")
+                    .HasComment("总计金额");
+
+                entity.Property(e => e.Tax)
+                    .HasColumnName("tax")
+                    .HasComment("税收金额");
+
+                entity.HasOne(d => d.Staff)
+                    .WithMany(p => p.AcSalary)
+                    .HasForeignKey(d => d.StaffId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("ac_salary_ibfk_1");
             });
 
             modelBuilder.Entity<AcStaff>(entity =>
@@ -301,6 +405,10 @@ namespace LinXi_Model
                 entity.Property(e => e.StaffId)
                     .HasColumnName("staff_id")
                     .HasComment("员工编号");
+
+                entity.Property(e => e.Status)
+                    .HasColumnName("status")
+                    .HasComment("账户状态（1：正常0：冻结）");
 
                 entity.HasOne(d => d.Role)
                     .WithMany(p => p.AcUserinfo)
@@ -1020,15 +1128,18 @@ namespace LinXi_Model
                     .HasForeignKey(d => d.StaffId)
                     .HasConstraintName("FK_pr_product_material_ac_staff");
 
-                entity.HasOne(d => d.StatusNavigation)
+                entity.HasOne(d => d.Task)
                     .WithMany(p => p.PrProductMaterial)
-                    .HasForeignKey(d => d.Status)
+                    .HasForeignKey(d => d.TaskId)
                     .HasConstraintName("FK_pr_product_material_pr_product_task");
             });
 
             modelBuilder.Entity<PrProductTask>(entity =>
             {
                 entity.ToTable("pr_product_task");
+
+                entity.HasIndex(e => e.DepartmentId)
+                    .HasName("FK_pr_product_task_ac_department");
 
                 entity.HasIndex(e => e.OperatorId)
                     .HasName("FK_pr_product_task_ac_staff");
@@ -1099,17 +1210,17 @@ namespace LinXi_Model
                     .HasColumnName("status")
                     .HasComment("状态");
 
+                entity.HasOne(d => d.Department)
+                    .WithMany(p => p.PrProductTask)
+                    .HasForeignKey(d => d.DepartmentId)
+                    .HasConstraintName("FK_pr_product_task_ac_department");
+
                 entity.HasOne(d => d.Operator)
                     .WithMany(p => p.PrProductTask)
                     .HasForeignKey(d => d.OperatorId)
                     .HasConstraintName("FK_pr_product_task_ac_staff");
 
                 entity.HasOne(d => d.Product)
-                    .WithMany(p => p.PrProductTask)
-                    .HasForeignKey(d => d.ProductId)
-                    .HasConstraintName("FK_pr_product_task_ac_department");
-
-                entity.HasOne(d => d.ProductNavigation)
                     .WithMany(p => p.PrProductTask)
                     .HasForeignKey(d => d.ProductId)
                     .HasConstraintName("FK_pr_product_task_pr_product");

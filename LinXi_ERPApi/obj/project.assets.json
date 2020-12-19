@@ -113,6 +113,18 @@
           "lib/netstandard1.5/Castle.Core.dll": {}
         }
       },
+      "Consul/1.6.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Consul.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Consul.dll": {}
+        }
+      },
       "Google.Protobuf/3.6.1": {
         "type": "package",
         "dependencies": {
@@ -4191,6 +4203,19 @@
         "lib/netstandard1.5/Castle.Core.dll",
         "lib/netstandard1.5/Castle.Core.xml",
         "readme.txt"
+      ]
+    },
+    "Consul/1.6.1.1": {
+      "sha512": "AJkBiix1bT3cSZRO6OD0Ee31Co1qgVkmVBFwpxym9WdxH5K6LfmAZ8Vb8nGvo9EKC+ir2sv5fKIrY75aENcMDA==",
+      "type": "package",
+      "path": "consul/1.6.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "consul.1.6.1.1.nupkg.sha512",
+        "consul.nuspec",
+        "lib/net461/Consul.dll",
+        "lib/netstandard2.0/Consul.dll"
       ]
     },
     "Google.Protobuf/3.6.1": {
@@ -11953,6 +11978,7 @@
       "Autofac.Configuration >= 5.1.0",
       "Autofac.Extensions.DependencyInjection >= 6.0.0",
       "Autofac.Extras.DynamicProxy >= 5.0.0",
+      "Consul >= 1.6.1.1",
       "IdentityServer4.AccessTokenValidation >= 3.0.1",
       "LinXi_Common >= 1.0.0",
       "LinXi_IService >= 1.0.0",
@@ -11980,11 +12006,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Net Core\\LinXi_ERP\\LinXI_ERPApi\\LinXi_ERPApi.csproj",
+      "projectUniqueName": "E:\\NetCore\\LinXi_ERP\\LinXI_ERPApi\\LinXi_ERPApi.csproj",
       "projectName": "LinXi_ERPApi",
-      "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXI_ERPApi\\LinXi_ERPApi.csproj",
+      "projectPath": "E:\\NetCore\\LinXi_ERP\\LinXI_ERPApi\\LinXi_ERPApi.csproj",
       "packagesPath": "C:\\Users\\cheny\\.nuget\\packages\\",
-      "outputPath": "E:\\Net Core\\LinXi_ERP\\LinXI_ERPApi\\obj\\",
+      "outputPath": "E:\\NetCore\\LinXi_ERP\\LinXI_ERPApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cheny\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11999,15 +12025,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\Net Core\\LinXi_ERP\\LinXI_Common\\LinXi_Common.csproj": {
-              "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXI_Common\\LinXi_Common.csproj"
+            "E:\\NetCore\\LinXi_ERP\\LinXI_Common\\LinXi_Common.csproj": {
+              "projectPath": "E:\\NetCore\\LinXi_ERP\\LinXI_Common\\LinXi_Common.csproj"
             },
-            "E:\\Net Core\\LinXi_ERP\\LinXi_IService\\LinXi_IService.csproj": {
-              "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXi_IService\\LinXi_IService.csproj"
+            "E:\\NetCore\\LinXi_ERP\\LinXi_IService\\LinXi_IService.csproj": {
+              "projectPath": "E:\\NetCore\\LinXi_ERP\\LinXi_IService\\LinXi_IService.csproj"
             },
-            "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj": {
-              "projectPath": "E:\\Net Core\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj"
+            "E:\\NetCore\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj": {
+              "projectPath": "E:\\NetCore\\LinXi_ERP\\LinXI_Model\\LinXi_Model.csproj"
             }
           }
         }
@@ -12020,6 +12047,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "AutoMapper": {
             "target": "Package",
@@ -12044,6 +12072,10 @@
           "Autofac.Extras.DynamicProxy": {
             "target": "Package",
             "version": "[5.0.0, )"
+          },
+          "Consul": {
+            "target": "Package",
+            "version": "[1.6.1.1, )"
           },
           "IdentityServer4.AccessTokenValidation": {
             "target": "Package",
@@ -12132,7 +12164,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   },

@@ -12,6 +12,8 @@ using LinXi_Model;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Hosting.Server;
+using Microsoft.AspNetCore.Hosting.Server.Features;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
@@ -42,7 +44,13 @@ namespace LinXi_ERPApi
 
             #region 注册的服务
 
-            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped<IHttpContextAccessor, HttpContextAccessor>();
+
+            services.AddSingleton(serviceProvider =>
+            {
+                var server = serviceProvider.GetRequiredService<IServer>();
+                return server.Features.Get<IServerAddressesFeature>();
+            });
 
             #region 配置Swagger
 
@@ -127,7 +135,7 @@ namespace LinXi_ERPApi
         /// </summary>
         /// <param name="app"></param>
         /// <param name="env"></param>
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IServerAddressesFeature feature)
         {
             #region 环境配置
 
@@ -167,7 +175,7 @@ namespace LinXi_ERPApi
             #region 添加的中间件
 
             //HTTPS 重定向
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             //静态文件服务器
             app.UseStaticFiles();
@@ -208,6 +216,12 @@ namespace LinXi_ERPApi
 
                 endpoints.MapControllers();
             });
+
+            //String ServerAddress = app.ServerFeatures.Get<IServerAddressesFeature>().Addresses.FirstOrDefault();
+            //Console.WriteLine(ServerAddress);
+            //Configuration["IP"] = ServerAddress.Substring(7, 9);
+            //Configuration["Port"] = ServerAddress.Substring(17, 5);
+            Configuration.UseConsulRegist(feature);
 
             #endregion 添加的中间件
         }

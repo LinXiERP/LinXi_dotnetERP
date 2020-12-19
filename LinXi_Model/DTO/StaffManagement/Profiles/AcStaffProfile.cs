@@ -13,6 +13,7 @@ namespace LinXi_Model.DTO.StaffManagement.Profiles
             CreateMap<AcStaff, AcStaffDtos>()
                 .ForMember(destinationMember: dest => dest.DeparmentName,
                 memberOptions: opt => opt.MapFrom(mapExpression: src => $"{src.Department.Name}"));//字段替换
+            CreateMap<AcStaffDtos, AcStaff>();
         }
     }
 }

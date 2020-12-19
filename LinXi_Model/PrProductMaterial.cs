@@ -22,6 +22,6 @@ namespace LinXi_Model
         public virtual AcDepartment Department { get; set; }
         public virtual AcStaff Operator { get; set; }
         public virtual AcStaff Staff { get; set; }
-        public virtual PrProductTask StatusNavigation { get; set; }
+        public virtual PrProductTask Task { get; set; }
     }
 }

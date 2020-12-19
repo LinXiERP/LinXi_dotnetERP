@@ -13,7 +13,7 @@ namespace LinXi_Model.DTO.StaffManagement.Dtos
         public string No { get; set; }
         public string Tel { get; set; }
         public string Address { get; set; }
-        public int Department_id { get; set; }
+        public int DepartmentId { get; set; }
         public int Status { get; set; }
         public string StatusStr { get; set; }
         public int User_id { get; set; }

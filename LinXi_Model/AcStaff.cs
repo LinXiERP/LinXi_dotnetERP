@@ -7,6 +7,7 @@ namespace LinXi_Model
     {
         public AcStaff()
         {
+            AcSalary = new HashSet<AcSalary>();
             AcUserinfo = new HashSet<AcUserinfo>();
             AuRecordApprover = new HashSet<AuRecord>();
             AuRecordOperator = new HashSet<AuRecord>();
@@ -45,6 +46,7 @@ namespace LinXi_Model
 
         public virtual AcDepartment Department { get; set; }
         public virtual AcUserinfo User { get; set; }
+        public virtual ICollection<AcSalary> AcSalary { get; set; }
         public virtual ICollection<AcUserinfo> AcUserinfo { get; set; }
         public virtual ICollection<AuRecord> AuRecordApprover { get; set; }
         public virtual ICollection<AuRecord> AuRecordOperator { get; set; }

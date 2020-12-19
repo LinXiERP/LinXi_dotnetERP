@@ -1,0 +1,36 @@
+
+
+【日志时间】：2020-09-03 11:18:14,594  【线程ID】：1    
+【日志级别】：FATAL  
+【日志对象】：Microsoft.AspNetCore.Hosting.Diagnostics  
+【日志内容】：Application startup exception 
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int32.Parse(String s)
+   at LinXi_ERPApi.ConsulSetup.UseConsulRegist(IConfiguration configuration, IServerAddressesFeature feature) in E:\NetCore\LinXi_ERP\LinXI_ERPApi\Extensions\ConsulSetup.cs:line 26
+   at LinXi_ERPApi.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, IServerAddressesFeature feature) in E:\NetCore\LinXi_ERP\LinXI_ERPApi\Startup.cs:line 224
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+
+
+【日志时间】：2020-09-03 11:18:35,866  【线程ID】：1    
+【日志级别】：FATAL  
+【日志对象】：Microsoft.AspNetCore.Hosting.Diagnostics  
+【日志内容】：Application startup exception 
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int32.Parse(String s)
+   at LinXi_ERPApi.ConsulSetup.UseConsulRegist(IConfiguration configuration, IServerAddressesFeature feature) in E:\NetCore\LinXi_ERP\LinXI_ERPApi\Extensions\ConsulSetup.cs:line 26
+   at LinXi_ERPApi.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, IServerAddressesFeature feature) in E:\NetCore\LinXi_ERP\LinXI_ERPApi\Startup.cs:line 224
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)

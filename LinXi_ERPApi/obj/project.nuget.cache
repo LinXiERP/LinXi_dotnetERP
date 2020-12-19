@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JK+KaahTdy1RaHWS4e3WjyOM/jx/MsU0MFNe4/47g/rAf7DMCw630Q1hGck4gDGzSElmBbJlm44gd38WzP/fcA==",
+  "dgSpecHash": "uqjPS5L9wy6uN3cLCz/s8PN07BW/t48qdcg+TZI5vhUWG+Lo49VRSoMpn6eFIxblkS7zx7hdJ0F8BkVjuEiNxA==",
   "success": true,
-  "projectFilePath": "E:\\Net Core\\LinXi_ERP\\LinXI_ERPApi\\LinXi_ERPApi.csproj",
+  "projectFilePath": "E:\\NetCore\\LinXi_ERP\\LinXI_ERPApi\\LinXi_ERPApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cheny\\.nuget\\packages\\autofac\\5.2.0\\autofac.5.2.0.nupkg.sha512",
     "C:\\Users\\cheny\\.nuget\\packages\\autofac.configuration\\5.1.0\\autofac.configuration.5.1.0.nupkg.sha512",
@@ -12,6 +12,7 @@
     "C:\\Users\\cheny\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.0\\automapper.extensions.microsoft.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\cheny\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\cheny\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
+    "C:\\Users\\cheny\\.nuget\\packages\\consul\\1.6.1.1\\consul.1.6.1.1.nupkg.sha512",
     "C:\\Users\\cheny\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",
     "C:\\Users\\cheny\\.nuget\\packages\\identitymodel\\4.0.0\\identitymodel.4.0.0.nupkg.sha512",
     "C:\\Users\\cheny\\.nuget\\packages\\identitymodel.aspnetcore.oauth2introspection\\4.0.1\\identitymodel.aspnetcore.oauth2introspection.4.0.1.nupkg.sha512",

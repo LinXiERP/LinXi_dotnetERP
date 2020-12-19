@@ -8,3 +8,13 @@ E:\Net Core\LinXi_ERP\LinXi_Service\obj\Debug\netcoreapp3.1\LinXi_Service.csproj
 E:\Net Core\LinXi_ERP\LinXi_Service\obj\Debug\netcoreapp3.1\LinXi_Service.csproj.CopyComplete
 E:\Net Core\LinXi_ERP\LinXi_Service\obj\Debug\netcoreapp3.1\LinXi_Service.dll
 E:\Net Core\LinXi_ERP\LinXi_Service\obj\Debug\netcoreapp3.1\LinXi_Service.pdb
+E:\NetCore\LinXi_ERP\LinXi_ERPApi\bin\Debug\netcoreapp3.1\LinXi_Service.deps.json
+E:\NetCore\LinXi_ERP\LinXi_ERPApi\bin\Debug\netcoreapp3.1\LinXi_Service.dll
+E:\NetCore\LinXi_ERP\LinXi_ERPApi\bin\Debug\netcoreapp3.1\LinXi_Service.pdb
+E:\NetCore\LinXi_ERP\LinXi_Service\obj\Debug\netcoreapp3.1\LinXi_Service.csprojAssemblyReference.cache
+E:\NetCore\LinXi_ERP\LinXi_Service\obj\Debug\netcoreapp3.1\LinXi_Service.AssemblyInfoInputs.cache
+E:\NetCore\LinXi_ERP\LinXi_Service\obj\Debug\netcoreapp3.1\LinXi_Service.AssemblyInfo.cs
+E:\NetCore\LinXi_ERP\LinXi_Service\obj\Debug\netcoreapp3.1\LinXi_Service.csproj.CoreCompileInputs.cache
+E:\NetCore\LinXi_ERP\LinXi_Service\obj\Debug\netcoreapp3.1\LinXi_Service.csproj.CopyComplete
+E:\NetCore\LinXi_ERP\LinXi_Service\obj\Debug\netcoreapp3.1\LinXi_Service.dll
+E:\NetCore\LinXi_ERP\LinXi_Service\obj\Debug\netcoreapp3.1\LinXi_Service.pdb

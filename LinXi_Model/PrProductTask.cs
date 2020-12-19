@@ -24,9 +24,9 @@ namespace LinXi_Model
         public string Remark { get; set; }
         public int? QmId { get; set; }
 
+        public virtual AcDepartment Department { get; set; }
         public virtual AcStaff Operator { get; set; }
-        public virtual AcDepartment Product { get; set; }
-        public virtual PrProduct ProductNavigation { get; set; }
+        public virtual PrProduct Product { get; set; }
         public virtual QmProduct Qm { get; set; }
         public virtual ICollection<PrProductMaterial> PrProductMaterial { get; set; }
         public virtual ICollection<QmProduct> QmProduct { get; set; }

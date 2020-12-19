@@ -8,5 +8,6 @@ namespace LinXi_Model.DTO.AcDeparmentManage.Dtos
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public string remark { get; set; }
     }
 }

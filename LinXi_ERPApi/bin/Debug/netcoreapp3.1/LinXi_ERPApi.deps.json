@@ -30,6 +30,7 @@
           "Autofac.Configuration": "5.1.0",
           "Autofac.Extensions.DependencyInjection": "6.0.0",
           "Autofac.Extras.DynamicProxy": "5.0.0",
+          "Consul": "1.6.1.1",
           "IdentityServer4.AccessTokenValidation": "3.0.1",
           "LinXi_Common": "1.0.0",
           "LinXi_IService": "1.0.0",
@@ -440,6 +441,20 @@
         },
         "compile": {
           "lib/netstandard1.5/Castle.Core.dll": {}
+        }
+      },
+      "Consul/1.6.1.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Consul.dll": {
+            "assemblyVersion": "1.6.1.1",
+            "fileVersion": "1.6.1.1"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Consul.dll": {}
         }
       },
       "Google.Protobuf/3.6.1": {
@@ -5057,6 +5072,13 @@
       "sha512": "sha512-b5rRL5zeaau1y/5hIbI+6mGw3cwun16YjkHZnV9RRT5UyUIFsgLmNXJ0YnIN9p8Hw7K7AbG1q1UclQVU3DinAQ==",
       "path": "castle.core/4.4.0",
       "hashPath": "castle.core.4.4.0.nupkg.sha512"
+    },
+    "Consul/1.6.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AJkBiix1bT3cSZRO6OD0Ee31Co1qgVkmVBFwpxym9WdxH5K6LfmAZ8Vb8nGvo9EKC+ir2sv5fKIrY75aENcMDA==",
+      "path": "consul/1.6.1.1",
+      "hashPath": "consul.1.6.1.1.nupkg.sha512"
     },
     "Google.Protobuf/3.6.1": {
       "type": "package",
