@@ -394,7 +394,11 @@
             删除订单
             </summary>
         </member>
+<<<<<<< HEAD
         <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.UpdateCustomerOrder(LinXi_Model.DTO.CustomerManageManage.Dtos.SlOrderTDtos)">
+=======
+        <member name="M:LinXi_ERPApi.Controllers.CustomerManagementController.UpdateCustomerOrder(LinXi_Model.DTO.CustomerManageManage.Dtos.SlOrderDtos)">
+>>>>>>> 8d8007523ffaaab5c4a441dc29b5c8f7c367c557
             <summary>
             修改订单信息
             </summary>
@@ -427,6 +431,7 @@
             </summary>
             <returns>OrderTraceDtos</returns>
         </member>
+<<<<<<< HEAD
         <member name="T:LinXi_ERPApi.Controllers.HealthController">
             <summary>
             健康检查
@@ -443,6 +448,8 @@
              往来管理
             </summary>
         </member>
+=======
+>>>>>>> 8d8007523ffaaab5c4a441dc29b5c8f7c367c557
         <member name="M:LinXi_ERPApi.Controllers.IntercourseManagementController.GetAllSlSaryOrder(System.String,System.Int32,System.Int32,System.Int32)">
             <summary>
             获取销售结款单
@@ -705,9 +712,33 @@
             <summary>
             通过计划编号产品编号生产状态查询生产计划
             </summary>
+<<<<<<< HEAD
             <param name="id">计划编号</param>
             <param name="productid">产品ID</param>
             <param name="status">状态</param>
+=======
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.EditIPRs(LinXi_Model.IcProductRecord)">
+            <summary>
+            修改一条生产表的数据
+            </summary>
+            <param name="table">一行生产单的实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.AddIPR(LinXi_Model.IcProductRecord)">
+            <summary>
+            添加一条生产表的数据
+            </summary>
+            <param name="table">一行生产单的实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:LinXi_ERPApi.Controllers.ProductionManagementController.DeleteIPR(System.Int32)">
+            <summary>
+            删除一条生产表的数据
+            </summary>
+            <param name="id">生产编号</param>
+>>>>>>> 8d8007523ffaaab5c4a441dc29b5c8f7c367c557
             <returns></returns>
         </member>
         <member name="T:LinXi_ERPApi.Controllers.PurchasingManagementController">

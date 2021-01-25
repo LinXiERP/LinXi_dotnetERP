@@ -49,6 +49,10 @@ namespace LinXi_Model
         {
             if (!optionsBuilder.IsConfigured)
             {
+<<<<<<< HEAD
+=======
+//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+>>>>>>> 8d8007523ffaaab5c4a441dc29b5c8f7c367c557
                 optionsBuilder.UseMySql("uid=root;pwd=123456;database=db_erp;server=localhost", x => x.ServerVersion("8.0.20-mysql"));
             }
             optionsBuilder.UseLazyLoadingProxies();

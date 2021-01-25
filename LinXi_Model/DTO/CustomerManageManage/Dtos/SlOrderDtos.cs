@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LinXi_Model.DTO.CustomerManageManage.Dtos
 {
-    public class SlOrderDots
+    public class SlOrderDtos
     {
         public int Id { get; set; }
         public string No { get; set; }

@@ -7,7 +7,10 @@ using LinXi_IService;
 using LinXi_Model;
 using LinXi_Model.DTO.CommodityInventory.Dtos;
 using LinXi_Model.DTO.IntercourseManagement.Dtos;
+<<<<<<< HEAD
 using Microsoft.AspNetCore.Authorization;
+=======
+>>>>>>> 8d8007523ffaaab5c4a441dc29b5c8f7c367c557
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -15,12 +18,17 @@ using Microsoft.Extensions.Logging;
 
 namespace LinXi_ERPApi.Controllers
 {
+<<<<<<< HEAD
     /// <summary>
     ///  往来管理
     /// </summary>
     [Route("api/[controller]/[action]")]
     [ApiController]
     [Authorize]
+=======
+    [Route("api/[controller]/[action]")]
+    [ApiController]
+>>>>>>> 8d8007523ffaaab5c4a441dc29b5c8f7c367c557
     public class IntercourseManagementController : ControllerBase
     {
         private ILogger<ProductionManagementController> _logger;

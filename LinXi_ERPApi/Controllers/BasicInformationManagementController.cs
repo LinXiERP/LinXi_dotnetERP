@@ -215,7 +215,11 @@ namespace LinXi_ERPApi.Controllers
         public async Task<int> AddPS(PuSupplier table)
         {
             var supplier = await _IPuSupplierService.FindAsyncById(table.Id);
+<<<<<<< HEAD
             if (supplier == null)
+=======
+            if (supplier==null)
+>>>>>>> 8d8007523ffaaab5c4a441dc29b5c8f7c367c557
             {
                 table.OperatorId = int.Parse(_httpContext.HttpContext.User.FindFirst("operator_id").Value);
                 table.OperateTime = DateTime.Now;
@@ -303,7 +307,11 @@ namespace LinXi_ERPApi.Controllers
         public async Task<int> AddPC(PuCommodity table)
         {
             var commodity = await _IPuCommodityServicce.FindAsyncById(table.Id);
+<<<<<<< HEAD
             if (commodity == null)
+=======
+            if (commodity==null)
+>>>>>>> 8d8007523ffaaab5c4a441dc29b5c8f7c367c557
             {
                 table.OperatorId = int.Parse(_httpContext.HttpContext.User.FindFirst("operator_id").Value);
                 table.OperateTime = DateTime.Now;
@@ -315,7 +323,6 @@ namespace LinXi_ERPApi.Controllers
                 return -99;
             }
         }
-
         /// <summary>
         /// 查找所有原材料类型
         /// </summary>
@@ -402,7 +409,11 @@ namespace LinXi_ERPApi.Controllers
         public async Task<int> AddPP(PrProduct table)
         {
             var product = await _IPrProductService.FindAsyncById(table.Id);
+<<<<<<< HEAD
             if (product == null)
+=======
+            if (product==null)
+>>>>>>> 8d8007523ffaaab5c4a441dc29b5c8f7c367c557
             {
                 table.OperatorId = int.Parse(_httpContext.HttpContext.User.FindFirst("operator_id").Value);
                 table.OperatorTime = DateTime.Now;
@@ -414,7 +425,6 @@ namespace LinXi_ERPApi.Controllers
                 return -99;
             }
         }
-
         /// <summary>
         /// 查找所有产品类型
         /// </summary>

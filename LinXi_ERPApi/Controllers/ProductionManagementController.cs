@@ -159,7 +159,11 @@ namespace LinXi_ERPApi.Controllers
         {
             int taskid = table.Id;
             var task = await _IPrProductTaskService.FindAsyncById(taskid);
+<<<<<<< HEAD
             if (task == null)
+=======
+            if (task==null)
+>>>>>>> 8d8007523ffaaab5c4a441dc29b5c8f7c367c557
             {
                 table.OperatorId = int.Parse(_httpContext.HttpContext.User.FindFirst("operator_id").Value);
                 table.OperateTime = DateTime.Now;
@@ -282,12 +286,15 @@ namespace LinXi_ERPApi.Controllers
             material.StaffId = table.StaffId;
             material.TaskId = table.TaskId;
             material.Uses = table.Uses;
+<<<<<<< HEAD
             var task = await _IPrProductTaskService.FindAsyncById((int)table.TaskId);
             if (task.Status == 0)
             {
                 task.Status = 1;
                 await _IPrProductTaskService.Edit(task);
             }
+=======
+>>>>>>> 8d8007523ffaaab5c4a441dc29b5c8f7c367c557
             return await _IPrProductMaterialService.Edit(material);
         }
 
@@ -300,13 +307,21 @@ namespace LinXi_ERPApi.Controllers
         public async Task<int> AddPPM(PrProductMaterial table)
         {
             var meterial = await _IPrProductMaterialService.FindAsyncById(table.Id);
+<<<<<<< HEAD
             if (meterial == null)
+=======
+            if (meterial==null)
+>>>>>>> 8d8007523ffaaab5c4a441dc29b5c8f7c367c557
             {
                 table.OperatorId = int.Parse(_httpContext.HttpContext.User.FindFirst("operator_id").Value);
                 table.OperateTime = DateTime.Now;
                 table.Status = 0;
                 int i = await _IPrProductMaterialService.Add(table);
+<<<<<<< HEAD
                 if (i > 0)
+=======
+                if (i>0)
+>>>>>>> 8d8007523ffaaab5c4a441dc29b5c8f7c367c557
                 {
                     var task = await _IPrProductTaskService.FindAsyncById((int)table.TaskId);
                     if (task.Status == 0)
@@ -374,6 +389,7 @@ namespace LinXi_ERPApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AcStaff>>> GetASs()
         {
+<<<<<<< HEAD
             var z = (await _IAcStaffService.Search(t => true)).Select(u => new { u.Id, u.Name }).ToList();
             List<AcStaff> ls = new List<AcStaff>();
             foreach (var item in z)
@@ -381,6 +397,9 @@ namespace LinXi_ERPApi.Controllers
                 ls.Add(new AcStaff() { Id = item.Id, Name = item.Name });
             }
             return ls;
+=======
+            return (await _IAcStaffService.Search(t => true)).ToList();
+>>>>>>> 8d8007523ffaaab5c4a441dc29b5c8f7c367c557
         }
 
         #endregion 领料管理模块
@@ -432,7 +451,75 @@ namespace LinXi_ERPApi.Controllers
             }
             return data.ToList();
         }
+<<<<<<< HEAD
 
+=======
+        /// <summary>
+        /// 查询所有生产单
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<IcProductRecordDtos>>> GetIPRs()
+        {
+            var data = _IMapper.Map<IEnumerable<IcProductRecordDtos>>((await _IIcProductRecordService.Search(t => true)).ToList());
+            foreach (var item in data)
+            {
+                item.ProductName = (await _IPrProductService.FindAsyncById((int)item.ProductId)).Name;
+                item.ProductUnit = (await _IPrProductService.FindAsyncById((int)item.ProductId)).Unit;
+            }
+            return data.ToList();
+        }
+        /// <summary>
+        /// 修改一条生产表的数据
+        /// </summary>
+        /// <param name="table">一行生产单的实体</param>
+        /// <returns></returns>
+        [HttpPut]
+        public async Task<int> EditIPRs(IcProductRecord table)
+        {
+            var record = await _IIcProductRecordService.FindAsyncById(table.Id);
+            record.Batch = table.Batch;
+            record.Nums = table.Nums;
+            record.ProductId = table.ProductId;
+            record.Remark = table.Remark;
+            record.SourceCategory = table.SourceCategory;
+            record.DepartmentId = table.DepartmentId;
+            return await _IIcProductRecordService.Edit(record);
+        }
+        /// <summary>
+        /// 添加一条生产表的数据
+        /// </summary>
+        /// <param name="table">一行生产单的实体</param>
+        /// <returns></returns>
+        [HttpPost]
+        public async Task<int> AddIPR(IcProductRecord table)
+        {
+            var record = await _IIcProductRecordService.FindAsyncById(table.Id);
+            if (record==null)
+            {
+                table.OperatorId = int.Parse(_httpContext.HttpContext.User.FindFirst("operator_id").Value);
+                table.OperateTime = DateTime.Now;
+                table.Status = 0;
+                return await _IIcProductRecordService.Add(table);
+            }
+            else
+            {
+                return -99;
+            }
+        }
+        /// <summary>
+        /// 删除一条生产表的数据
+        /// </summary>
+        /// <param name="id">生产编号</param>
+        /// <returns></returns>
+        [HttpDelete]
+        public async Task<int> DeleteIPR(int id)
+        {
+            var table = await _IIcProductRecordService.FindAsyncById(id);
+            return await _IIcProductRecordService.Delete(table);
+        }
+        
+>>>>>>> 8d8007523ffaaab5c4a441dc29b5c8f7c367c557
         #endregion 产品生产模块
     }
 }
